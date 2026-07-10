@@ -1,7 +1,7 @@
 ---
 part: "Executive Summary"
 status: review
-version: 1.6.0
+version: 1.6.1
 last-updated: 2026-07-10
 ---
 
@@ -65,4 +65,3 @@ ministerial slide, the claim should disappear too.
 > endorsement by the author's employer, its clients, the WCO, or any cited
 > administration. All cases and reported outcomes come from attributable
 > public sources; none describes an Agility or client engagement.
-

@@ -101,24 +101,20 @@ operational burden. Monitor both model error and who absorbs the delay.
 
 ## Agentic security
 
-Treat trader-supplied documents, email, web content, and external agent
-messages as hostile input. Separate the **content channel** from the
-**control channel**: untrusted text may inform evidence, but it cannot
-become instruction or expand permissions.
+Treat trader documents, email, web content, and external-agent messages as
+hostile. Separate **content** from **control**: untrusted text may inform
+evidence, but cannot become instruction or expand permission.
 
-Require distinct agent identities, least agency, policy-enforced tool
-allowlists, argument validation, transaction limits, secrets outside
-prompts, immutable trajectories, anomaly detection, signed updates,
-component provenance, freeze/preserve/fallback runbooks, and repeated
-hostile-document tests. “Read only” is a claim until underlying scopes
-prove it.
+Require distinct identities, least agency, enforced tool allowlists,
+argument and transaction limits, externalised secrets, immutable
+trajectories, anomaly detection, signed updates, component provenance,
+tested fallback, and recurring hostile-document tests. “Read only” is a
+claim until scopes prove it.
 
 ## Data as operating evidence
 
 Agents need machine-consumable documents, governed knowledge, tool-ready
-interfaces, and feedback that records corrections rather than hiding them.
-Give each corpus and feed an owner, purpose, inclusion/exclusion rule,
-provenance, validity, freshness service level, quality thresholds, and
-failure response. A retrieval system with no source custodian is a demo
-with an expiry date.
-
+interfaces, and correction feedback. Every corpus and feed needs a
+custodian, purpose, scope, provenance, freshness target, quality threshold,
+and failure response. Without that owner, retrieval is a demo with an
+expiry date.

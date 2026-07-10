@@ -17,6 +17,25 @@ and build settings. Each published PDF and EPUB companion is kept under
 - Restore a source state with `git checkout book-vX.Y.Z` (or create a
   working branch from that tag); do not edit a historical release tag.
 
+## v1.6.1 — Executive Summary pagination patch
+
+- **Status:** released.
+- **Source tag:** `book-v1.6.1`.
+- **Full PDF:** `deliverables/ai-agents-at-the-border-v1.6.1.pdf`.
+- **Executive Summary:**
+  `deliverables/ai-agents-at-the-border-executive-summary-v1.6.1.pdf`.
+- **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.6.1.epub`.
+- **Internal spread proof:**
+  `deliverables/ai-agents-at-the-border-v1.6.1-spread.pdf` (not a public
+  release artifact).
+- **Scope:** Executive Summary folios now use one continuous Arabic sequence
+  after the unnumbered title; the unnecessary title verso and
+  pre-back-cover padding pages are removed; the local-law warning becomes a
+  compact editorial box; and one security/data passage is copyedited to
+  eliminate a two-line orphan without changing its control requirements.
+  The brief is now exactly 52 physical pages, including covers, with the
+  original 11 pt / 1.46 typography preserved.
+
 ## v1.6.0 — Critical-review revision and Executive Summary
 
 - **Status:** released.

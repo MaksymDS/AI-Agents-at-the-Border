@@ -57,4 +57,3 @@ format:
       - latex/executive-foreword.tex
     include-after-body:
       - latex/back-cover.tex
-

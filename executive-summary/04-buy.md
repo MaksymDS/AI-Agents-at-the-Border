@@ -92,10 +92,11 @@ trajectories, security findings, incidents, training, interfaces, runbooks,
 and contract evidence. Export it before final acceptance. This converts
 lock-in from a general fear into testable missing artifacts.
 
-> **LOCAL-LAW ADAPTATION REQUIRED.** The full book's RFP skeleton is a
-> control template, not procurement or contract advice. Local counsel adapts
-> IP, audit, liability, records, security, and remedy clauses. When direct
-> ownership or source-code access is unavailable or disproportionate, use a
-> lawful functional substitute—tested escrow, readable exports,
-> interfaces, independent assurance, transition assistance, and fallback.
-
+> ### Box 4.A — Local-law adaptation required
+>
+> The full book's RFP skeleton is a control template, not procurement or
+> contract advice. Local counsel adapts IP, audit, liability, records,
+> security, and remedy clauses. When direct ownership or source-code access
+> is unavailable or disproportionate, use a lawful functional substitute—
+> tested escrow, readable exports, interfaces, independent assurance,
+> transition assistance, and fallback.

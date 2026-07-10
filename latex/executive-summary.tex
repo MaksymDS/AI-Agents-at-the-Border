@@ -2,8 +2,15 @@
 \renewcommand\maketitle{%
   \includepdf{assets/prebuilt/executive-summary-title.pdf}%
   \clearpage
-  \thispagestyle{empty}\null
-  \clearpage
 }
+% The brief uses one continuous Arabic sequence after the title. The shared
+% full-book style delays main matter until the first Part page and resets the
+% counter. Switch after the TOC without either the reset or the class's
+% double-page clearing, which would manufacture a blank sheet here.
+\makeatletter
+\renewcommand\mainmatter{%
+  \clearpage
+  \@mainmattertrue
+  \bookmainmattertrue}
+\makeatother
 \rehead{\runheadstyle{AI Agents at the Border · Executive Summary}}
-
