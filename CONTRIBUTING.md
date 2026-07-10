@@ -36,7 +36,7 @@ defer or decline an otherwise valid contribution to retain a coherent book.
 
 Public discussion is deliberately limited to issues and PRs. Editorial feedback
 that does not need a public record can be sent through the private form at
-[era-society.ae](https://era-society.ae).
+[era-society.ae](https://www.era-society.ae).
 
 ## Contribution licence
 

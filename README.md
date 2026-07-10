@@ -4,7 +4,7 @@
 decision-oriented book for leaders of customs, border and trade
 administrations deploying generative and agentic AI.
 
-Read the current edition at [era-society.ae](https://era-society.ae),
+Read the current edition at [era-society.ae](https://www.era-society.ae),
 or download the versioned PDF and EPUB from [`deliverables/`](deliverables/).
 
 ## What this repository is for

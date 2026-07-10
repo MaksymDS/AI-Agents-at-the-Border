@@ -14,7 +14,7 @@ ERA Society's, or any contributor's endorsement of an adaptation.
 
 > Maksym Nechepurenko, *AI Agents at the Border: An Executive Guide to
 > Trustworthy AI in Trade and Customs*, version 1.5.2 (2026), CC BY 4.0,
-> https://era-society.ae. Changes: [describe changes, if any].
+> https://www.era-society.ae. Changes: state any changes, if applicable.
 
 Use the edition and date you actually consulted. Preserve source citations and
 do not present an adaptation as an official or unmodified edition.
