@@ -16,11 +16,11 @@ ministerial approval.
 The EU AI Act remains the most influential reference regime. Border
 management, migration/asylum, biometrics, and some law-enforcement uses can
 fall into Annex III high-risk categories. Following the Digital Omnibus
-adopted on 29 June 2026, the customs-relevant standalone high-risk date is
-2 December 2027; embedded-product high-risk rules apply from 2 August 2028.
-Article 50 transparency solutions have a 2 December 2026 timetable.
-Application still depends on the exact task, deploying entity, people,
-purpose, and jurisdiction.
+adopted on 29 June 2026, the relevant date for standalone high-risk systems
+in customs is 2 December 2027; embedded-product high-risk rules apply from
+2 August 2028. Article 50 transparency solutions have a 2 December 2026
+timetable. Application still depends on the exact task, deploying entity,
+people, purpose, and jurisdiction.
 
 Other regimes do not collapse into an EU checklist. Data localisation,
 automated-decision rights, high-impact definitions, public-law duties,
@@ -28,12 +28,13 @@ government cloud rules, and regulator guidance differ across the GCC,
 MENA, Asia, and trading partners. Build a strong common control base, then
 perform a named-task legal delta review.
 
-> **PORTABLE BASELINE, NOT COMPLIANCE GUARANTEE.** Human oversight,
-> explainability, documentation, auditability, residency discipline, and
-> standards alignment reduce redesign. They do not certify a system or
-> make “meaningful human involvement,” “high impact,” or automated
-> decision-making equivalent across jurisdictions. Local counsel confirms
-> applicability and evidence.
+> ### Box 5.A — Portable baseline, not compliance guarantee
+>
+> Human oversight, explainability, documentation, auditability, residency
+> discipline, and standards alignment reduce redesign. They do not certify
+> compliance or make “meaningful human involvement,” “high impact,” or
+> automated decision-making uniform across jurisdictions. Local counsel
+> confirms applicability and required evidence.
 
 ## From requirement to control
 

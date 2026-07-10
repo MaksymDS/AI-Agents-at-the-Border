@@ -62,11 +62,12 @@ Keep it decision-oriented:
 
 ## The 12–24 month watch
 
-For capability, cost, sovereignty, trader-side agents, standards, and law,
-record probability, earliest plausible decision date, official source,
-no-regret preparation, irreversible commitment to avoid, readiness, owner,
-and next review. Do not buy against a forecast. Build options that remain
-useful if the forecast is wrong.
+Maintain one row per signal: capability, cost, sovereignty, trader-side
+agents, standards, and law. Each row records probability, earliest plausible
+decision date, official source, no-regret preparation, irreversible
+commitment to avoid, readiness, owner, and next review. These are the complete
+minimum fields for this brief. Do not buy against a forecast; build options
+that remain useful if it is wrong.
 
 ## Twelve non-negotiables
 
@@ -99,4 +100,3 @@ not the institution's responsibility. The durable executive question is:
 If the leadership team can answer that question per task, it is no longer
 being led by a technology category or vendor narrative. It is running an
 AI programme.
-

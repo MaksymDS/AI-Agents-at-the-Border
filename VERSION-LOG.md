@@ -17,6 +17,22 @@ and build settings. Each published PDF and EPUB companion is kept under
 - Restore a source state with `git checkout book-vX.Y.Z` (or create a
   working branch from that tag); do not edit a historical release tag.
 
+## v1.6.2 — Executive Summary technical corrections
+
+- **Status:** released.
+- **Source tag:** `book-v1.6.2`.
+- **Full PDF:** `deliverables/ai-agents-at-the-border-v1.6.2.pdf`.
+- **Executive Summary:**
+  `deliverables/ai-agents-at-the-border-executive-summary-v1.6.2.pdf`.
+- **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.6.2.epub`.
+- **Internal spread proof:**
+  `deliverables/ai-agents-at-the-border-v1.6.2-spread.pdf` (not a public
+  release artifact).
+- **Scope:** removes a compound phrase that could collapse during PDF text
+  extraction; renders the portable-baseline warning as a complete compact
+  box; and makes the brief's 12–24 month watch record explicitly
+  self-contained rather than relying on the full edition's Appendix D.5.
+
 ## v1.6.1 — Executive Summary pagination patch
 
 - **Status:** released.
@@ -26,8 +42,7 @@ and build settings. Each published PDF and EPUB companion is kept under
   `deliverables/ai-agents-at-the-border-executive-summary-v1.6.1.pdf`.
 - **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.6.1.epub`.
 - **Internal spread proof:**
-  `deliverables/ai-agents-at-the-border-v1.6.1-spread.pdf` (not a public
-  release artifact).
+  `deliverables/ai-agents-at-the-border-v1.6.1-spread.pdf`.
 - **Scope:** Executive Summary folios now use one continuous Arabic sequence
   after the unnumbered title; the unnecessary title verso and
   pre-back-cover padding pages are removed; the local-law warning becomes a

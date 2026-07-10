@@ -16,16 +16,17 @@ legal developments and improve the reader experience. The working build
 repository remains separate; this repository contains only publication-safe
 material.
 
-The current public edition is **v1.6.1**, legally cut off on **10 July
+The current public edition is **v1.6.2**, legally cut off on **10 July
 2026**. It is a management guide, not legal advice.
 
-Version 1.6.1 includes the independent-review response introduced in v1.6.0:
+Version 1.6.2 includes the independent-review response introduced in v1.6.0:
 it sharpens the
 agent/fixed-workflow boundary, makes agency a mandatory companion to the
 Autonomy Ladder, strengthens evidence and legal caveats, and adds a
 standalone Executive Summary. The brief now uses continuous Arabic folios
-after its title and is exactly 52 physical pages without inserted blank
-leaves. The full book remains the reference edition; the summary is the
+after its title, is exactly 52 physical pages without inserted blank leaves,
+and includes the v1.6.2 technical corrections to its legal warning and watch
+record. The full book remains the reference edition; the summary is the
 leadership fast route. See
 [`VERSION-LOG.md`](VERSION-LOG.md) and the review
 [`disposition record`](reviews/2026-07-10-critical-review-disposition.md).
@@ -48,9 +49,9 @@ The canonical print build is the 6 × 9 inch PDF. With Quarto, LuaLaTeX and
 the SVG renderer installed:
 
 ```bash
-make deliverable BOOK_VERSION=v1.6.1
-make deliverable-executive BOOK_VERSION=v1.6.1
-make deliverable-epub BOOK_VERSION=v1.6.1
+make deliverable BOOK_VERSION=v1.6.2
+make deliverable-executive BOOK_VERSION=v1.6.2
+make deliverable-epub BOOK_VERSION=v1.6.2
 ```
 
 Before a pull request, run:
