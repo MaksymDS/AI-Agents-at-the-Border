@@ -6,7 +6,7 @@ cd "$(dirname "$0")/.."
 
 mkdir -p assets/prebuilt
 
-for f in cover-final half-title title-page back-cover; do
+for f in cover-final half-title title-page executive-summary-title back-cover; do
   rsvg-convert -f pdf -o "assets/prebuilt/$f.pdf" "assets/cover/$f.svg"
 done
 rsvg-convert -f png -w 1200 -o assets/prebuilt/cover-final.png assets/cover/cover-final.svg

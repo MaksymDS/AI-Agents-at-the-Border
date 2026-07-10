@@ -105,6 +105,14 @@ build internal capability around data, evaluation, governance, and
 operational ownership; and progressively move the strategic control
 points inside.
 
+Four conditions are especially difficult to copy: a decade of cumulative
+investment, privileged access to national operational data, a stable
+technical cadre, and political/administrative continuity long enough for
+capability to compound. Treat them as boundary conditions, not footnotes.
+Before importing a Korea benchmark, complete Chapter 15's transfer sheet;
+if the local substitute for any condition is blank, the number is not yet
+a planning assumption.
+
 The rule, compressed: **buy the tools; partner on the build; own the
 judgment.** The dangerous option is not buying from vendors — vendors
 are necessary. The dangerous option is buying in a way that leaves the
@@ -165,6 +173,14 @@ demo from a sales courtesy into a due-diligence instrument: the point of
 the twenty-samples test is precisely to separate an agent from a chatbot
 with better marketing, on the administration's own data, before the
 contract is signed rather than after.
+
+The test is **qualitative pre-qualification**, not statistical acceptance.
+Twenty representative cases are enough to expose integration theatre,
+hidden manual work, missing evidence, or an inability to explain failure;
+they are not enough to estimate a production error rate or prove safety.
+Formal evaluation uses the stratified, repeated, buyer-controlled protocol
+in Chapter 12 and Appendix B, including a sealed holdout and the actual
+operating distribution.
 
 ## 7.4 The contract: four clauses that decide the project
 

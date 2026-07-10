@@ -242,6 +242,15 @@ aviation metaphor or a new bureaucratic report. It is the binder that
 connects the decision the administration wants to delegate to the
 evidence that permits delegation.
 
+Here, *safety case* means an **internal governance artifact**: a structured
+argument linking the task, evidence, controls, residual risks, owner, and
+right to operate. The term does not imply a filing with a regulator,
+conformity assessment, certification, or equivalence to the formal safety-
+case regimes used in aviation, medical devices, nuclear operations, or
+other regulated engineering domains. If local law assigns the phrase a
+specific meaning, use the required name and process; preserve the evidence
+logic, not the label.
+
 For a customs agent, the claim might read: *this agent may assemble and
 recommend a low-risk document-completeness disposition at L2; it may not
 release cargo, alter a risk score, send an external request, or close a

@@ -10,6 +10,17 @@ notes: "External-review edition: Chapter 7 markers resolved and cross-checked ag
 Structure for the AI-specific schedule of a tender (annexed to the
 administration's standard contract terms — the MCC-AI pattern). Numbered per RFP convention.
 
+> **Local-law adaptation required.** This skeleton is a decision and
+> evidence template, not procurement or contract advice. Public-procurement
+> rules, IP law, security classification, audit powers, liability limits,
+> records duties, and available remedies differ. Local procurement counsel
+> must adapt every clause. Where direct source-code, audit, or ownership
+> rights are unlawful, unavailable, or disproportionate, require a lawful
+> functional substitute such as tested escrow, readable exports,
+> documented mappings and interfaces, independent assurance, transition
+> assistance, or an exercised fallback. Preserve the control objective;
+> do not copy wording that the administration cannot enforce.
+
 **B.1 Problem statement, not solution specification.** State the task,
 its verifiable outcome, current unit cost and volume (Ch. 5 worksheet
 baseline). Do not specify model families or architectures. Granularity
@@ -23,10 +34,11 @@ decision-rights section can be answered compliantly and wrongly.
 definition word-for-word; require bidders to classify every proposed
 capability on the Autonomy Ladder, per task.
 
-**B.3 The five questions (mandatory response schema, per task):** task ·
-proposed rung and why not lower · draft mandate (what it decides, what
-is excluded) · tool list with permissions and logging points · matching
-oversight pattern + demotion evidence. Non-conforming responses are
+**B.3 The six questions (mandatory response schema, per task):** task ·
+proposed rung and why not lower · agency profile (tools, data,
+permissions, write actions) · draft mandate (what it decides, what is
+excluded) · evidence/trajectory record · matching oversight pattern +
+demotion evidence. Non-conforming responses are
 returned.
 
 **B.4 Deployment and sovereignty.** "Which models, running where, under
@@ -85,7 +97,9 @@ the administration's language mix; and stand in front of leadership if
 something goes wrong. Include the twenty-samples demonstration (Ch. 7
 toolkit) as a scored tender stage: buyer-selected, representative,
 unseen inputs, end-to-end under observation, latency, cost, evidence,
- and failures visible.
+ and failures visible. Treat it as qualitative pre-qualification, not a
+ statistically powered acceptance test; production acceptance follows
+ B.26's stratified, repeated protocol and sealed holdout.
 
 **B.11 The 90-day evidence schedule.** The selected bidder shall not
 begin with a generic discovery phase. By day 30 it delivers the process

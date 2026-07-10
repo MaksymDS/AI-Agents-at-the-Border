@@ -17,6 +17,9 @@ chapters cited.
  Supervisor · Governor (Ch. 2).
 - **Agency (vs autonomy)** — the capability implied by an agent's tool
  set, granted independently of its autonomy (Ch. 9).
+- **Agent washing** — relabelling a chatbot, fixed pipeline, RPA flow, or
+  ordinary assistant as an agent without adaptive next-action selection;
+  test with the Chapter 2 bright line, not vendor vocabulary.
 - **Autonomy ceiling** — the highest rung a task may justify in
  principle; an entry discipline, not a verdict (Ch. 4).
 - **Accountability strip** — the design principle that operational
@@ -89,7 +92,17 @@ chapters cited.
   independent customs evidence (Ch. 15).
 - **Safety case** — the evidence-backed argument that a specified task
   may operate at a specified autonomy level with stated residual risk,
-  named owner, controls, rollback and review cycle (Ch. 9).
+  named owner, controls, rollback and review cycle; in this book an
+  internal governance artifact, not a regulatory filing or certification
+  claim (Ch. 9).
+- **Ecosystem effects** — compounding value or risk created when several
+  administrations, traders, platforms, or agents can exchange structured
+  evidence and actions; the unit of governance expands beyond one model or
+  organisation (Ch. 16).
+- **Silicon workforce** — an operating metaphor for software agents as
+  capacity that must be assigned, supervised, measured, changed, and
+  retired; never a claim that software holds employment status, public
+  authority, or accountability (Chs. 13–14).
 - **Value capture** — the conversion of a system output into an action
   that changes capacity, facilitation, revenue protection or control;
   an agent recommendation without a named conversion point has no

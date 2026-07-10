@@ -17,6 +17,30 @@ and build settings. Each published PDF and EPUB companion is kept under
 - Restore a source state with `git checkout book-vX.Y.Z` (or create a
   working branch from that tag); do not edit a historical release tag.
 
+## v1.6.0 — Critical-review revision and Executive Summary
+
+- **Status:** released.
+- **Source tag:** `book-v1.6.0`.
+- **Full PDF:** `deliverables/ai-agents-at-the-border-v1.6.0.pdf`.
+- **Executive Summary:**
+  `deliverables/ai-agents-at-the-border-executive-summary-v1.6.0.pdf`.
+- **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.6.0.epub`.
+- **Internal spread proof:**
+  `deliverables/ai-agents-at-the-border-v1.6.0-spread.pdf` (not a public
+  website download).
+- **Scope:** response to the independent critical review dated 10 July
+  2026. Added an agent/fixed-workflow bright-line test; paired the Autonomy
+  Ladder with a mandatory agency profile; strengthened evidence labels and
+  case-transfer boundaries; clarified sovereign-cloud accreditation and a
+  safe transition from excluded territory; made readiness explicitly
+  per-use-case; classified the twenty-samples exercise as qualitative
+  pre-qualification; added local-law, portable-baseline, and internal-
+  safety-case caveats; extended the 12–24 month regulatory watch; added the
+  non-scaling pilot to the cautionary museum and new glossary terms; and
+  strengthened the Stance visual. The full book remains the reference
+  edition. A separately designed approximately 50-page Executive Summary
+  now provides the leadership fast route.
+
 ## v1.5.2 — Legal cut-off and publication audit
 
 - **Status:** released.

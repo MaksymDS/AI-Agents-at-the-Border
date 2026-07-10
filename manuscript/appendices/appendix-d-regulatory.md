@@ -109,6 +109,17 @@ and the required action (none / update control / update contract / pause
 deployment). Review it quarterly in the AI portfolio meeting and before
 every material autonomy expansion.
 
+Add a 12–24 month planning view to the live register. The entries are
+management judgments, not statements that a proposal will become law.
+
+| Field | Record |
+|---|---|
+| Probability | Low / medium / high, with one-sentence rationale |
+| Earliest plausible effect | Date range, dependency, and official source |
+| No-regret preparation | Control, evidence, contract right, or capability useful even if the change does not occur |
+| Avoided commitment | Irreversible architecture, purchase, or authority expansion that should wait |
+| Readiness | Not started / designed / tested / operating; named owner and next review |
+
 | Trigger | Immediate question | Typical action |
 |---|---|---|
 | New binding AI rule or implementation date | Which live task is in scope? | Update applicability records and safety cases. |

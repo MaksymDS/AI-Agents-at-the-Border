@@ -95,6 +95,15 @@ governance apparatus behind the auto-clearance of low-risk declarations
 documented — which is an observation about publication, not a criticism
 of the program, and a gap this book's Part III fills generically.
 
+**Transfer boundary.** What cannot be copied quickly matters as much as
+what can. Korea's public record reflects a decade of cumulative
+investment, national-scale access to operational data, a stable specialist
+cadre, research partnerships, and institutional continuity. An
+administration can copy the sequencing, bounded progression, and insistence
+on internal capability; it cannot copy the elapsed time or assume the same
+outcome. The transfer sheet in §15.13 is mandatory before any Korea number
+enters a local business case.
+
 ## 15.3 China GACC — detection at national scale
 
 **Context.** The problem was volume against a fixed ceiling: a national
@@ -320,6 +329,11 @@ Chapter 9's lesson the hard way: explainability is not optional where a
 determination has legal consequence and a regulator will ask how the
 model decided.[^ch15-12]
 
+> **ADJACENT EVIDENCE — HYPOTHESIS, NOT FORECAST.** These figures describe
+> financial crime, not customs. Borrow the network method and the false-
+> positive failure mode; replace every percentage with a local baseline
+> and representative customs pilot.
+
 **IT service operations have already run the Operator-to-Supervisor
 shift — under governed autonomy.** The workforce transition this book
 describes in the abstract (Chapter 2's ladder, Chapter 14's staffing) is
@@ -371,6 +385,11 @@ baseline, a clearly defined audit outcome, and two complementary models
 the figures are consultant-reported, so the case belongs in the planning
 conversation, not in a ministry forecast.
 
+> **PRACTICE-REPORTED.** The source is public and the workflow is useful;
+> the client is unnamed and the outcome is consultant-reported. It is not
+> independently verified customs evidence and must not be converted into a
+> forecast without a local baseline and pilot.
+
 **A named regulated-compliance analogue.** Blackstone's Legal &
 Compliance function offers a closer analogue to agentic document work
 than a generic chatbot success story. McKinsey reports an AI-enabled
@@ -402,7 +421,6 @@ are increasingly being run.
 >
 > - **The minister-hedged number.** A fraud-detection accuracy of "90%"
 > announced at launch — by a speaker who added, in the same breath,
-> that it was probably still below that and would improve. A launch
 > is not an outcome; a hedge is not a measurement.
 > - **The vague-technology seizure total.** Hundreds of kilograms
 > seized "using AI and big data" — real seizures, unverifiable
@@ -416,6 +434,12 @@ are increasingly being run.
 > 48 hours; release times halved) that are real, primary-sourced —
 > and attributable to single windows and process re-engineering, not
 > to AI. The gain is genuine; the attribution is laundering.
+> - **The pilot that never scaled.** A polished proof of concept passes on
+> curated cases, then waits indefinitely for a production data route,
+> accountable owner, security approval, operating budget, or staffed
+> exception queue. Technical success without a conversion path is not a
+> delayed deployment; it is evidence that the programme tested the model
+> before it tested the institution.
 >
 > The exhibit-label test, applicable to any conference slide: *Who
 > stated the figure? Is the technology precisely identified? Is there a

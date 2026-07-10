@@ -154,6 +154,17 @@ Just as important is what an agent is **not**:
   silently rewrite its own instructions or expand its own tool access.
   Changes go through change management like any other system change.
 
+**The bright-line test.** A multi-step workflow is not automatically an
+agent. Ask three questions: can one decision-making component choose the
+next permitted action; can that choice change because of an intermediate
+result; and can the system stop, re-plan, or escalate instead of following
+a pre-written route? If the path is fixed in advance, it is a workflow or
+pipeline, even when several steps use AI. If the next action is selected
+adaptively from bounded options, the system is agentic and its choice,
+tools, and stopping conditions require governance. This test blocks
+*agent washing* without making autonomy the definition: an L1 research
+agent may adapt its search while remaining unable to affect a case.
+
 ## 2.4 The Autonomy Ladder
 
 The single most consequential design decision for any AI deployment in
@@ -165,6 +176,14 @@ and gives the whole administration one scale to discuss it on.
 
 Autonomy rises from left to right: operational decisions pass from the
 officer to the agent — **accountability does not**.
+
+The ladder always travels with a second, independent dial: **agency** —
+the tools, permissions, data reach, and write power available to the
+system. Autonomy asks *who decides whether an action should occur*;
+agency asks *what the software is technically capable of doing*. A highly
+autonomous agent with one read-only search tool may be safer than an L2
+copilot holding broad write credentials. Record both on every mandate
+card; Chapter 9 provides the full Autonomy × Agency matrix.
 
 **Level 1 — Assistant.** The AI drafts and suggests; the human does the
 work. The officer is an **Operator**. *Customs example: the system drafts a
@@ -266,8 +285,9 @@ where are we spending it merely to make a demo look advanced?*
 
 The Autonomy Ladder becomes governable when every deployed task has a
 short **mandate card**. It states the task in plain language; the start
-and end of the workflow; current rung; permitted inputs, tools and
-outputs; explicit exclusions; the evidence shown to the officer; the
+and end of the workflow; current rung; **agency profile** (permitted
+inputs, tools, permissions, write actions, and data reach); outputs;
+explicit exclusions; the evidence shown to the officer; the
 named accountable owner; the human review route; performance and safety
 thresholds; and the demotion action. It is a practical object: an
 officer, auditor or vendor engineer should reach the same answer from
@@ -290,19 +310,21 @@ cards can.
 
 ## Decision Toolkit — Chapter 2
 
-**The five questions to ask whenever anyone proposes an "AI agent":**
+**The six questions to ask whenever anyone proposes an "AI agent":**
 
 1. **Task:** What is the specific task, stated in one sentence, with a
    verifiable outcome?
 2. **Level:** Which rung of the Autonomy Ladder — and why not one lower?
-3. **Mandate:** What exactly may it decide within that task, and what is
+3. **Agency:** Which tools, data, permissions, and write actions can it
+   reach — and why does it need each one?
+4. **Mandate:** What exactly may it decide within that task, and what is
    explicitly excluded? Who signs this?
-4. **Tools:** Which systems may it touch, with which permissions, and
-   where is every action logged?
-5. **Oversight:** What is the matching oversight pattern (per the ladder),
+5. **Evidence:** Where is every action and intermediate decision logged,
+   and what will the officer or auditor be able to reconstruct?
+6. **Oversight:** What is the matching oversight pattern (per the ladder),
    and what evidence would trigger demotion to a lower level?
 
-A proposal that cannot answer all five in writing is a demonstration, not
+A proposal that cannot answer all six in writing is a demonstration, not
 a deployment.
 
 ## Key Takeaways
@@ -315,6 +337,9 @@ a deployment.
 - The Autonomy Ladder (Assistant → Copilot → Supervised Agent → Autonomous
   Agent) is the book's core framework: autonomy is assigned **per task**,
   climbed **one rung at a time**, on **evidence**.
+- Autonomy and agency are separate controls. Every mandate records both
+  the decision rung and the system's tool/data reach; use the least agency
+  required for the task.
 - Operational decisions can transfer to an agent within a signed mandate;
   **accountability never transfers**. If no one will sign the mandate, the
   task is not ready for L3/L4.

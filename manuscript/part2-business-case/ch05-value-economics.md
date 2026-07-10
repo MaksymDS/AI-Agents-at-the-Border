@@ -76,6 +76,12 @@ the technology is precisely identified, and whether it is customs or
 adjacent. Chapter 15's case studies are built to this standard; your
 business case should quote nothing weaker.
 
+> **ADJACENT EVIDENCE — HYPOTHESIS, NOT FORECAST.** Tax and financial-
+> crime results can reveal a transferable detection method, cost driver,
+> or failure mode. They do not establish a customs benefit rate. Carry the
+> source domain into every slide, replace its percentage with a local
+> baseline, and let a representative pilot determine the local range.
+
 > **Field note — the adoption curve on the trade side.** The private
 > trade-compliance market is a useful leading indicator of where customs
 > value is heading, because it prices the same underlying tasks —

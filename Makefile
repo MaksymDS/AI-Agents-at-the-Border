@@ -1,5 +1,5 @@
 QUARTO ?= quarto
-BOOK_VERSION ?= v1.5.2
+BOOK_VERSION ?= v1.6.0
 
 # Deterministic fonts for SVG figure conversion: pin the renderer's font
 # lookup to the vendored Inter (see fonts/fonts.conf). The Pango backend
@@ -12,7 +12,7 @@ export PANGOCAIRO_BACKEND := fc
 # blank versos); default is the print layout (recto-open).
 OPENANY_PROFILE := $(if $(OPENANY),--profile openany,)
 
-.PHONY: build pdf epub deliverable deliverable-epub reader-spread review-pdf prebuild embed-figures online-bibliography clean check-bib check-notes audit-publication status
+.PHONY: build pdf epub executive-summary deliverable deliverable-epub deliverable-executive reader-spread review-pdf prebuild embed-figures clean check-bib check-notes audit-publication status
 
 # Convert front-of-book and part-opener SVGs to PDF/PNG pages
 prebuild:
@@ -21,10 +21,6 @@ prebuild:
 # Re-apply the figure manifest after content re-imports (idempotent)
 embed-figures:
 	python3 scripts/embed_figures.py
-
-# Regenerate the Markdown bibliography displayed by the online reader.
-online-bibliography:
-	bash scripts/generate_online_bibliography.sh
 
 # Render all formats in one pass; rendering a single format cleans
 # _build/, so pdf/epub targets are for iteration only.
@@ -63,6 +59,17 @@ deliverable-epub: epub
 	mkdir -p deliverables
 	cp _build/ai-agents-at-the-border.epub deliverables/ai-agents-at-the-border-$(BOOK_VERSION).epub
 
+# Standalone executive decision brief. It shares the book's typography and
+# visual grammar but has its own title, contents and output directory.
+executive-summary: prebuild
+	$(QUARTO) render executive-summary --to pdf
+	python3 scripts/pad_print_pdf.py executive-summary/_build/ai-agents-at-the-border-executive-summary.pdf
+
+deliverable-executive: executive-summary
+	mkdir -p deliverables
+	cp executive-summary/_build/ai-agents-at-the-border-executive-summary.pdf \
+		deliverables/ai-agents-at-the-border-executive-summary-$(BOOK_VERSION).pdf
+
 # Review edition: REVIEW DRAFT title marking, page watermark, reviewer's
 # brief bound in after the title page. Output in _build-review/.
 review-pdf: prebuild
@@ -86,4 +93,4 @@ status:
 	python3 scripts/gen_status.py
 
 clean:
-	rm -rf _build _build-review _build-assets assets/prebuilt .quarto
+	rm -rf _build _build-review executive-summary/_build _build-assets assets/prebuilt .quarto executive-summary/.quarto

@@ -5,7 +5,8 @@ decision-oriented book for leaders of customs, border and trade
 administrations deploying generative and agentic AI.
 
 Read the current edition at [era-society.ae](https://www.era-society.ae),
-or download the versioned PDF and EPUB from [`deliverables/`](deliverables/).
+or download the full PDF, the 50-page Executive Summary, and the full EPUB
+from [`deliverables/`](deliverables/).
 
 ## What this repository is for
 
@@ -15,8 +16,16 @@ legal developments and improve the reader experience. The working build
 repository remains separate; this repository contains only publication-safe
 material.
 
-The current public edition is **v1.5.2**, legally cut off on **10 July
+The current public edition is **v1.6.0**, legally cut off on **10 July
 2026**. It is a management guide, not legal advice.
+
+Version 1.6.0 responds to an independent critical review: it sharpens the
+agent/fixed-workflow boundary, makes agency a mandatory companion to the
+Autonomy Ladder, strengthens evidence and legal caveats, and adds a
+standalone Executive Summary. The full book remains the reference edition;
+the summary is the leadership fast route. See
+[`VERSION-LOG.md`](VERSION-LOG.md) and the review
+[`disposition record`](reviews/2026-07-10-critical-review-disposition.md).
 
 ## Contribute
 
@@ -36,8 +45,9 @@ The canonical print build is the 6 × 9 inch PDF. With Quarto, LuaLaTeX and
 the SVG renderer installed:
 
 ```bash
-make deliverable BOOK_VERSION=v1.5.2
-make deliverable-epub BOOK_VERSION=v1.5.2
+make deliverable BOOK_VERSION=v1.6.0
+make deliverable-executive BOOK_VERSION=v1.6.0
+make deliverable-epub BOOK_VERSION=v1.6.0
 ```
 
 Before a pull request, run:

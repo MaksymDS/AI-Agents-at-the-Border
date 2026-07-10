@@ -244,6 +244,14 @@ sharpens all the others (purpose limitation above all).[^ch08-8]
 
 ## 8.5 The portable baseline
 
+> **A minimum design baseline — not a compliance guarantee.** The five
+> controls below reduce redesign across jurisdictions; they do not certify
+> a system, replace an applicability assessment, or make legal terms
+> equivalent. Definitions of high impact, meaningful human involvement,
+> automated decision-making, public authority, records, localisation, and
+> review rights differ. Local counsel must confirm the rule, deploying
+> entity, task, affected people, data path, and evidence before approval.
+
 A program that must live across several of these jurisdictions — every
 vendor's reality and many administrations' future — should not chase
 compliance jurisdiction by jurisdiction. It should build once to the
@@ -265,8 +273,9 @@ on:
  and agent-specific profiles as the portable evidence that all of the
  above is real (Chapter 9 details the stack).
 
-Build to this baseline and each new jurisdiction becomes a delta review,
-not a program redesign.
+Build to this baseline and each new jurisdiction can begin with a delta
+review rather than a program redesign. Whether the delta is small is a
+legal conclusion for the named task, not an architectural assumption.
 
 ## 8.6 Turn legal requirements into operating controls
 

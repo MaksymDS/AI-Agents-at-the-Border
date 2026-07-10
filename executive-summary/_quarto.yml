@@ -1,0 +1,60 @@
+project:
+  type: book
+  output-dir: _build
+
+book:
+  title: "AI Agents at the Border"
+  subtitle: "Executive Summary — The 50-Page Decision Brief"
+  author: "Maksym Nechepurenko"
+  date: "2026"
+  output-file: "ai-agents-at-the-border-executive-summary"
+  chapters:
+    - index.md
+    - 01-decisions.md
+    - 02-agents.md
+    - 03-value-readiness.md
+    - 04-buy.md
+    - 05-govern.md
+    - 06-execute.md
+    - 07-cases.md
+    - 08-monday.md
+
+lang: en
+
+format:
+  pdf:
+    documentclass: scrbook
+    classoption:
+      - twoside
+      - openany
+    geometry:
+      - paperwidth=6in
+      - paperheight=9in
+      - top=0.85in
+      - bottom=0.8in
+      - inner=0.9in
+      - outer=0.68in
+      - headsep=14pt
+      - headheight=12pt
+      - footskip=26pt
+    fontsize: 11pt
+    linestretch: 1.46
+    toccolor: customsblue
+    filters:
+      - filters/interior.lua
+    toc: true
+    toc-depth: 1
+    fig-pos: "!tbp"
+    number-sections: true
+    number-depth: 0
+    colorlinks: true
+    include-in-header:
+      - latex/typography.tex
+      - latex/endnotes.tex
+      - latex/interior.tex
+      - latex/executive-summary.tex
+    include-before-body:
+      - latex/executive-foreword.tex
+    include-after-body:
+      - latex/back-cover.tex
+

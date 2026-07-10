@@ -36,6 +36,14 @@ its logic.
 Three design principles separate an honest instrument from a
 sales-funnel questionnaire.
 
+**Readiness belongs to a named use case, not to the administration as a
+single permanent grade.** A weak enterprise data estate can coexist with
+a production-ready, read-only procedure assistant over an approved
+corpus. Conversely, a sophisticated analytics unit may still be unready
+for one write-capable, trader-facing agent. The instrument identifies only
+the gaps that bind the proposed task; it should never postpone every
+low-risk use case until the institution is "ready for AI."
+
 **Readiness is per rung and per use case.** The Maturity Ladder gave the
 frame: an administration can be fully ready for document intelligence
 (Rung 1 requires little beyond documents and will), partially ready for
@@ -181,6 +189,15 @@ not on-premises document extraction. Limited agent-security capability
 may prohibit write tools while still allowing a read-only case-preparation
 loop. The answer is not "ready" or "not ready"; it is *ready for which
 workload, at which rung, with which guardrails?*
+
+This creates a deliberate **green-light path**. An internal document
+search or summarisation service can start at Rung 1/L1 when its corpus is
+approved, access is read-only, sources are cited, retention is controlled,
+and a human uses the output. It does not wait for enterprise-wide
+knowledge graphs, perfect historical labels, or an L3 governance board.
+The same administration may simultaneously cap a trader-facing or
+write-capable task at pilot. Readiness should sequence value and control,
+not convert caution into paralysis.
 
 Translate each weak dimension into a funded enabling workstream with an
 owner and a date. Data weakness becomes a selected corpus and feedback

@@ -1,6 +1,55 @@
 <?xml version="1.0"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 624" width="576" height="624">
-<defs></defs>
-<rect width="576" height="864" fill="#fff"></rect>
-<text x="40" y="52" font-size="23" font-weight="700" fill="#1B3A5C" letter-spacing="0.3">The Stance</text><rect x="40" y="62" width="46" height="4" rx="2" fill="#E8A33D"></rect><text x="536" y="34" text-anchor="end" font-size="9.5" font-weight="600" fill="#5C6B7A" letter-spacing="1.5">MOTIF · CH 1 / CH 16</text><text x="40" y="84" font-size="11" fill="#5C6B7A">Three commitments, held together</text><text x="40" y="106" font-size="10" fill="#1A1A1A" font-weight="400"><tspan x="40" dy="0">The book opens and closes on these three. They only work as a set.</tspan></text><rect x="40" y="200" width="152" height="300" rx="6" fill="#FBFCFD" stroke="#DCE2E8"></rect><rect x="40" y="200" width="152" height="5" rx="2.5" fill="#E8A33D"></rect><text x="60" y="256" font-size="34" fill="#A7BBCB" font-weight="300">01</text><text x="60" y="296" font-size="17" fill="#1B3A5C" font-weight="700">Ambitious</text><text x="60" y="316" font-size="12" fill="#5C6B7A" font-weight="600">on value</text><text x="60" y="352" font-size="11" fill="#1A1A1A" font-weight="400"><tspan x="60" dy="0">Not 10% efficiency —</tspan><tspan x="60" dy="15">restructuring the</tspan><tspan x="60" dy="15">cost of control</tspan><tspan x="60" dy="15">itself.</tspan></text><rect x="208" y="200" width="152" height="300" rx="6" fill="#FBFCFD" stroke="#DCE2E8"></rect><rect x="208" y="200" width="152" height="5" rx="2.5" fill="#E8A33D"></rect><text x="228" y="256" font-size="34" fill="#A7BBCB" font-weight="300">02</text><text x="228" y="296" font-size="17" fill="#1B3A5C" font-weight="700">Conservative</text><text x="228" y="316" font-size="12" fill="#5C6B7A" font-weight="600">on autonomy</text><text x="228" y="352" font-size="11" fill="#1A1A1A" font-weight="400"><tspan x="228" dy="0">Decisions transfer</tspan><tspan x="228" dy="15">one rung at a time,</tspan><tspan x="228" dy="15">on evidence —</tspan><tspan x="228" dy="15">accountability never</tspan><tspan x="228" dy="15">transfers.</tspan></text><rect x="376" y="200" width="152" height="300" rx="6" fill="#FBFCFD" stroke="#DCE2E8"></rect><rect x="376" y="200" width="152" height="5" rx="2.5" fill="#E8A33D"></rect><text x="396" y="256" font-size="34" fill="#A7BBCB" font-weight="300">03</text><text x="396" y="296" font-size="17" fill="#1B3A5C" font-weight="700">Uncompromising</text><text x="396" y="316" font-size="12" fill="#5C6B7A" font-weight="600">on sovereignty &amp; trust</text><text x="396" y="352" font-size="11" fill="#1A1A1A" font-weight="400"><tspan x="396" dy="0">National</tspan><tspan x="396" dy="15">jurisdiction; no</tspan><tspan x="396" dy="15">consumer APIs; our</tspan><tspan x="396" dy="15">oversight answers</tspan><tspan x="396" dy="15">first.</tspan></text><line x1="40" y1="518" x2="536" y2="518" stroke="#1B3A5C" stroke-width="2"></line><text x="288" y="540" font-size="10.5" fill="#5C6B7A" font-weight="600" letter-spacing="1" text-anchor="middle">held simultaneously</text><rect x="40" y="558" width="496" height="34" rx="4" fill="#5C6B7A"></rect><rect x="40" y="558" width="5" height="34" rx="2.5" fill="#E8A33D"></rect><text x="292" y="579.5" text-anchor="middle" font-size="10.6" font-weight="600" fill="#fff" letter-spacing="0.2">Hold all three at once — or the rest of the book is your incident report.</text>
+  <defs/>
+  <rect width="576" height="864" fill="#fff"/>
+  <text x="40" y="52" font-size="23" font-weight="700" fill="#1B3A5C" letter-spacing="0.3">The Stance</text>
+  <rect x="40" y="62" width="46" height="4" rx="2" fill="#E8A33D"/>
+  <text x="536" y="34" text-anchor="end" font-size="9.5" font-weight="600" fill="#5C6B7A" letter-spacing="1.5">MOTIF &#xB7; CH 1 / CH 16</text>
+  <text x="40" y="84" font-size="11" fill="#5C6B7A">Three commitments, held together</text>
+  <text x="40" y="106" font-size="10" fill="#1A1A1A" font-weight="400">
+    <tspan x="40" dy="0">The book opens and closes on these three. They only work as a set.</tspan>
+  </text>
+  <rect x="40" y="200" width="152" height="300" rx="6" fill="#FBFCFD" stroke="#DCE2E8"/>
+  <rect x="40" y="200" width="152" height="5" rx="2.5" fill="#E8A33D"/>
+  <text x="60" y="256" font-size="34" fill="#A7BBCB" font-weight="300">01</text>
+  <text x="60" y="296" font-size="17" fill="#1B3A5C" font-weight="700">Ambitious</text>
+  <text x="60" y="316" font-size="12" fill="#5C6B7A" font-weight="600">on value</text>
+  <text x="60" y="352" font-size="11" fill="#1A1A1A" font-weight="400">
+    <tspan x="60" dy="0">Not 10% efficiency &#x2014;</tspan>
+    <tspan x="60" dy="15">restructuring the</tspan>
+    <tspan x="60" dy="15">cost of control</tspan>
+    <tspan x="60" dy="15">itself.</tspan>
+  </text>
+  <rect x="208" y="200" width="152" height="300" rx="6" fill="#FBFCFD" stroke="#DCE2E8"/>
+  <rect x="208" y="200" width="152" height="5" rx="2.5" fill="#E8A33D"/>
+  <text x="228" y="256" font-size="34" fill="#A7BBCB" font-weight="300">02</text>
+  <text x="228" y="296" font-size="17" fill="#1B3A5C" font-weight="700">Conservative</text>
+  <text x="228" y="316" font-size="12" fill="#5C6B7A" font-weight="600">on autonomy</text>
+  <text x="228" y="352" font-size="11" fill="#1A1A1A" font-weight="400">
+    <tspan x="228" dy="0">Decisions transfer</tspan>
+    <tspan x="228" dy="15">one rung at a time,</tspan>
+    <tspan x="228" dy="15">on evidence &#x2014;</tspan>
+    <tspan x="228" dy="15">accountability never</tspan>
+    <tspan x="228" dy="15">transfers.</tspan>
+  </text>
+  <rect x="376" y="200" width="152" height="300" rx="6" fill="#FBFCFD" stroke="#DCE2E8"/>
+  <rect x="376" y="200" width="152" height="5" rx="2.5" fill="#E8A33D"/>
+  <text x="396" y="256" font-size="34" fill="#A7BBCB" font-weight="300">03</text>
+  <text x="396" y="296" font-size="17" fill="#1B3A5C" font-weight="700">Uncompromising</text>
+  <text x="396" y="316" font-size="12" fill="#5C6B7A" font-weight="600">on sovereignty &amp; trust</text>
+  <text x="396" y="352" font-size="11" fill="#1A1A1A" font-weight="400">
+    <tspan x="396" dy="0">National</tspan>
+    <tspan x="396" dy="15">jurisdiction; no</tspan>
+    <tspan x="396" dy="15">consumer APIs; our</tspan>
+    <tspan x="396" dy="15">oversight answers</tspan>
+    <tspan x="396" dy="15">first.</tspan>
+  </text>
+  <text x="60" y="470" font-size="8.7" fill="#B77A16" font-weight="700">IF LOST: PILOT THEATRE</text>
+  <text x="228" y="470" font-size="8.7" fill="#B77A16" font-weight="700">IF LOST: AUTHORITY DRIFT</text>
+  <text x="396" y="470" font-size="8.7" fill="#B77A16" font-weight="700">IF LOST: LAWFUL CONTROL</text>
+  <line x1="40" y1="518" x2="536" y2="518" stroke="#1B3A5C" stroke-width="2"/>
+  <text x="288" y="540" font-size="10.5" fill="#5C6B7A" font-weight="600" letter-spacing="1" text-anchor="middle">held simultaneously</text>
+  <rect x="40" y="558" width="496" height="34" rx="4" fill="#5C6B7A"/>
+  <rect x="40" y="558" width="5" height="34" rx="2.5" fill="#E8A33D"/>
+  <text x="292" y="579.5" text-anchor="middle" font-size="10.6" font-weight="600" fill="#fff" letter-spacing="0.2">Hold all three at once &#x2014; or the rest of the book is your incident report.</text>
 </svg>

@@ -221,11 +221,15 @@ frontier. Best fit: the most sensitive workloads, air-gap requirements,
 administrations with an existing data-center practice.
 
 **Sovereign / government cloud.** Frontier or near-frontier models hosted
-in an accredited in-country region under government terms — where such a
-region exists, which in the GCC increasingly it does. Access to stronger
-models and managed operations; the cost is dependence on the accreditation
-regime and contractual rather than physical control. Best fit: the default
-for most administrations that have a lawful, accredited option.
+in an in-country region that the competent government authority has
+recognised for the relevant data class and use — where such a lawful,
+accredited option exists. A commercial region, a data-centre address, or a
+vendor's use of the word *sovereign* is not accreditation. Access to
+stronger models and managed operations; the cost is dependence on the
+accreditation regime and contractual rather than physical control. Best
+fit: the default for administrations whose counsel and security authority
+have confirmed the provider, service, subprocessors, data path, and
+contract for the named workload.
 
 **Hybrid.** Sensitive extraction on-premises; heavier reasoning on
 de-identified or non-sensitive content in the sovereign cloud. The
@@ -246,6 +250,19 @@ One vendor-facing consequence deserves its own sentence: **"which models,
 running where, under whose jurisdiction, with what data residency
 guarantees" is a mandatory RFP question**, and "our platform is
 cloud-based" is not an answer to it.
+
+**Move the excluded territory into daylight.** A strict policy without a
+transition path can drive experimental use underground. Give teams a
+sanctioned route: inventory existing subscriptions and API keys; stop new
+sensitive uploads; preserve evidence needed for investigation; offer a
+time-boxed sandbox using public, synthetic, or properly de-identified
+data; then migrate, replace, or retire each workflow against a named date.
+Where immediate shutdown would interrupt a critical service, counsel and
+security approve a documented containment plan with minimum data,
+restricted identities, monitoring, and expiry. This is not permission to
+continue an unlawful transfer. It is the operating mechanism that turns
+an excluded-territory rule into observable risk reduction rather than
+shadow IT.
 
 ## 3.5 What GenAI-first buys the agentic future
 

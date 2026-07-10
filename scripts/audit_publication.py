@@ -13,7 +13,11 @@ from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-FILES = [ROOT / "index.md", *sorted((ROOT / "manuscript").rglob("*.md"))]
+FILES = [
+    ROOT / "index.md",
+    *sorted((ROOT / "manuscript").rglob("*.md")),
+    *sorted((ROOT / "executive-summary").glob("*.md")),
+]
 
 CHECKS = {
     "unresolved bracket marker": re.compile(

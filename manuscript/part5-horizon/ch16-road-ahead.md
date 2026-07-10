@@ -182,6 +182,16 @@ standing agenda:
  leadership variables of Chapter 1 — still free, still rare — become
  the whole story.
 
+The ten-year view needs a nearer operating lens. Maintain a rolling
+**12–24 month horizon** with four fields per signal: probability (low /
+medium / high), earliest plausible decision date, preparation that is
+useful even if the signal does not arrive, and the irreversible action to
+avoid. Review probabilities quarterly; do not convert them into claims of
+enactment or procurement commitments. For regulation, the preparation is
+usually durable — applicability records, mandate cards, exportable logs,
+human review, and contract change rights — while the avoided action is a
+long lock-in based on one proposed rule or vendor roadmap.
+
 ## 16.5 The stance, restated
 
 Chapter 1 opened this book with three commitments; sixteen chapters

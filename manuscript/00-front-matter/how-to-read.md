@@ -17,6 +17,21 @@ offices that serve them. Where the text says "customs," a reader in a
 neighboring border or revenue body can read their own institution with
 little loss.
 
+> **Read this before applying any framework.** The legal baseline was
+> checked to **10 July 2026**. It is a dated design baseline, not legal
+> advice, certification, or a promise that a rule has not changed since
+> publication. Re-check every live task with local counsel and the named
+> regulatory owner before procurement, production approval, or an
+> autonomy increase. The standing watch list is in Chapter 8 and Appendix
+> D.
+
+> **Independent work.** The author writes in a personal capacity. This is
+> not an Agility publication, and nothing in the book represents or
+> implies review, approval, or endorsement by the author's employer, its
+> clients, the WCO, or any administration or organisation cited. Every
+> deployment case and reported outcome is drawn from an attributable
+> public source; none describes an Agility or client engagement.
+
 **If you lead the administration** (Director General, Commissioner,
 deputy, board — in customs, a border agency, or a revenue or
 trade-facilitation authority): read Parts I and II in order — they build
@@ -59,6 +74,16 @@ number. Regulatory statements were accurate as of mid-2026; items
 likely to move are marked and collected in a standing watch list
 (Chapter 8) — re-verify them against the date on your calendar, not
 the date on this page.
+
+The evidence labels are deliberately visible. **Verified** means the
+named administration or a primary operating source identifies the
+technology and outcome. **Adjacent** means a method or failure mode comes
+from a neighboring domain such as tax, financial crime, or enterprise
+operations; it is a hypothesis generator, never a customs forecast.
+**Practice-reported** means a public consultancy or delivery case whose
+conditions and attribution must travel with the claim. **Directional**
+means a proposition to test locally, not a measured result. If a number
+loses its label when copied into a slide, it has lost its evidential value.
 
 Finally, the appendices are not an afterthought; several readers will
 find they are the book: the readiness instrument (A), the RFP skeleton

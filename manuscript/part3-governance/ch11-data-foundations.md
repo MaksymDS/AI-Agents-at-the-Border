@@ -67,6 +67,12 @@ unglamorous, value-unlocking work.[^ch11-2]
 > is identical: find the rare bad actor hiding in the relationships (see
 > endnote 3).
 
+> **ADJACENT EVIDENCE — HYPOTHESIS, NOT FORECAST.** The financial-crime
+> example supports the network method: linked entities can reveal a pattern
+> that isolated records conceal. It does not establish a customs detection
+> uplift. The local hypothesis must name the entities, labels, review cost,
+> lawful data links, and pilot threshold before a benefit is claimed.
+
 ![Figure 11.1 — From Filings to a Network](/assets/diagrams/fig-ch11-entity-network.svg){width=100%}
 
 **Retrieval-ready knowledge.** The regulations, rulings, procedures, and
