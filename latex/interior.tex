@@ -195,3 +195,7 @@
 % booktabs discipline comes from pandoc; per-spec sizing (serif 9/12.5).
 % Header band + zebra deferred to the Designer's table-spec pass.
 \AtBeginEnvironment{longtable}{\fontsize{9}{12.5}\selectfont}
+\newcommand\BookWorksheetTableBegin{%
+  \begingroup\fontsize{8.4}{11}\selectfont
+  \setlength{\tabcolsep}{3.4pt}\renewcommand{\arraystretch}{1.28}}
+\newcommand\BookWorksheetTableEnd{\endgroup}

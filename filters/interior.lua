@@ -267,10 +267,9 @@ local function map_special_divs(blocks)
       for _, child in ipairs(b.content) do out:insert(child) end
       out:insert(raw('\\endgroup'))
     elseif b.t == 'Div' and has_class(b, 'worksheet-table') then
-      out:insert(raw('\\begingroup\\fontsize{8.4}{11}\\selectfont'
-        .. '\\setlength{\\tabcolsep}{3.4pt}\\renewcommand{\\arraystretch}{1.28}'))
+      out:insert(raw('\\BookWorksheetTableBegin'))
       for _, child in ipairs(b.content) do out:insert(child) end
-      out:insert(raw('\\endgroup'))
+      out:insert(raw('\\BookWorksheetTableEnd'))
     elseif b.t == 'Div' and has_class(b, 'about-author') then
       out:insert(raw('\\begin{AuthorNote}'))
       for _, child in ipairs(b.content) do out:insert(child) end

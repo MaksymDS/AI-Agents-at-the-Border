@@ -1,7 +1,7 @@
 ---
 part: "Executive Summary"
 status: review
-version: 1.9.1
+version: 1.9.2
 last-updated: 2026-07-10
 ---
 

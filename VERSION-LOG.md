@@ -17,6 +17,18 @@ and build settings. Each published PDF and EPUB companion is kept under
 - Restore a source state with `git checkout book-vX.Y.Z` (or create a
   working branch from that tag); do not edit a historical release tag.
 
+## v1.9.2 — Cross-format Stance safe-padding release
+
+- **Status:** released.
+- **Source tag:** `book-v1.9.2`.
+- **Full PDF:** `deliverables/ai-agents-at-the-border-v1.9.2.pdf`.
+- **Executive Decision Brief:**
+  `deliverables/ai-agents-at-the-border-executive-summary-v1.9.2.pdf`.
+- **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.9.2.epub`.
+- **Scope:** gives the third Stance-card label additional right-side safety
+  padding in every reader format. The manuscript, evidence, legal baseline,
+  accessibility structure and reader experience are otherwise unchanged.
+
 ## v1.9.1 — Stance and executive close production patch
 
 - **Status:** released.

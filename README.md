@@ -16,12 +16,14 @@ legal developments and improve the reader experience. The working build
 repository remains separate; this repository contains only publication-safe
 material.
 
-The current public edition is **v1.9.1**, legally cut off on **10 July
+The current public edition is **v1.9.2**, legally cut off on **10 July
 2026**. It is a management guide, not legal advice.
 
-Version 1.9.1 retains the dedicated executive visual system and corrects
-the intrinsic fit of the third Stance card plus the spacing before the final
-board question. Version 1.9.0 introduced full-page
+Version 1.9.2 gives the third Stance-card label additional right-side safety
+padding across every reader format; it does not alter the manuscript or
+legal baseline. Version 1.9.1 retains the dedicated executive visual system
+and corrects the intrinsic fit of the third Stance card plus the spacing
+before the final board question. Version 1.9.0 introduced full-page
 ladder and case figures, decision-evidence-stop strips, value, 90-day and
 board-dashboard infographics, writable approval grids, and five visual
 operating rules. Figures retain their native proportions and the 60-page
@@ -50,9 +52,9 @@ The canonical print build is the 6 × 9 inch PDF. With Quarto, LuaLaTeX and
 the SVG renderer installed:
 
 ```bash
-make deliverable BOOK_VERSION=v1.9.1
-make deliverable-executive BOOK_VERSION=v1.9.1
-make deliverable-epub BOOK_VERSION=v1.9.1
+make deliverable BOOK_VERSION=v1.9.2
+make deliverable-executive BOOK_VERSION=v1.9.2
+make deliverable-epub BOOK_VERSION=v1.9.2
 ```
 
 Before a pull request, run:
