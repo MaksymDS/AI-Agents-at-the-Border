@@ -122,7 +122,7 @@ management judgments, not statements that a proposal will become law.
 
 | Trigger | Immediate question | Typical action |
 |---|---|---|
-| New binding AI rule or implementation date | Which live task is in scope? | Update applicability records and safety cases. |
+| New binding AI rule or implementation date | Which live task is in scope? | Update applicability records and operational assurance records. |
 | New privacy or transfer guidance | Did the lawful hosting decision change? | Re-run deployment-tree decision. |
 | Regulator enforcement or public incident | Does the failure mode exist in our estate? | Run targeted assurance test and report result. |
 | New model/provider term | Does it alter data, training, logging or exit rights? | Route through change control and contract review. |
@@ -142,7 +142,7 @@ jurisdiction-specific control.
 |---|---|---|---|---|
 | Lawful purpose and data minimisation | Privacy laws; sharing agreements | Task-specific purpose, data inventory and access scope | Applicability record; data-flow map; data contract | New data class, source or user group |
 | Automated-decision / human oversight | Privacy/AI law; public-law duties | Rung ceiling, human route, override and escalation | Mandate card; trajectory; supervisor training | Authority, outcome or affected-party change |
-| Risk management and safety | AI law; NIST/ISO; procurement policy | Safety case, evaluation gates, residual-risk register | Test reports; sign-off; incident drill | Material release, incident or autonomy increase |
+| Risk management and safety | AI law; NIST/ISO; procurement policy | Operational assurance record, evaluation gates, residual-risk register | Test reports; sign-off; incident drill | Material release, incident or autonomy increase |
 | Transparency and contestability | AI/privacy law; administrative procedure | Notices, explanation boundary, human review and correction route | User journey; review log; template communications | New channel, policy or adverse-use case |
 | Security and resilience | Cyber law; government security baseline | Least-privilege identity, hostile-input separation, fallback | Threat model; access test; containment exercise | Tool, connector, model or supplier change |
 | Records and auditability | Records law; audit policy; AI law | Retained trajectory, version record and evidence room | Retention schedule; export test; release record | Retention change, audit finding or contract renewal |
@@ -163,7 +163,7 @@ ten tasks with different authority, data and affected people.
 | Applicable instruments | Binding laws, policies, contracts and procurement standards; applicability rationale | Counsel |
 | Controls | Oversight, transparency, security, records, transfer and supplier controls | Control owners |
 | Residual risks / exceptions | What remains unresolved; temporary cap; compensating measure and expiry | Executive signer |
-| Evidence and review | Links to safety case, testing, contract clauses; next review and change triggers | Programme office |
+| Evidence and review | Links to operational assurance record, testing, contract clauses; next review and change triggers | Programme office |
 
 An applicability record should fit on two pages. If it cannot, the task
 may be too broad to approve or the programme may be attempting to solve
@@ -183,7 +183,7 @@ changes, use the following response rather than a general legal review:
    competence.
 4. Decide the interim posture: no action, update documentation, add a
    control, limit scope, pause a task, or invoke a contract right.
-5. Update the applicability record, safety case, RFP/contract schedule
+5. Update the applicability record, operational assurance record, RFP/contract schedule
    where needed, and the watch-list row with source and next review.
 6. Report material changes to the portfolio board, including whether
    there is a budget or service impact.

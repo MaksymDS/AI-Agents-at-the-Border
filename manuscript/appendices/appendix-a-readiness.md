@@ -129,7 +129,7 @@ Re-run the full assessment annually and the task-level constraints before
 each material autonomy expansion. A change in model quality does not by
 itself raise a ceiling. The record must show which evidence changed:
 data coverage, interfaces, security controls, workforce capability,
-legal posture, pilot outcome or safety case. This keeps the Maturity
+legal posture, pilot outcome or operational assurance record. This keeps the Maturity
 Ladder evidence-led and prevents a procurement renewal from becoming an
 automatic autonomy upgrade.
 

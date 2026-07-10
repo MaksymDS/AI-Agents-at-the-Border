@@ -302,7 +302,7 @@ Use a tiered review. A low-consequence Rung-1 extraction task may need a
 privacy and records review plus security sign-off. A Rung-2
 recommendation needs the same record, an explanation and contestability
 design, and an operational owner. A Rung-3 workflow with write-capable
-tools needs all of that plus a safety case, a change-control path,
+tools needs all of that plus an operational assurance record, a change-control path,
 incident playbook and a periodic re-authorisation. The law may not say
 "re-authorise" in those words; the control is still sound because an
 agent's behaviour, dependencies and authority will change after the
@@ -333,7 +333,7 @@ Make proportionality explicit in the applicability record. State which
 controls are mandatory for this task, which are deliberately not
 required and why. A Rung-1 task might have a strict data and records
 control but no external notification because it does not influence an
-outcome. A Rung-3 task may require a safety case, release review,
+outcome. A Rung-3 task may require an operational assurance record, release review,
 contestability path and heightened retention because it changes how a
 case moves. This explanation helps legal, operations and procurement
 make consistent decisions across the portfolio.

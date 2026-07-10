@@ -271,7 +271,7 @@ attention without changing a decision.
 Release money by artifact, not by optimism. A Discover task earns a
 pilot only when its owner, baseline, lawful data path, preliminary
 mandate and representative evaluation population exist. A Prove task
-earns scale only when its conservative economics, safety case and
+earns scale only when its conservative economics, operational assurance record and
 supervisory capacity pass. This is not slow governance. It is how a
 large institution keeps its scarce delivery capacity on the problems
 that can actually become services.

@@ -17,6 +17,21 @@ and build settings. Each published PDF and EPUB companion is kept under
 - Restore a source state with `git checkout book-vX.Y.Z` (or create a
   working branch from that tag); do not edit a historical release tag.
 
+## v1.8.0 — Operational controls and compact brief
+
+- **Status:** released.
+- **Source tag:** `book-v1.8.0`.
+- **Full PDF:** `deliverables/ai-agents-at-the-border-v1.8.0.pdf`.
+- **Executive Decision Brief:**
+  `deliverables/ai-agents-at-the-border-executive-summary-v1.8.0.pdf`.
+- **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.8.0.epub`.
+- **Scope:** renames the internal *safety case* as the **operational
+  assurance record**. The brief adds measurable board thresholds,
+  stopping/escalation logic for its ninety-day plan, five operating rules,
+  a chapter-specific reference map, and a legal-cut-off warning for
+  Sections 8.2–8.4. The print brief is now 56 physical pages including
+  covers; one intentional blank verso preserves the back-cover position.
+
 ## v1.7.1 — Agency-profile clarification
 
 - **Status:** released.

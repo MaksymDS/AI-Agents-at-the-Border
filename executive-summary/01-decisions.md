@@ -58,7 +58,6 @@ The first four are prerequisites, not parallel workstreams:
 ![Figure 1.2 - The Eight-Decision Dependency Chain](/assets/diagrams/fig-executive-decision-chain.svg){width=100% height=76%}
 
 ```{=latex}
-\clearpage
 \begin{ExecutiveToolPage}
 ```
 
@@ -72,7 +71,7 @@ The first four are prerequisites, not parallel workstreams:
 | **4. Sovereignty posture** | Lawful deployment, data flows, subprocessors, retention, evidence custody, and exit boundary. |
 | **5. Value bridge** | Output-to-action conversion, value range, permanent human/assurance cost, and benefit owner. |
 | **6. Ownership route** | Build-buy-partner boundary, retained capability, commercial comparison, and exit route. |
-| **7. Right to operate** | Signed mandate, thresholds, human route, security tests, safety case, fallback, and demotion trigger. |
+| **7. Right to operate** | Signed mandate, thresholds, human route, security tests, operational assurance record, fallback, and demotion trigger. |
 | **8. Renewal rhythm** | Review cadence, evidence owner, next decision date, and continue-change-compete-demote-retire options. |
 
 **Dependency rule.** Gates 5-8 are invalid while any of Gates 1-4 remains
@@ -133,7 +132,7 @@ into implied permission.
 | **Baseline, outcome, value** | Volume/time/quality/exceptions/unit cost: ____ · target: ____ · conversion action and benefit owner: ____ |
 | **Authority ceiling** | Current/maximum rung: ____ · agency permissions/limits: ____ · decisions retained by people: ____ · exclusions: ____ |
 | **Sovereign path** | Deployment/region: ____ · data/tools/identities: ____ · subprocessors/retention: ____ · evidence custodian: ____ |
-| **Evidence to operate** | Evaluation/thresholds: ____ · human capacity: ____ · security tests/safety case: ____ |
+| **Evidence to operate** | Evaluation/thresholds: ____ · human capacity: ____ · security tests/operational assurance record: ____ |
 | **Containment and validity** | Fallback: ____ · stop/demotion triggers: ____ · incident owner: ____ · volume/duration: ____ · next gate/renewal: ____ |
 
 **Approval:** operations ____ · legal/privacy ____ · security ____ · data/IT

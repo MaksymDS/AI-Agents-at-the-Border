@@ -30,15 +30,17 @@ format:
     geometry:
       - paperwidth=6in
       - paperheight=9in
-      - top=0.85in
-      - bottom=0.8in
-      - inner=0.9in
-      - outer=0.68in
+      - top=0.76in
+      - bottom=0.72in
+      - inner=0.80in
+      - outer=0.60in
       - headsep=14pt
       - headheight=12pt
       - footskip=26pt
-    fontsize: 11pt
-    linestretch: 1.46
+    # The brief remains readable in print, while a modestly denser main text
+    # keeps the standalone executive edition genuinely concise.
+    fontsize: 9.8pt
+    linestretch: 1.30
     toccolor: customsblue
     filters:
       - filters/interior.lua

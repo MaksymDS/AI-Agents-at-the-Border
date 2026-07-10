@@ -478,7 +478,7 @@ years, and that claims can be distinguished from launches.
 
 They do **not** prove that a border should delegate consequential
 decisions to an L4 agent. For that, the book requires a different proof:
-a bounded task, a safety case, a pilot ledger, trajectory observability,
+a bounded task, an operational assurance record, a pilot ledger, trajectory observability,
 a named mandate and a right to demote. The absence of a headline
 "autonomous customs agent" case is therefore not a reason to fill the
 gap with vendor narrative. It is the reason the Autonomy Ladder is

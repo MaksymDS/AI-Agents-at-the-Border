@@ -90,7 +90,7 @@ chapters cited.
   industry bodies. It may provide useful workflow patterns and named
   context but is labelled practice-reported and never upgraded to
   independent customs evidence (Ch. 15).
-- **Safety case** — the evidence-backed argument that a specified task
+- **Operational assurance record** — the evidence-backed argument that a specified task
   may operate at a specified autonomy level with stated residual risk,
   named owner, controls, rollback and review cycle; in this book an
   internal governance artifact, not a regulatory filing or certification
@@ -162,7 +162,7 @@ chapters cited.
 - **Practice-reported** — a disclosure label for public grey literature
   (for example, a consulting case) whose workflow or metric may be
   useful but is not independently verified evidence (Ch. 15).
-- **Re-authorisation** — a formal review of a mandate and safety case
+- **Re-authorisation** — a formal review of a mandate and operational assurance record
   after material change, incident, autonomy expansion or scheduled
   interval; it confirms that the task has retained its right to operate
   (Chs. 8, 9, 13).

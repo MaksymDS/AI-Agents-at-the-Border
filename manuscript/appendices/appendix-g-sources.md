@@ -58,7 +58,7 @@ Acquisitions, Chapters 7 and 10, then Appendices B and C. The goal is to
 turn principles into bid artifacts, evidence gates and exit rights.
 
 **If you are approving autonomy:** read NIST RMF, CSA Agentic Profile,
-OWASP and Chapters 9, 10 and 12. The goal is to sign a safety case and a
+OWASP and Chapters 9, 10 and 12. The goal is to sign an operational assurance record and a
 mandate for a task, not to approve a platform in the abstract.
 
 **If you are scaling production:** read Chapters 11, 13 and 14 with the

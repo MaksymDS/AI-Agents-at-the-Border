@@ -1,7 +1,7 @@
 ---
 part: "Executive Summary"
 status: review
-version: 1.7.1
+version: 1.8.0
 last-updated: 2026-07-10
 ---
 
@@ -17,6 +17,10 @@ Read it once as a team. On the second pass, complete the gates in Chapter 1
 in sequence, assign an owner to every action in Chapter 8, and use the
 Core Tools A-E. The full book adds implementation depth and
 jurisdiction-specific research; it is no longer required to begin the work.
+For depth, use Chapter 5 for value economics, Chapter 6 for readiness,
+Chapter 7 for procurement and vendor control, Chapters 8–9 for legal and
+assurance design, Chapter 10 for agentic security, and Chapter 12 for pilot
+execution.
 
 ## The stance in one page
 
@@ -57,9 +61,11 @@ ministerial slide, the claim should disappear too.
 > **LEGAL CUT-OFF · 10 JULY 2026.** This brief and the full book provide a
 > dated design baseline, not legal advice or certification. Re-check every
 > task with local counsel before procurement, production approval, or an
-> autonomy increase. The EU timetable stated here reflects the Digital
-> Omnibus adopted on 29 June 2026; implementation material, national rules,
-> and other jurisdictions continue to move.
+> autonomy increase. In particular, re-verify full-book Sections 8.2–8.4
+> before relying on an EU AI Act date: implementing acts, Commission
+> guidance, standards, national measures, and task classification can change
+> practical applicability. The stated dates are correct at this cut-off; they
+> are not a future compliance promise.
 
 > **INDEPENDENT WORK.** The author writes in a personal capacity. This is
 > not an Agility publication and does not represent or imply approval or
@@ -68,7 +74,6 @@ ministerial slide, the claim should disappear too.
 > public sources; none describes an Agility or client engagement.
 
 ```{=latex}
-\clearpage
 \begin{ExecutiveToolPage}
 ```
 

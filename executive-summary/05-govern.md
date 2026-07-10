@@ -72,16 +72,16 @@ Three human patterns remain useful:
 an impossible queue. Measure queue size, exception age, comprehension,
 override quality, fatigue, and authority to stop.
 
-## The internal safety case
+## The operational assurance record
 
-A safety case is the concise argument that a named task may operate at a
+An operational assurance record is the concise argument that a named task may operate at a
 specified rung with stated residual risk. It links the mandate, data flow,
 evaluation by relevant strata, hostile-input and tool-misuse tests,
 trajectory samples, human calibration, incident/fallback exercise, owner,
 and dated sign-off. Review it before pilot, autonomy expansion, material
 change, renewal, and after an incident.
 
-In this book, *safety case* is an internal governance artifact. It is not a
+In this book, an *operational assurance record* is an internal governance artifact. It is not a
 regulatory filing, conformity assessment, certification, or claim of
 equivalence with aviation, medical-device, nuclear, or other formal safety
 regimes. Use the locally required name while preserving the evidence
@@ -112,36 +112,26 @@ trajectories, anomaly detection, signed updates, component provenance,
 tested fallback, and recurring hostile-document tests. “Read only” is a
 claim until scopes prove it.
 
-## Data as operating evidence
-
-Agents need machine-consumable documents, governed knowledge, tool-ready
-interfaces, and correction feedback. Every corpus and feed needs a
-custodian, purpose, scope, provenance, freshness target, quality threshold,
-and failure response. Without that owner, retrieval is a demo with an
-expiry date.
-
 ```{=latex}
-\clearpage
 \begin{ExecutiveToolPage}
 ```
 
 ## Core Tool C: Regulatory applicability checklist
 
 Complete one per task before procurement, production, or an autonomy
-increase. Record official source, reviewer, and unresolved owner.
+increase. Record the official source, reviewer, and unresolved owner.
 
 | Check | Question that must be answered |
 |---|---|
-| **Task, place, role** | Workflow, jurisdiction, mandate, decision, and locally defined institutional role? |
-| **People, effect, risk class** | Who is affected and how? Which review, fairness, biometric, migration, law-enforcement, profiling, or high-risk trigger applies? |
-| **Data, records, rights** | Secrecy, privacy, purpose, retention, disclosure, transfer, public-record, explanation, and contestability duties? |
-| **Sovereignty, security, administration** | Hosting/localisation, cyber/identity/incident, supplier, procurement, delegation, employment, records, and audit duties? |
-| **AI-specific duties** | Transparency, registration, impact assessment, testing, conformity, literacy, monitoring/reporting, and dates? |
-| **Evidence and change** | Who confirms and proves each control? Which release, task change, incident, or date forces review? |
+| **Task, place, role** | Workflow, jurisdiction, public role, mandate, and decision? |
+| **People, effect, risk** | Affected people; review, fairness, biometric, migration, law-enforcement, profiling, or high-risk trigger? |
+| **Data, records, rights** | Secrecy/privacy; purpose, retention, transfer, records, explanation, and contestability? |
+| **Sovereignty, security** | Hosting/localisation; identity, cyber, supplier, procurement, delegation, records, and audit duties? |
+| **AI-specific duties** | Transparency, impact/conformity, testing, literacy, monitoring/reporting, and dates? |
+| **Evidence and change** | Control/evidence owner; release, task, incident, or date review trigger? |
 
-**Output:** applicability record · prohibited/high-risk finding · control and
-evidence owner · unresolved question/counsel owner · next review · approve,
-condition, or stop.
+**Output:** applicability record · prohibited/high-risk finding · control
+owner · counsel question · next review · approve, condition, or stop.
 
 ```{=latex}
 \end{ExecutiveToolPage}

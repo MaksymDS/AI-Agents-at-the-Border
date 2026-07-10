@@ -233,16 +233,16 @@ expectations, the WCO's HITL baseline, and GCC/ASEAN soft law
 simultaneously (Chapter 8's portable baseline, engineering edition) —
 and it converts governance from a debate into a certification plan.
 
-## 9.7 The safety case: prove the right to operate
+## 9.7 The operational assurance record: prove the right to operate
 
-Policies describe intention; an agentic system needs a **safety case**:
+Policies describe intention; an agentic system needs an **operational assurance record**:
 a concise, reviewable argument that it is acceptably safe for one
 specific task at one specific autonomy level. This is not an imported
 aviation metaphor or a new bureaucratic report. It is the binder that
 connects the decision the administration wants to delegate to the
 evidence that permits delegation.
 
-Here, *safety case* means an **internal governance artifact**: a structured
+Here, *operational assurance record* means an **internal governance artifact**: a structured
 argument linking the task, evidence, controls, residual risks, owner, and
 right to operate. The term does not imply a filing with a regulator,
 conformity assessment, certification, or equivalence to the formal safety-
@@ -262,7 +262,7 @@ and the owner’s dated sign-off. The argument also names **residual
 risk**. A system that has no documented residual risk has not been
 assessed; it has been marketed.
 
-The safety case gives the executive a better governance rhythm. Review
+The operational assurance record gives the executive a better governance rhythm. Review
 it before pilot, before every autonomy expansion, after any material
 change, and after every incident. The board does not need to re-litigate
 model theory. It asks four questions: has the task changed; has the
@@ -375,7 +375,7 @@ be read in one meeting, the task is too broad to delegate.
  incident path — anchored to NIST AI RMF, ISO/IEC 42001, and open
  evaluation tooling so the architecture is certifiable, portable, and
  defensible.
-- A policy is not a safety case. Every consequential task should carry a
+- A policy is not an operational assurance record. Every consequential task should carry an
   short, evidence-backed argument for its right to operate and a stated
   residual risk, re-approved when authority or evidence changes.
 

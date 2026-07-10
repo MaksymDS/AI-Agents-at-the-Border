@@ -203,7 +203,7 @@ Translate each weak dimension into a funded enabling workstream with an
 owner and a date. Data weakness becomes a selected corpus and feedback
 loop; architecture weakness becomes identity, APIs and logging; skills
 weakness becomes named operational supervisors and a training cycle;
-governance weakness becomes mandates, safety cases and a gate panel.
+governance weakness becomes mandates, operational assurance records and a gate panel.
 Then let the readiness profile shape the first portfolio. This is how a
 smaller administration moves now without pretending it has the estate
 of Korea Customs, and how a larger administration avoids funding a
