@@ -21,9 +21,17 @@ counsel, interrogate vendors, and plan investments across jurisdictions —
 without pretending to be a lawyer. This chapter builds the structure,
 maps the jurisdictions this book prioritizes onto it, and extracts the
 design baseline that satisfies all of them at once. One reading note:
-this is the book's most time-sensitive chapter. The legal cut-off is
-**10 July 2026**; the decision frameworks are built to outlive the
-dates.
+this is the book's most time-sensitive chapter.
+
+> **IMPORTANT — REGULATORY CUT-OFF · 10 JULY 2026.** The legal baseline in
+> this chapter was checked to 10 July 2026. EU AI Act deadlines, national
+> implementing acts, regulator guidance, standards, and other instruments
+> continue to change. Before procurement, production approval, or any
+> autonomy increase, re-verify every deadline and applicability
+> determination with local counsel. The companion site's
+> [regulatory watch record](https://www.era-society.ae/read/regulatory-reference)
+> publishes the current dated baseline and public update route; it does not
+> replace counsel or guarantee future compliance.
 
 ![Figure 8.1 — The Three Regulatory Layers](/assets/diagrams/fig-ch08-three-layers.svg){width=100%}
 
@@ -273,7 +281,8 @@ on:
  and agent-specific profiles as the portable evidence that all of the
  above is real (Chapter 9 details the stack).
 
-Build to this baseline and each new jurisdiction can begin with a delta
+Build to this baseline — a design baseline, not a compliance guarantee —
+and each new jurisdiction can begin with a delta
 review rather than a program redesign. Whether the delta is small is a
 legal conclusion for the named task, not an architectural assumption.
 
@@ -386,7 +395,8 @@ Regulations. Name an owner, record the source and review quarterly.
  national policy framework, Korea's high-impact duties, Singapore's
  agentic framework — and converge on tiered autonomy plus mandated
  oversight: external confirmation of this book's architecture.
-- Build once to the portable baseline (oversight, explainability,
+- Build once to the portable baseline (a redesign-control baseline, not a
+  compliance guarantee: oversight, explainability,
  auditability, residency, standards anchoring); handle each jurisdiction
  as a delta, and keep a named owner on the post-cut-off regulatory review.
 

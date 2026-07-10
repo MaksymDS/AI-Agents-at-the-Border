@@ -8,6 +8,13 @@ An AI agent is a software system that pursues an assigned goal by planning
 multi-step work and using tools—systems, databases, and documents—with a
 defined degree of autonomy and under defined human oversight.
 
+```{=latex}
+\ExecutiveDecisionStrip
+  {Set the autonomy rung and the separate agency profile for one task.}
+  {Decision rights, permitted tools/data/writes, limits, owner, and expiry.}
+  {A vendor cannot separate who decides from what the system can touch.}
+```
+
 Each phrase is a control. The goal bounds purpose. Planning creates the
 possibility of adaptive behaviour. Tools define reach. Autonomy allocates
 decision rights. Oversight retains human command. Remove any one and the
@@ -26,9 +33,15 @@ boundaries, ML supplies risk signals, GenAI reads and drafts, and an agent
 may orchestrate the allowed sequence. A vendor that proposes to replace
 hard constraints with a prompt has confused fluent language with control.
 
-## The Autonomy Ladder
+```{=latex}
+\clearpage
+```
 
-![Figure 2.1 — The Autonomy Ladder](/assets/diagrams/fig-ch02-autonomy-ladder.svg){width=100% height=78%}
+![Figure 2.1 — The Autonomy Ladder](/assets/diagrams/fig-ch02-autonomy-ladder.svg){width=100%}
+
+```{=latex}
+\clearpage
+```
 
 **L1 Assistant — Operator.** The system drafts, retrieves, extracts, or
 summarises. A human checks every output before use. This is the default

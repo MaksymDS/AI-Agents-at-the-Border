@@ -9,7 +9,14 @@ tests whether the administration can supply lawful evidence, operate the
 human gate, observe behaviour, absorb exceptions, control cost, respond to
 failure, and decide against its own enthusiasm.
 
-![Figure 6.1 — Piloting in Stages](/assets/diagrams/fig-ch12-pilot-stages.svg){width=100% height=72%}
+```{=latex}
+\ExecutiveDecisionStrip
+  {Promote, hold, demote, or stop one task at one stage gate.}
+  {Complete-case quality, queue capacity, hostile tests, economics, export, and fallback.}
+  {Any pre-committed quality, security, authority, or human-capacity threshold fails.}
+```
+
+![Figure 6.1 — Piloting in Stages](/assets/diagrams/fig-ch12-pilot-stages.svg){width=100%}
 
 Use four stages.
 
@@ -74,7 +81,7 @@ operational units own domain meaning, exceptions, feedback, adoption, and
 service outcomes. Pair them. A central team without operations builds
 generic tools; isolated units duplicate platforms and controls.
 
-![Figure 6.2 — Hub and Spoke](/assets/diagrams/fig-ch14-hub-and-spoke.svg){width=100% height=70%}
+![Figure 6.2 — Hub and Spoke](/assets/diagrams/fig-ch14-hub-and-spoke.svg){width=100%}
 
 Train by role. Users learn evidence limits, uncertainty, secure handling,
 and correction. Supervisors learn queue management, sampling, trajectory
@@ -124,8 +131,17 @@ Complete before every stage change; use one task and proposed rung.
 promote / hold / demote / stop · authorised volume/duration: ____ · automatic
 stop trigger: ____ · next gate: ____.
 
-**Signers:** operations ____ · legal/privacy ____ · security ____ · data/IT
-____ · accountable executive ____ · date ____.
+**Sign-off record**
+
+```{=latex}
+\begin{ExecutiveSignoffTable}
+\ExecutiveSignoffRow{Operations}
+\ExecutiveSignoffRow{Legal / privacy}
+\ExecutiveSignoffRow{Security}
+\ExecutiveSignoffRow{Data / IT}
+\ExecutiveSignoffRow{Accountable executive}
+\end{ExecutiveSignoffTable}
+```
 
 ```{=latex}
 \end{ExecutiveToolPage}

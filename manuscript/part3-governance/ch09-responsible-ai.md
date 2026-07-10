@@ -230,7 +230,8 @@ evaluation framework (the UK AI Security Institute's Inspect is the
 reference) for in-house agent testing.[^ch09-7] This stack is
 jurisdiction-portable by construction — it satisfies EU Article-14
 expectations, the WCO's HITL baseline, and GCC/ASEAN soft law
-simultaneously (Chapter 8's portable baseline, engineering edition) —
+simultaneously (Chapter 8's portable baseline — explicitly a design
+baseline, not a compliance guarantee — in engineering form) —
 and it converts governance from a debate into a certification plan.
 
 ## 9.7 The operational assurance record: prove the right to operate

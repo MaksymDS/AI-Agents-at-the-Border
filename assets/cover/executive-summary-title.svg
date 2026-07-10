@@ -23,7 +23,10 @@
   <text x="84" y="579" font-family="Inter,sans-serif" font-size="11" fill="#1B3A5C" font-weight="700">THE OPERATING PRINCIPLE</text>
   <text x="84" y="607" font-family="Source Serif 4,Georgia,serif" font-size="15" fill="#1A1A1A">Decisions may transfer within a signed mandate.</text>
   <text x="84" y="630" font-family="Source Serif 4,Georgia,serif" font-size="15" fill="#1A1A1A">Accountability does not.</text>
+  <rect x="64" y="670" width="448" height="42" rx="4" fill="#FFF4E1" stroke="#E8A33D" stroke-width="1"/>
+  <text x="82" y="689" font-family="Inter,sans-serif" font-size="8.5" fill="#9A5E00" font-weight="700" letter-spacing="1.1">REGULATORY CUT-OFF · 10 JULY 2026</text>
+  <text x="82" y="703" font-family="Inter,sans-serif" font-size="8.2" fill="#5C6B7A">Re-verify applicability and deadlines before procurement or any autonomy increase.</text>
   <line x1="64" y1="760" x2="512" y2="760" stroke="#DCE2E8"/>
   <text x="288" y="786" font-family="Inter,sans-serif" font-size="11" fill="#5C6B7A" font-weight="600" letter-spacing="2" text-anchor="middle">MAKSYM NECHEPURENKO</text>
-  <text x="288" y="804" font-family="Inter,sans-serif" font-size="9.5" fill="#5C6B7A" text-anchor="middle" font-style="italic">Dubai · 2026 · v1.8.0</text>
+  <text x="288" y="804" font-family="Inter,sans-serif" font-size="9.5" fill="#5C6B7A" text-anchor="middle" font-style="italic">Dubai · 2026 · v1.9.0</text>
 </svg>

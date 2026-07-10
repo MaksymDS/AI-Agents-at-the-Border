@@ -9,6 +9,14 @@ notes: "Legal cut-off verified against primary regulator and legislation sources
 
 Compact reference as of 2026-07-10; Chapter 8 carries the analysis.
 
+> **IMPORTANT — REGULATORY CUT-OFF · 10 JULY 2026.** This appendix is a
+> dated reference record, not legal advice, certification, or a future
+> compliance promise. Before procurement, production approval, or any
+> autonomy increase, re-verify every deadline and applicability
+> determination with local counsel. Use the companion site's
+> [regulatory watch record](https://www.era-society.ae/read/regulatory-reference)
+> for the current dated source and public update route.
+
 ## D.1 Binding instruments reaching customs AI
 
 Stacked profiles; fields — *Instrument · Key dates · Customs-relevant
@@ -134,7 +142,8 @@ date; never substitute a stale table for an applicability record.
 ## D.6 Requirement-to-control crosswalk
 
 This crosswalk is a management aid, not legal advice. It translates the
-portable baseline into the operating evidence that a customs programme
+portable baseline — a design baseline, not a compliance guarantee — into
+the operating evidence that a customs programme
 can ask for. Local counsel must confirm applicability and any
 jurisdiction-specific control.
 

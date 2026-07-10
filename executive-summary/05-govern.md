@@ -13,6 +13,13 @@ law and standards**—WCO, OECD, NIST, ISO/IEC and sector guidance—often
 becomes operationally hard when it enters a tender, audit, insurer, or
 ministerial approval.
 
+```{=latex}
+\ExecutiveDecisionStrip
+  {Decide whether the named task has earned a bounded right to operate.}
+  {Applicability record, assurance evidence, human route, security tests, and owner.}
+  {Legal status, data path, agency reach, or residual-risk ownership is unresolved.}
+```
+
 The EU AI Act remains the most influential reference regime. Border
 management, migration/asylum, biometrics, and some law-enforcement uses can
 fall into Annex III high-risk categories. Following the Digital Omnibus
@@ -52,7 +59,7 @@ not enacted law; a watch list must not turn it into one.
 
 ## Autonomy × agency
 
-![Figure 5.1 — Autonomy × Agency](/assets/diagrams/fig-ch09-autonomy-agency.svg){width=100% height=72%}
+![Figure 5.1 — Autonomy × Agency](/assets/diagrams/fig-ch09-autonomy-agency.svg){width=100%}
 
 Oversight follows both the decision rung and technical reach. High agency
 with broad write tools may require stronger identity, approval, and

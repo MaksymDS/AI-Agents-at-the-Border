@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 816" width="576" height="816" role="img" aria-labelledby="title desc">
+  <title id="title">The Board Dashboard</title>
+  <desc id="desc">Six decision cards covering value, quality, authority, the human route, legal and sovereign status, and exit readiness.</desc>
+  <rect width="576" height="816" fill="#FFFFFF"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="40" y="52" font-size="23" font-weight="700" fill="#1B3A5C">The Board Dashboard</text>
+    <rect x="40" y="62" width="46" height="4" rx="2" fill="#E8A33D"/>
+    <text x="536" y="34" text-anchor="end" font-size="9.5" font-weight="600" fill="#5C6B7A" letter-spacing="1.5">EXECUTIVE BRIEF</text>
+    <text x="40" y="85" font-size="11" fill="#5C6B7A">Six questions. Six measurable signals. One decision at every review.</text>
+    <text x="40" y="106" font-size="9.5" fill="#1A1A1A">Show the baseline, current result, target or stop threshold, owner, and action - not a status colour alone.</text>
+
+    <!-- Row 1 -->
+    <g transform="translate(40,132)">
+      <rect width="238" height="154" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="154" rx="2.5" fill="#E8A33D"/>
+      <text x="18" y="24" font-size="8.5" font-weight="700" fill="#B66F00" letter-spacing="1.2">01 · VALUE</text>
+      <text x="18" y="52" font-size="15" font-weight="700" fill="#1B3A5C">Unit cost per</text>
+      <text x="18" y="70" font-size="15" font-weight="700" fill="#1B3A5C">completed case</text>
+      <text x="18" y="94" font-size="9.5" fill="#405264">Baseline → pilot actual → target,</text>
+      <text x="18" y="107" font-size="9.5" fill="#405264">with volume and conversion action.</text>
+      <rect x="18" y="122" width="202" height="19" rx="3" fill="#FFF4E1"/>
+      <text x="26" y="135" font-size="8.2" font-weight="700" fill="#9A6818">FOCUS · Is value actually captured?</text>
+    </g>
+    <g transform="translate(298,132)">
+      <rect width="238" height="154" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="154" rx="2.5" fill="#517391"/>
+      <text x="18" y="24" font-size="8.5" font-weight="700" fill="#517391" letter-spacing="1.2">02 · QUALITY</text>
+      <text x="18" y="52" font-size="15" font-weight="700" fill="#1B3A5C">Precision · recall ·</text>
+      <text x="18" y="70" font-size="15" font-weight="700" fill="#1B3A5C">override rate</text>
+      <text x="18" y="94" font-size="9.5" fill="#405264">Report by approved stratum, plus</text>
+      <text x="18" y="107" font-size="9.5" fill="#405264">abstention and adverse burden.</text>
+      <rect x="18" y="122" width="202" height="19" rx="3" fill="#EAF0F5"/>
+      <text x="26" y="135" font-size="8.2" font-weight="700" fill="#405E79">GATE · Every floor / ceiling is met</text>
+    </g>
+
+    <!-- Row 2 -->
+    <g transform="translate(40,304)">
+      <rect width="238" height="154" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="154" rx="2.5" fill="#1B3A5C"/>
+      <text x="18" y="24" font-size="8.5" font-weight="700" fill="#1B3A5C" letter-spacing="1.2">03 · AUTHORITY</text>
+      <text x="18" y="52" font-size="15" font-weight="700" fill="#1B3A5C">Mandate-</text>
+      <text x="18" y="70" font-size="15" font-weight="700" fill="#1B3A5C">conformance rate</text>
+      <text x="18" y="94" font-size="9.5" fill="#405264">Sample trajectories against task,</text>
+      <text x="18" y="107" font-size="9.5" fill="#405264">tools, data, and write scope.</text>
+      <rect x="18" y="122" width="202" height="19" rx="3" fill="#1B3A5C"/>
+      <text x="26" y="135" font-size="8.2" font-weight="700" fill="#FFFFFF">STOP · Anything below 100%</text>
+    </g>
+    <g transform="translate(298,304)">
+      <rect width="238" height="154" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="154" rx="2.5" fill="#A7BBCB"/>
+      <text x="18" y="24" font-size="8.5" font-weight="700" fill="#5C6B7A" letter-spacing="1.2">04 · HUMAN ROUTE</text>
+      <text x="18" y="52" font-size="15" font-weight="700" fill="#1B3A5C">P95 exception-</text>
+      <text x="18" y="70" font-size="15" font-weight="700" fill="#1B3A5C">queue age</text>
+      <text x="18" y="94" font-size="9.5" fill="#405264">Compare with service target and</text>
+      <text x="18" y="107" font-size="9.5" fill="#405264">supervisor utilisation ceiling.</text>
+      <rect x="18" y="122" width="202" height="19" rx="3" fill="#E9EDF1"/>
+      <text x="26" y="135" font-size="8.2" font-weight="700" fill="#52687B">GATE · Staffed route inside capacity</text>
+    </g>
+
+    <!-- Row 3 -->
+    <g transform="translate(40,476)">
+      <rect width="238" height="154" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="154" rx="2.5" fill="#517391"/>
+      <text x="18" y="24" font-size="8.5" font-weight="700" fill="#517391" letter-spacing="1.2">05 · LAWFUL &amp; SOVEREIGN</text>
+      <text x="18" y="52" font-size="15" font-weight="700" fill="#1B3A5C">Applicability</text>
+      <text x="18" y="70" font-size="15" font-weight="700" fill="#1B3A5C">record status</text>
+      <text x="18" y="94" font-size="9.5" fill="#405264">Named reviewer, approved data path,</text>
+      <text x="18" y="107" font-size="9.5" fill="#405264">next legal review, no unowned gap.</text>
+      <rect x="18" y="122" width="202" height="19" rx="3" fill="#EAF0F5"/>
+      <text x="26" y="135" font-size="8.2" font-weight="700" fill="#405E79">GATE · Record current on review date</text>
+    </g>
+    <g transform="translate(298,476)">
+      <rect width="238" height="154" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="154" rx="2.5" fill="#E8A33D"/>
+      <text x="18" y="24" font-size="8.5" font-weight="700" fill="#B66F00" letter-spacing="1.2">06 · INVESTIGATE &amp; EXIT</text>
+      <text x="18" y="52" font-size="15" font-weight="700" fill="#1B3A5C">Evidence-room</text>
+      <text x="18" y="70" font-size="15" font-weight="700" fill="#1B3A5C">export test</text>
+      <text x="18" y="94" font-size="9.5" fill="#405264">Trajectory export and fallback</text>
+      <text x="18" y="107" font-size="9.5" fill="#405264">rehearsed within the last 90 days.</text>
+      <rect x="18" y="122" width="202" height="19" rx="3" fill="#FFF4E1"/>
+      <text x="26" y="135" font-size="8.2" font-weight="700" fill="#9A6818">GATE · Owner for every failed dependency</text>
+    </g>
+
+    <rect x="40" y="656" width="496" height="48" rx="5" fill="#1B3A5C"/>
+    <rect x="40" y="656" width="5" height="48" rx="2.5" fill="#E8A33D"/>
+    <text x="288" y="676" text-anchor="middle" font-size="9.4" font-weight="600" fill="#FFFFFF">Every card ends in a board action:</text>
+    <text x="288" y="692" text-anchor="middle" font-size="11" font-weight="700" fill="#FFFFFF">continue · tune · hold · demote · stop · exit</text>
+
+    <text x="40" y="730" font-size="9" font-weight="700" fill="#5C6B7A" letter-spacing="0.8">MINIMUM RECORD</text>
+    <text x="40" y="750" font-size="10" fill="#1A1A1A">Baseline · current · target / stop · evidence source · owner · next review · action</text>
+    <line x1="40" y1="768" x2="536" y2="768" stroke="#C7D1DA"/>
+    <text x="40" y="790" font-size="9" font-style="italic" fill="#5C6B7A">A dashboard is decision infrastructure, not a collection of green status lights.</text>
+  </g>
+</svg>

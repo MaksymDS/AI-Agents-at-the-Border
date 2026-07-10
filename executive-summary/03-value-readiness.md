@@ -6,7 +6,22 @@ title: "Value, Portfolio, and Readiness"
 
 The fastest credible route to agents begins below agents.
 
-![Figure 3.1 — The Maturity Ladder](/assets/diagrams/fig-ch03-maturity-ladder.svg){width=100% height=72%}
+```{=latex}
+\ExecutiveDecisionStrip
+  {Choose the value channel and the task-specific readiness ceiling.}
+  {Local unit cost, conversion owner, governed data, and human capacity.}
+  {A benefit percentage arrives without a local baseline or conversion action.}
+```
+
+```{=latex}
+\clearpage
+```
+
+![Figure 3.1 — The Maturity Ladder](/assets/diagrams/fig-ch03-maturity-ladder.svg){width=100%}
+
+```{=latex}
+\clearpage
+```
 
 **Document intelligence** makes invoices, certificates, declarations,
 rulings, and correspondence machine-readable. **Grounded assistants** use
@@ -27,33 +42,18 @@ exceptions, override reasons, unit cost, and useful tool permissions.
 
 ## Four value channels
 
-**Efficiency:** capacity absorbed, cycle time, handoffs removed, and
-evidence-to-decision latency. Korea Customs Service reports high-risk cargo
-analysis moving from roughly one hour to under one minute and estimates
-about USD 92 million annual savings while e-commerce volume expanded.
-This is administration-stated, verified customs evidence—and it reflects a
-decade of capability, not a ninety-day pilot.
+Read each channel through its operating metric, evidence strength, and
+most common attribution error.
 
-**Control:** better targeting at a fixed inspection or analyst budget.
-Brazil's SISAM reported inspections roughly twenty times more effective
-than random selection. China reports more than 20,000 AI image-analysis
-detections since 2022 and recognition accuracy above 95 percent. Carry the
-named technology, period, and source with each number.
+```{=latex}
+\clearpage
+```
 
-**Revenue protection:** changed assessments or prevented leakage. Public
-AI-attributable customs numbers remain scarce. Tax and VAT examples can
-show how to measure detection value, but they are adjacent evidence, not a
-customs forecast.
+![Figure 3.2 - Four Value Channels](/assets/diagrams/fig-executive-value-channels.svg){width=100%}
 
-**Facilitation:** predictable clearance, fewer document cycles, quicker
-answers, and lower compliance effort. Do not attribute single-window or
-process-reengineering gains to AI. Name the precise step AI changes and
-measure it locally.
-
-> **ADJACENT EVIDENCE — HYPOTHESIS, NOT FORECAST.** Borrow a method or
-> failure mode from tax, financial crime, logistics, or enterprise
-> operations. Never borrow its benefit rate. Replace the percentage with a
-> local baseline and representative pilot.
+```{=latex}
+\clearpage
+```
 
 ## The value bridge
 

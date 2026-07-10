@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 816" width="576" height="816" role="img" aria-labelledby="title desc">
+  <title id="title">Four Value Channels</title>
+  <desc id="desc">Four cards show efficiency, control, revenue protection and facilitation, with their decision metric, evidence signal and common trap.</desc>
+  <rect width="576" height="816" fill="#FFFFFF"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="40" y="52" font-size="23" font-weight="700" fill="#1B3A5C">Four Value Channels</text>
+    <rect x="40" y="62" width="46" height="4" rx="2" fill="#E8A33D"/>
+    <text x="536" y="34" text-anchor="end" font-size="9.5" font-weight="600" fill="#5C6B7A" letter-spacing="1.5">EXECUTIVE VALUE LENS</text>
+    <text x="40" y="85" font-size="11" fill="#5C6B7A">Value appears only when an output changes an operating action.</text>
+
+    <g transform="translate(40,118)">
+      <rect width="238" height="218" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="218" rx="2.5" fill="#E8A33D"/>
+      <text x="18" y="26" font-size="8.5" font-weight="700" fill="#B66F00" letter-spacing="1.2">01 · EFFICIENCY</text>
+      <text x="18" y="55" font-size="16" font-weight="700" fill="#1B3A5C">Capacity without</text>
+      <text x="18" y="74" font-size="16" font-weight="700" fill="#1B3A5C">linear headcount</text>
+      <text x="18" y="104" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">MEASURE</text>
+      <text x="18" y="120" font-size="9.6" fill="#1A1A1A">Unit cost · cycle time · backlog · handoffs</text>
+      <text x="18" y="147" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">EVIDENCE SIGNAL</text>
+      <text x="18" y="163" font-size="9.4" fill="#405264">Korea: roughly 1 hour → under 1 minute;</text>
+      <text x="18" y="176" font-size="9.4" fill="#405264">about USD 92m annual savings reported.</text>
+      <rect x="18" y="188" width="202" height="18" rx="3" fill="#FFF4E1"/>
+      <text x="26" y="201" font-size="8.1" font-weight="700" fill="#9A6818">TRAP · Time saved with no conversion action</text>
+    </g>
+
+    <g transform="translate(298,118)">
+      <rect width="238" height="218" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="218" rx="2.5" fill="#1B3A5C"/>
+      <text x="18" y="26" font-size="8.5" font-weight="700" fill="#1B3A5C" letter-spacing="1.2">02 · CONTROL</text>
+      <text x="18" y="55" font-size="16" font-weight="700" fill="#1B3A5C">Better targeting at</text>
+      <text x="18" y="74" font-size="16" font-weight="700" fill="#1B3A5C">a fixed inspection budget</text>
+      <text x="18" y="104" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">MEASURE</text>
+      <text x="18" y="120" font-size="9.6" fill="#1A1A1A">Precision · recall · false alarms · burden</text>
+      <text x="18" y="147" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">EVIDENCE SIGNAL</text>
+      <text x="18" y="163" font-size="9.4" fill="#405264">Brazil: about 20× random selection.</text>
+      <text x="18" y="176" font-size="9.4" fill="#405264">China: 20,000+ detections; above 95%.</text>
+      <rect x="18" y="188" width="202" height="18" rx="3" fill="#EAF0F5"/>
+      <text x="26" y="201" font-size="8.1" font-weight="700" fill="#405E79">TRAP · Accuracy without a real baseline</text>
+    </g>
+
+    <g transform="translate(40,356)">
+      <rect width="238" height="218" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="218" rx="2.5" fill="#517391"/>
+      <text x="18" y="26" font-size="8.5" font-weight="700" fill="#517391" letter-spacing="1.2">03 · REVENUE PROTECTION</text>
+      <text x="18" y="55" font-size="16" font-weight="700" fill="#1B3A5C">Changed assessment</text>
+      <text x="18" y="74" font-size="16" font-weight="700" fill="#1B3A5C">or prevented leakage</text>
+      <text x="18" y="104" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">MEASURE</text>
+      <text x="18" y="120" font-size="9.6" fill="#1A1A1A">Incremental yield · prevented loss · cost</text>
+      <text x="18" y="147" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">EVIDENCE SIGNAL</text>
+      <text x="18" y="163" font-size="9.4" fill="#405264">Public AI-attributable customs numbers</text>
+      <text x="18" y="176" font-size="9.4" fill="#405264">remain scarce: test the range locally.</text>
+      <rect x="18" y="188" width="202" height="18" rx="3" fill="#EAF0F5"/>
+      <text x="26" y="201" font-size="8.1" font-weight="700" fill="#405E79">TRAP · Adjacent tax evidence becomes forecast</text>
+    </g>
+
+    <g transform="translate(298,356)">
+      <rect width="238" height="218" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="218" rx="2.5" fill="#A7BBCB"/>
+      <text x="18" y="26" font-size="8.5" font-weight="700" fill="#5C6B7A" letter-spacing="1.2">04 · FACILITATION</text>
+      <text x="18" y="55" font-size="16" font-weight="700" fill="#1B3A5C">Faster, more predictable</text>
+      <text x="18" y="74" font-size="16" font-weight="700" fill="#1B3A5C">trader service</text>
+      <text x="18" y="104" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">MEASURE</text>
+      <text x="18" y="120" font-size="9.6" fill="#1A1A1A">Document cycles · clearance variance · effort</text>
+      <text x="18" y="147" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">EVIDENCE SIGNAL</text>
+      <text x="18" y="163" font-size="9.4" fill="#405264">Name the precise AI-assisted step and</text>
+      <text x="18" y="176" font-size="9.4" fill="#405264">measure it against the current service.</text>
+      <rect x="18" y="188" width="202" height="18" rx="3" fill="#E9EDF1"/>
+      <text x="26" y="201" font-size="8.1" font-weight="700" fill="#52687B">TRAP · Single-window gain relabelled as AI</text>
+    </g>
+
+    <text x="40" y="612" font-size="8.5" font-weight="700" fill="#5C6B7A" letter-spacing="1.1">THE VALUE BRIDGE</text>
+    <g transform="translate(40,632)">
+      <rect x="0" y="0" width="112" height="50" rx="4" fill="#E9EDF1"/>
+      <rect x="128" y="0" width="112" height="50" rx="4" fill="#A7BBCB"/>
+      <rect x="256" y="0" width="112" height="50" rx="4" fill="#517391"/>
+      <rect x="384" y="0" width="112" height="50" rx="4" fill="#1B3A5C"/>
+      <text x="56" y="22" text-anchor="middle" font-size="10" font-weight="700" fill="#1B3A5C">AI OUTPUT</text>
+      <text x="56" y="37" text-anchor="middle" font-size="8.5" fill="#405264">draft · score · evidence</text>
+      <text x="184" y="22" text-anchor="middle" font-size="10" font-weight="700" fill="#1B3A5C">ACTION</text>
+      <text x="184" y="37" text-anchor="middle" font-size="8.5" fill="#405264">named workflow change</text>
+      <text x="312" y="22" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">CONVERSION</text>
+      <text x="312" y="37" text-anchor="middle" font-size="8.5" fill="#FFFFFF">capacity · service · control</text>
+      <text x="440" y="22" text-anchor="middle" font-size="10" font-weight="700" fill="#FFFFFF">REAL VALUE</text>
+      <text x="440" y="37" text-anchor="middle" font-size="8.5" fill="#FFFFFF">measured and owned</text>
+      <path d="M116 25h8M244 25h8M372 25h8" stroke="#E8A33D" stroke-width="2"/>
+    </g>
+    <rect x="40" y="704" width="496" height="40" rx="4" fill="#1B3A5C"/>
+    <rect x="40" y="704" width="5" height="40" rx="2.5" fill="#E8A33D"/>
+    <text x="288" y="729" text-anchor="middle" font-size="10.3" font-weight="600" fill="#FFFFFF">No conversion owner = no established business value.</text>
+    <text x="40" y="778" font-size="9" font-style="italic" fill="#5C6B7A">Evidence labels travel with the number: verified · adjacent · practice-reported · directional.</text>
+  </g>
+</svg>

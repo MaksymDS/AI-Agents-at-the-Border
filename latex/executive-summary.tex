@@ -1,4 +1,5 @@
 % Executive Summary overrides applied after the shared interior system.
+\usepackage{tabularx}
 \renewcommand\maketitle{%
   \includepdf{assets/prebuilt/executive-summary-title.pdf}%
   \clearpage
@@ -24,3 +25,65 @@
   \setlength{\LTpre}{4pt}%
   \setlength{\LTpost}{5pt}%
 }{\par\endgroup}
+
+% A writable approval grid for executive worksheets. Signature lines are
+% deliberately separated by function so the template can circulate for
+% parallel review rather than implying one continuous approval sentence.
+\NewDocumentEnvironment{ExecutiveSignoffTable}{+b}{%
+  \par\vspace{3pt}\begingroup
+  \setlength{\tabcolsep}{4pt}%
+  \fontsize{8.2}{10}\selectfont
+  \begin{tabularx}{\linewidth}{@{}>{\raggedright\arraybackslash\bfseries}p{0.25\linewidth}XXp{0.13\linewidth}@{}}
+  \toprule
+  Approval function & Name & Signature & Date\\
+  \midrule
+  #1
+  \bottomrule
+  \end{tabularx}\endgroup\par
+}{}
+\newcommand{\ExecutiveSignoffRow}[1]{#1\rule{0pt}{19pt} & \hrulefill & \hrulefill & \hrulefill\\}
+
+% Repeated scan layer at the start of every brief chapter. The three-column
+% grammar lets a reader identify the decision, the evidence and the stopping
+% condition before reading the narrative.
+\newcommand{\ExecutiveStripCell}[3]{%
+  \begin{minipage}[t]{\linewidth}
+  {\fontsize{7.6}{9}\selectfont\color{#1}\labelfontbold{#2}}\par\vspace{4pt}
+  {\fontsize{8.7}{11.2}\selectfont\color{inkbody}#3}\par
+  \end{minipage}}
+\newcommand{\ExecutiveDecisionStrip}[3]{%
+  \begin{tcolorbox}[enhanced,boxrule=.7pt,colframe=hairlinegray,
+    colback=paneltint,arc=2pt,left=9pt,right=9pt,top=9pt,bottom=9pt,
+    before skip=10pt,after skip=16pt]
+  \begin{tabularx}{\linewidth}{@{}X!{\color{hairlinegray}\vrule width .7pt}X!{\color{hairlinegray}\vrule width .7pt}X@{}}
+    \ExecutiveStripCell{customsblue}{Decide}{#1} &
+    \ExecutiveStripCell{slate}{Evidence}{#2} &
+    \ExecutiveStripCell{amber}{Stop}{#3}
+  \end{tabularx}
+  \end{tcolorbox}}
+
+\newcommand{\ExecutiveRuleStrip}[3]{%
+  \begin{tcolorbox}[enhanced,frame hidden,boxrule=0pt,colback=paneltint,
+    borderline west={3pt}{0pt}{amber},arc=0pt,left=9pt,right=9pt,
+    top=7pt,bottom=7pt,before skip=5pt,after skip=5pt]
+  \begin{tabularx}{\linewidth}{@{}p{0.08\linewidth}X@{}}
+    {\interbold\fontsize{16}{18}\selectfont\color{rampltwo}#1} &
+    {\intersemibold\fontsize{9.2}{11}\selectfont\color{customsblue}#2}\par
+    {\fontsize{8.6}{10.8}\selectfont\color{inkbody}#3}
+  \end{tabularx}
+  \end{tcolorbox}}
+
+% A compact, atomic legal notice for the brief's opening route. Keeping it
+% in one box prevents a time-sensitive warning from being split by the
+% following full-page figure.
+\newcommand{\ExecutiveLegalCutoff}{%
+  \begin{tcolorbox}[enhanced,boxrule=.8pt,colframe=amber,colback=amber!8,
+    arc=2pt,left=9pt,right=9pt,top=7pt,bottom=7pt,before skip=10pt,after skip=13pt]
+  {\fontsize{7.8}{9.6}\selectfont\color{inkbody}
+  \textbf{IMPORTANT — REGULATORY CUT-OFF · 10 JULY 2026.}
+  Law, deadlines, guidance, and standards change. Before procurement,
+  production approval, or any autonomy increase, local counsel must
+  re-verify task applicability and dates. Re-check Sections 8.2--8.4 and
+  \href{https://www.era-society.ae/read/regulatory-reference}{the regulatory watch record}.
+  This is a dated baseline, not legal advice, certification, or a compliance guarantee.}
+  \end{tcolorbox}}

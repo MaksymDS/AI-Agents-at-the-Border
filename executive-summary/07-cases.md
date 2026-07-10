@@ -11,7 +11,22 @@ data conditions, workforce, governance, and what is not public. Then write
 the local difference. The gap becomes a hypothesis and pilot design—not a
 reason to copy the headline number.
 
-![Figure 7.1 — Cases at a Glance](/assets/diagrams/fig-ch15-case-comparison.svg){width=100% height=72%}
+```{=latex}
+\ExecutiveDecisionStrip
+  {Choose which external lesson is transferable to the local workflow.}
+  {Named technology, evidence grade, denominator, elapsed investment, and local delta.}
+  {A headline percentage is imported without its conditions or a local test.}
+```
+
+```{=latex}
+\clearpage
+```
+
+![Figure 7.1 — Cases at a Glance](/assets/diagrams/fig-ch15-case-comparison.svg){width=100%}
+
+```{=latex}
+\clearpage
+```
 
 ## Korea — sequencing and compounding
 
@@ -112,4 +127,3 @@ technology · evidence grade · metric denominator · starting baseline ·
 elapsed investment · data and legal conditions · workforce · governance ·
 unknowns · local differences · local hypothesis · pilot threshold · expiry
 date. An incomplete sheet keeps the case out of the financial model.
-

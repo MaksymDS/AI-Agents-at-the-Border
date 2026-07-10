@@ -7,6 +7,13 @@ title: "Buying Without Surrendering Judgment"
 The useful boundary is not source code versus subscription. It is
 institutional judgment versus commodity capability.
 
+```{=latex}
+\ExecutiveDecisionStrip
+  {Choose what to buy, where to partner, and what judgment must remain inside.}
+  {Representative cases, decision rights, evidence export, comparable cost, and exit.}
+  {The supplier cannot demonstrate lawful deployment, trajectory export, or fallback.}
+```
+
 **Buy** OCR, translation, infrastructure, identity, monitoring, generic
 workflow, and other mature layers when the market can supply them under
 lawful terms. **Partner** where the problem is strategic but engineering
@@ -21,7 +28,7 @@ technical cadre, partnerships, and administrative continuity. The
 transferable principle is not “build everything.” It is: buy the tools,
 partner on the build, own the judgment.
 
-![Figure 4.1 — The Judgment Boundary](/assets/diagrams/fig-ch07-judgment-boundary.svg){width=100% height=72%}
+![Figure 4.1 — The Judgment Boundary](/assets/diagrams/fig-ch07-judgment-boundary.svg){width=100%}
 
 ## The RFP that cannot buy the wrong thing
 

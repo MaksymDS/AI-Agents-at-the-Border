@@ -9,6 +9,13 @@ where software may enter a public-authority workflow, what it may do there,
 which evidence earns more authority, and who remains answerable when it is
 wrong. Those are operating decisions. Model selection comes later.
 
+```{=latex}
+\ExecutiveDecisionStrip
+  {Select one operating constraint and a bounded first task.}
+  {Named owner, measured baseline, authority ceiling, and sovereign path.}
+  {No value case, RFP, or pilot while any foundation gate remains open.}
+```
+
 The arithmetic is already familiar: parcel and declaration volumes rise;
 fraud industrialises and adapts; experienced officers remain scarce;
 traders expect a digital service; government expects control and revenue
@@ -19,7 +26,7 @@ and carry work across systems. That last capability changes the governance
 question from *is the answer accurate?* to *what authority did the system
 exercise?*
 
-![Figure 1.1 — The Arithmetic](/assets/diagrams/fig-ch01-arithmetic.svg){width=100% height=70%}
+![Figure 1.1 — The Arithmetic](/assets/diagrams/fig-ch01-arithmetic.svg){width=100%}
 
 ```{=latex}
 \clearpage
@@ -55,7 +62,7 @@ The first four are prerequisites, not parallel workstreams:
 \clearpage
 ```
 
-![Figure 1.2 - The Eight-Decision Dependency Chain](/assets/diagrams/fig-executive-decision-chain.svg){width=100% height=76%}
+![Figure 1.2 - The Eight-Decision Dependency Chain](/assets/diagrams/fig-executive-decision-chain.svg){width=100%}
 
 ```{=latex}
 \begin{ExecutiveToolPage}
@@ -128,15 +135,25 @@ into implied permission.
 
 | Mandate field | Decision record |
 |---|---|
-| **Task, owner, constraint** | Workflow: ____ · accountable/operating owner: ____ · queue/service/control constraint: ____ |
-| **Baseline, outcome, value** | Volume/time/quality/exceptions/unit cost: ____ · target: ____ · conversion action and benefit owner: ____ |
-| **Authority ceiling** | Current/maximum rung: ____ · agency permissions/limits: ____ · decisions retained by people: ____ · exclusions: ____ |
-| **Sovereign path** | Deployment/region: ____ · data/tools/identities: ____ · subprocessors/retention: ____ · evidence custodian: ____ |
-| **Evidence to operate** | Evaluation/thresholds: ____ · human capacity: ____ · security tests/operational assurance record: ____ |
-| **Containment and validity** | Fallback: ____ · stop/demotion triggers: ____ · incident owner: ____ · volume/duration: ____ · next gate/renewal: ____ |
+| **Task and owner** | Workflow: ____ · accountable owner: ____ · operating owner: ____ |
+| **Constraint and baseline** | Constraint: ____ · volume/time/quality/exceptions/unit cost: ____ |
+| **Outcome and value** | Target: ____ · conversion action: ____ · benefit owner: ____ |
+| **Authority ceiling** | Rung: ____ · agency: ____ · retained decisions/exclusions: ____ |
+| **Sovereign path** | Deployment/region: ____ · data/tools/identity: ____ · retention/evidence custodian: ____ |
+| **Evidence to operate** | Thresholds: ____ · human capacity: ____ · security/assurance record: ____ |
+| **Containment and validity** | Fallback/stop trigger: ____ · incident owner: ____ · volume/duration/renewal: ____ |
 
-**Approval:** operations ____ · legal/privacy ____ · security ____ · data/IT
-____ · accountable executive ____ · date ____.
+**Approval record**
+
+```{=latex}
+\begin{ExecutiveSignoffTable}
+\ExecutiveSignoffRow{Operations}
+\ExecutiveSignoffRow{Legal / privacy}
+\ExecutiveSignoffRow{Security}
+\ExecutiveSignoffRow{Data / IT}
+\ExecutiveSignoffRow{Accountable executive}
+\end{ExecutiveSignoffTable}
+```
 
 ```{=latex}
 \end{ExecutiveToolPage}

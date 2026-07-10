@@ -5,7 +5,7 @@ decision-oriented book for leaders of customs, border and trade
 administrations deploying generative and agentic AI.
 
 Read the current edition at [era-society.ae](https://www.era-society.ae),
-or download the full PDF, the 56-page Executive Decision Brief, and the full EPUB
+or download the full PDF, the 60-page Executive Decision Brief, and the full EPUB
 from [`deliverables/`](deliverables/).
 
 ## What this repository is for
@@ -16,16 +16,17 @@ legal developments and improve the reader experience. The working build
 repository remains separate; this repository contains only publication-safe
 material.
 
-The current public edition is **v1.8.0**, legally cut off on **10 July
+The current public edition is **v1.9.0**, legally cut off on **10 July
 2026**. It is a management guide, not legal advice.
 
-Version 1.8.0 makes the brief more executable: its board dashboard carries
-explicit decision metrics and thresholds; every 90-day stage has a stopping
-condition and escalation route; and the core controls are distilled into
-five operating rules. The book now uses **operational assurance record** for
-the internal evidence that earns the right to operate. The brief maps readers
-to the relevant full-book chapters and warns that the EU AI Act analysis in
-Sections 8.2–8.4 must be re-verified before a live decision. See
+Version 1.9.0 gives the brief a dedicated executive visual system: full-page
+ladder and case figures, decision-evidence-stop strips, value, 90-day and
+board-dashboard infographics, writable approval grids, and five visual
+operating rules. Figures retain their native proportions and the 60-page
+print signature contains no inserted blanks. The regulatory cut-off is now
+visible on both title pages and at each regulatory entry point; the online
+[regulatory watch record](https://www.era-society.ae/read/regulatory-reference)
+provides the dated baseline and public update route. See
 [`VERSION-LOG.md`](VERSION-LOG.md) and the review
 [`disposition record`](reviews/2026-07-10-critical-review-disposition.md).
 
@@ -47,9 +48,9 @@ The canonical print build is the 6 × 9 inch PDF. With Quarto, LuaLaTeX and
 the SVG renderer installed:
 
 ```bash
-make deliverable BOOK_VERSION=v1.8.0
-make deliverable-executive BOOK_VERSION=v1.8.0
-make deliverable-epub BOOK_VERSION=v1.8.0
+make deliverable BOOK_VERSION=v1.9.0
+make deliverable-executive BOOK_VERSION=v1.9.0
+make deliverable-epub BOOK_VERSION=v1.9.0
 ```
 
 Before a pull request, run:

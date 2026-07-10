@@ -1,7 +1,7 @@
 ---
 part: "Executive Summary"
 status: review
-version: 1.8.0
+version: 1.9.0
 last-updated: 2026-07-10
 ---
 
@@ -22,9 +22,13 @@ Chapter 7 for procurement and vendor control, Chapters 8–9 for legal and
 assurance design, Chapter 10 for agentic security, and Chapter 12 for pilot
 execution.
 
+```{=latex}
+\ExecutiveLegalCutoff
+```
+
 ## The stance in one page
 
-![The Stance](/assets/diagrams/fig-three-pillars.svg){width=100% height=70%}
+![The Stance](/assets/diagrams/fig-three-pillars.svg){width=100%}
 
 The book holds three commitments simultaneously.
 
@@ -57,15 +61,6 @@ deployment merely because it is nearby.
 
 The label travels with the number. If it disappears when a claim enters a
 ministerial slide, the claim should disappear too.
-
-> **LEGAL CUT-OFF · 10 JULY 2026.** This brief and the full book provide a
-> dated design baseline, not legal advice or certification. Re-check every
-> task with local counsel before procurement, production approval, or an
-> autonomy increase. In particular, re-verify full-book Sections 8.2–8.4
-> before relying on an EU AI Act date: implementing acts, Commission
-> guidance, standards, national measures, and task classification can change
-> practical applicability. The stated dates are correct at this cut-off; they
-> are not a future compliance promise.
 
 > **INDEPENDENT WORK.** The author writes in a personal capacity. This is
 > not an Agility publication and does not represent or imply approval or

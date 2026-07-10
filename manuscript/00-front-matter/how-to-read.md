@@ -17,13 +17,13 @@ offices that serve them. Where the text says "customs," a reader in a
 neighboring border or revenue body can read their own institution with
 little loss.
 
-> **Read this before applying any framework.** The legal baseline was
-> checked to **10 July 2026**. It is a dated design baseline, not legal
-> advice, certification, or a promise that a rule has not changed since
-> publication. Re-check every live task with local counsel and the named
-> regulatory owner before procurement, production approval, or an
-> autonomy increase. The standing watch list is in Chapter 8 and Appendix
-> D.
+> **IMPORTANT — REGULATORY CUT-OFF · 10 JULY 2026.** Law, deadlines,
+> guidance, and standards change. Before procurement, production approval,
+> or any autonomy increase, local counsel must re-verify task applicability
+> and dates. Use Chapter 8, Appendix D, and the companion site's
+> [regulatory watch record](https://www.era-society.ae/read/regulatory-reference).
+> This is a dated baseline, not legal advice, certification, or a compliance
+> guarantee.
 
 > **Independent work.** The author writes in a personal capacity. This is
 > not an Agility publication, and nothing in the book represents or

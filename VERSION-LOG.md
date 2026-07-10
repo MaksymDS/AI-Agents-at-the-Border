@@ -17,6 +17,27 @@ and build settings. Each published PDF and EPUB companion is kept under
 - Restore a source state with `git checkout book-vX.Y.Z` (or create a
   working branch from that tag); do not edit a historical release tag.
 
+## v1.9.0 — Executive brief visual system and living legal baseline
+
+- **Status:** released.
+- **Source tag:** `book-v1.9.0`.
+- **Full PDF:** `deliverables/ai-agents-at-the-border-v1.9.0.pdf`.
+- **Executive Decision Brief:**
+  `deliverables/ai-agents-at-the-border-executive-summary-v1.9.0.pdf`.
+- **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.9.0.epub`.
+- **Internal spread proof:**
+  `deliverables/ai-agents-at-the-border-v1.9.0-spread.pdf`.
+- **Scope:** deeply redesigns the 60-page Executive Decision Brief for
+  executive scanning. Eight decision-evidence-stop strips, full-page
+  autonomy, maturity and case figures, new value-channel, ninety-day and
+  board-dashboard infographics, writable parallel approval grids, and five
+  visual operating rules replace dense sequences of prose. All figures keep
+  their native aspect ratio; the print signature contains no inserted blank
+  pages. The legal cut-off is now visible on the brief title and at each
+  regulatory entry point, while portable-baseline references explicitly
+  remain design baselines rather than compliance guarantees. The companion
+  site publishes the current dated regulatory record and public update route.
+
 ## v1.8.0 — Operational controls and compact brief
 
 - **Status:** released.
@@ -25,11 +46,14 @@ and build settings. Each published PDF and EPUB companion is kept under
 - **Executive Decision Brief:**
   `deliverables/ai-agents-at-the-border-executive-summary-v1.8.0.pdf`.
 - **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.8.0.epub`.
-- **Scope:** renames the internal *safety case* as the **operational
-  assurance record**. The brief adds measurable board thresholds,
-  stopping/escalation logic for its ninety-day plan, five operating rules,
-  a chapter-specific reference map, and a legal-cut-off warning for
-  Sections 8.2–8.4. The print brief is now 56 physical pages including
+- **Internal spread proof:**
+  `deliverables/ai-agents-at-the-border-v1.8.0-spread.pdf`.
+- **Scope:** renames the internal *safety case* throughout the book as the
+  **operational assurance record**. The brief adds board-level decision
+  metrics, stopping conditions and escalation paths for every ninety-day
+  stage, five memorable operating rules, a chapter-specific depth map, and
+  an explicit legal-cut-off warning for Sections 8.2–8.4. Its compact 9.8 pt
+  setting and tighter executive worksheets yield 56 physical pages including
   covers; one intentional blank verso preserves the back-cover position.
 
 ## v1.7.1 — Agency-profile clarification
@@ -41,8 +65,7 @@ and build settings. Each published PDF and EPUB companion is kept under
   `deliverables/ai-agents-at-the-border-executive-summary-v1.7.1.pdf`.
 - **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.7.1.epub`.
 - **Internal spread proof:**
-  `deliverables/ai-agents-at-the-border-v1.7.1-spread.pdf` (not a public
-  release artifact).
+  `deliverables/ai-agents-at-the-border-v1.7.1-spread.pdf`.
 - **Scope:** expands the brief's second dial with a six-line agency-profile
   record and two customs-specific counterexamples. An L2 HS copilot with
   estate-wide credentials is shown as dangerous despite human confirmation;
@@ -58,8 +81,7 @@ and build settings. Each published PDF and EPUB companion is kept under
   `deliverables/ai-agents-at-the-border-executive-summary-v1.7.0.pdf`.
 - **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.7.0.epub`.
 - **Internal spread proof:**
-  `deliverables/ai-agents-at-the-border-v1.7.0-spread.pdf` (not a public
-  release artifact).
+  `deliverables/ai-agents-at-the-border-v1.7.0-spread.pdf`.
 - **Scope:** makes the brief operationally self-contained. The Eight
   Decisions become a gated dependency chain with Gates 1-4 required before
   value, sourcing, right-to-operate, or renewal decisions. The brief adds a

@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 816" width="576" height="816" role="img" aria-labelledby="title desc">
+  <title id="title">The First Ninety Days</title>
+  <desc id="desc">Six fifteen-day stages show the required product and the condition that stops progression.</desc>
+  <rect width="576" height="816" fill="#FFFFFF"/>
+  <g font-family="Inter, Arial, sans-serif">
+    <text x="40" y="52" font-size="23" font-weight="700" fill="#1B3A5C">The First Ninety Days</text>
+    <rect x="40" y="62" width="46" height="4" rx="2" fill="#E8A33D"/>
+    <text x="536" y="34" text-anchor="end" font-size="9.5" font-weight="600" fill="#5C6B7A" letter-spacing="1.5">ACTION PLAN</text>
+    <text x="40" y="85" font-size="11" fill="#5C6B7A">Six evidence gates - not a countdown to production.</text>
+
+    <!-- connecting spine -->
+    <line x1="288" y1="120" x2="288" y2="672" stroke="#DCE2E8" stroke-width="2"/>
+
+    <g transform="translate(40,118)">
+      <rect width="238" height="160" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="160" rx="2.5" fill="#E8A33D"/>
+      <text x="18" y="25" font-size="8.5" font-weight="700" fill="#B66F00" letter-spacing="1.1">DAYS 1-15</text>
+      <text x="18" y="51" font-size="15" font-weight="700" fill="#1B3A5C">Establish command</text>
+      <text x="18" y="76" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">PRODUCT</text>
+      <text x="18" y="92" font-size="9.5" fill="#405264">Executive owner · gate team · AI inventory ·</text>
+      <text x="18" y="105" font-size="9.5" fill="#405264">one bounded loop with measured baseline.</text>
+      <rect x="18" y="120" width="202" height="26" rx="3" fill="#FFF4E1"/>
+      <text x="26" y="132" font-size="8.1" font-weight="700" fill="#9A6818">STOP</text>
+      <text x="58" y="132" font-size="8.4" fill="#7A551A">No owner or bounded task.</text>
+    </g>
+
+    <g transform="translate(298,118)">
+      <rect width="238" height="160" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="160" rx="2.5" fill="#517391"/>
+      <text x="18" y="25" font-size="8.5" font-weight="700" fill="#517391" letter-spacing="1.1">DAYS 16-30</text>
+      <text x="18" y="51" font-size="15" font-weight="700" fill="#1B3A5C">Define the task</text>
+      <text x="18" y="76" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">PRODUCT</text>
+      <text x="18" y="92" font-size="9.5" fill="#405264">Mandate · rung / agency · data path · legal</text>
+      <text x="18" y="105" font-size="9.5" fill="#405264">screen · value bridge · fallback.</text>
+      <rect x="18" y="120" width="202" height="26" rx="3" fill="#EAF0F5"/>
+      <text x="26" y="132" font-size="8.1" font-weight="700" fill="#405E79">STOP</text>
+      <text x="58" y="132" font-size="8.4" fill="#405E79">Open mandate, legal, or sovereignty gap.</text>
+    </g>
+
+    <g transform="translate(40,296)">
+      <rect width="238" height="160" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="160" rx="2.5" fill="#A7BBCB"/>
+      <text x="18" y="25" font-size="8.5" font-weight="700" fill="#5C6B7A" letter-spacing="1.1">DAYS 31-45</text>
+      <text x="18" y="51" font-size="15" font-weight="700" fill="#1B3A5C">Prepare evidence</text>
+      <text x="18" y="76" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">PRODUCT</text>
+      <text x="18" y="92" font-size="9.5" fill="#405264">Representative set · sealed holdout · error</text>
+      <text x="18" y="105" font-size="9.5" fill="#405264">taxonomy · pre-committed thresholds.</text>
+      <rect x="18" y="120" width="202" height="26" rx="3" fill="#E9EDF1"/>
+      <text x="26" y="132" font-size="8.1" font-weight="700" fill="#52687B">STOP</text>
+      <text x="58" y="132" font-size="8.4" fill="#52687B">No baseline, holdout, or threshold.</text>
+    </g>
+
+    <g transform="translate(298,296)">
+      <rect width="238" height="160" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="160" rx="2.5" fill="#517391"/>
+      <text x="18" y="25" font-size="8.5" font-weight="700" fill="#517391" letter-spacing="1.1">DAYS 46-60</text>
+      <text x="18" y="51" font-size="15" font-weight="700" fill="#1B3A5C">Buy or build visibly</text>
+      <text x="18" y="76" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">PRODUCT</text>
+      <text x="18" y="92" font-size="9.5" fill="#405264">Lawful route · components · identity/tools ·</text>
+      <text x="18" y="105" font-size="9.5" fill="#405264">trajectory export · change · exit rehearsal.</text>
+      <rect x="18" y="120" width="202" height="26" rx="3" fill="#EAF0F5"/>
+      <text x="26" y="132" font-size="8.1" font-weight="700" fill="#405E79">STOP</text>
+      <text x="58" y="132" font-size="8.4" fill="#405E79">Deployment, evidence, or exit unproven.</text>
+    </g>
+
+    <g transform="translate(40,474)">
+      <rect width="238" height="160" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="160" rx="2.5" fill="#1B3A5C"/>
+      <text x="18" y="25" font-size="8.5" font-weight="700" fill="#1B3A5C" letter-spacing="1.1">DAYS 61-75</text>
+      <text x="18" y="51" font-size="15" font-weight="700" fill="#1B3A5C">Run shadow mode</text>
+      <text x="18" y="76" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">PRODUCT</text>
+      <text x="18" y="92" font-size="9.5" fill="#405264">Trajectories · override reasons · unit cost ·</text>
+      <text x="18" y="105" font-size="9.5" fill="#405264">queue capacity · hostile / fallback tests.</text>
+      <rect x="18" y="120" width="202" height="26" rx="3" fill="#1B3A5C"/>
+      <text x="26" y="132" font-size="8.1" font-weight="700" fill="#FFFFFF">STOP</text>
+      <text x="58" y="132" font-size="8.4" fill="#FFFFFF">Quality, security, authority, or queue fails.</text>
+    </g>
+
+    <g transform="translate(298,474)">
+      <rect width="238" height="160" rx="6" fill="#F4F7F9" stroke="#C7D1DA"/>
+      <rect width="5" height="160" rx="2.5" fill="#E8A33D"/>
+      <text x="18" y="25" font-size="8.5" font-weight="700" fill="#B66F00" letter-spacing="1.1">DAYS 76-90</text>
+      <text x="18" y="51" font-size="15" font-weight="700" fill="#1B3A5C">Make the gate decision</text>
+      <text x="18" y="76" font-size="8.2" font-weight="700" fill="#5C6B7A" letter-spacing=".8">PRODUCT</text>
+      <text x="18" y="92" font-size="9.5" fill="#405264">Gate memo · value range · residual risk ·</text>
+      <text x="18" y="105" font-size="9.5" fill="#405264">signers · promote / hold / demote / stop.</text>
+      <rect x="18" y="120" width="202" height="26" rx="3" fill="#FFF4E1"/>
+      <text x="26" y="132" font-size="8.1" font-weight="700" fill="#9A6818">STOP</text>
+      <text x="58" y="132" font-size="8.4" fill="#7A551A">Material risk or accountable signer missing.</text>
+    </g>
+
+    <rect x="40" y="660" width="496" height="52" rx="5" fill="#1B3A5C"/>
+    <rect x="40" y="660" width="5" height="52" rx="2.5" fill="#E8A33D"/>
+    <text x="288" y="680" text-anchor="middle" font-size="9.5" font-weight="600" fill="#FFFFFF">DAY 90 IS A DECISION DATE - NOT AN AUTHORITY GRANT</text>
+    <text x="288" y="698" text-anchor="middle" font-size="10.5" font-weight="700" fill="#FFFFFF">Promote only when the evidence gate passes.</text>
+    <text x="40" y="744" font-size="8.5" font-weight="700" fill="#5C6B7A" letter-spacing="1.1">ESCALATION PATH</text>
+    <text x="40" y="764" font-size="9.5" fill="#1A1A1A">Named owner → executive sponsor / gate chair → hold, narrow, simplify, or stop.</text>
+    <text x="40" y="792" font-size="9" font-style="italic" fill="#5C6B7A">A stopped pilot that prevents an unsuitable production system is a successful outcome.</text>
+  </g>
+</svg>
