@@ -1,0 +1,35 @@
+name: Legal or regulatory update
+description: Report an official legal development for the standing review.
+title: "Legal update: "
+labels: ["legal-update", "triage"]
+body:
+  - type: input
+    id: jurisdiction
+    attributes:
+      label: Jurisdiction
+    validations:
+      required: true
+  - type: input
+    id: instrument
+    attributes:
+      label: Instrument and legal status
+    validations:
+      required: true
+  - type: input
+    id: effective
+    attributes:
+      label: Publication and effective dates
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Official source URL
+    validations:
+      required: true
+  - type: textarea
+    id: impact
+    attributes:
+      label: Likely effect on a customs AI deployment
+    validations:
+      required: true

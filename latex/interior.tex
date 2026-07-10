@@ -1,0 +1,197 @@
+% Interior design system (phase 2) — implements Design/INTERIOR-SPEC.md.
+% Loaded last so it may override earlier defaults (endnotes sizing, caption
+% fonts). Companion Lua filter: filters/interior.lua.
+
+% ---------------------------------------------------------------- palette
+\definecolor{customsblue}{HTML}{1B3A5C}
+\definecolor{slate}{HTML}{5C6B7A}
+\definecolor{amber}{HTML}{E8A33D}
+\definecolor{inkbody}{HTML}{1A1A1A}
+\definecolor{rampltint}{HTML}{E9EDF1}
+\definecolor{rampltwo}{HTML}{A7BBCB}
+\definecolor{hairlinegray}{HTML}{DCE2E8}
+\definecolor{paneltint}{HTML}{F4F7F9}
+\definecolor{takeawaystint}{HTML}{EEF2F5}
+\definecolor{boxtint}{HTML}{F6F8F9}
+\definecolor{rowstripe}{HTML}{F7F9FA}
+\definecolor{placeholderred}{HTML}{C62828}
+
+% ---------------------------------------------------------------- fonts
+\usepackage{fontspec}
+\setmainfont{SourceSerif4}[
+  Path = fonts/source-serif/, Extension = .otf,
+  UprightFont = *-Regular, ItalicFont = *-It,
+  BoldFont = *-Semibold, BoldItalicFont = *-SemiboldIt]
+\setsansfont{Inter}[
+  Path = fonts/inter/, Extension = .ttf,
+  UprightFont = *-Regular, BoldFont = *-SemiBold]
+\newfontfamily\interlight{Inter-Light}[Path = fonts/inter/, Extension = .ttf]
+\newfontfamily\intersemibold{Inter-SemiBold}[Path = fonts/inter/, Extension = .ttf]
+\newfontfamily\interbold{Inter-Bold}[Path = fonts/inter/, Extension = .ttf]
+\usepackage{microtype}
+\usepackage{needspace}
+\color{inkbody}
+% Do not stretch inter-paragraph glue to force a lightly filled page to
+% bottom-align. In a decision book that creates false canyons between two
+% related paragraphs; intentional white space belongs at the foot.
+\raggedbottom
+
+% small-caps-style label (Inter has no true small caps: uppercase + tracking)
+\newcommand\labelfont[1]{{\intersemibold\addfontfeatures{LetterSpace=18}\MakeUppercase{#1}}}
+\newcommand\labelfontbold[1]{{\interbold\addfontfeatures{LetterSpace=18}\MakeUppercase{#1}}}
+
+% amber tick + short blue rule (openers)
+\newcommand\tickrule{\noindent{\color{amber}\rule[0.6pt]{30pt}{2.25pt}}\kern 2pt{\color{customsblue}\rule[1pt]{42pt}{1pt}}}
+
+% ---------------------------------------------------------------- headings
+\setkomafont{section}{\sffamily\bfseries\fontsize{13}{16}\selectfont\color{customsblue}}
+\setkomafont{subsection}{\sffamily\bfseries\fontsize{11}{13.5}\selectfont\color{inkbody}}
+\RedeclareSectionCommand[beforeskip=18pt plus 4pt, afterskip=6pt]{section}
+\RedeclareSectionCommand[beforeskip=12pt plus 3pt, afterskip=3pt]{subsection}
+% Keep a heading with enough following text to establish the section. This
+% eliminates stranded section titles and Field-note labels at page bottoms.
+\AddToHook{cmd/section/before}{\Needspace{6\baselineskip}}
+\AddToHook{cmd/subsection/before}{\Needspace{4\baselineskip}}
+
+% ---------------------------------------------------------------- chapter opener
+\renewcommand\chapterlinesformat[3]{%
+  \Ifstr{#2}{}{% unnumbered (front matter): title + tick only
+    {\raggedright\sffamily\bfseries\fontsize{22}{26}\selectfont\color{customsblue}#3\par}%
+    \vskip 6pt\tickrule\par
+  }{%
+    {\fontsize{10}{12}\selectfont\color{slate}\labelfont{\chapapp~\thechapter}\par}%
+    \vskip 12pt
+    \noindent\begin{minipage}[b]{0.76\textwidth}
+      \raggedright\sffamily\bfseries\fontsize{22}{26}\selectfont\color{customsblue}#3
+    \end{minipage}%
+    \hfill
+    \begin{minipage}[b]{0.2\textwidth}
+      \raggedleft\interlight\fontsize{84}{84}\selectfont\color{rampltwo}\thechapter
+    \end{minipage}\par
+    \vskip 8pt\tickrule\par
+  }%
+}
+
+% ---------------------------------------------------------------- part opener
+% Designed progressive-network part openers (COVER-SPEC section 6):
+% each \part becomes the corresponding full-page SVG (prebuilt to PDF),
+% with a TOC entry and the centred folio of the plain style. The
+% cmd/part/before hook (mainmatter switch, endnote flush) still fires.
+\usepackage{pdfpages}
+\RenewDocumentCommand\part{om}{%
+  % the generic cmd/part/before hook does not survive this redefinition:
+  % flush pending endnotes and switch to mainmatter explicitly
+  \flushchapternotes
+  \ifbookmainmatter\else\bookrealmainmatter\bookmainmattertrue\fi
+  \clearpage
+  \refstepcounter{part}%
+  \addcontentsline{toc}{part}{\protect\numberline{\thepart}#2}%
+  \includepdf[pagecommand={\thispagestyle{plain}}]{assets/prebuilt/interior-part-\arabic{part}.pdf}%
+}
+
+% ---------------------------------------------------------------- running heads
+\usepackage[automark]{scrlayer-scrpage}
+\clearpairofpagestyles
+\renewcommand*\chaptermarkformat{}
+\automark[chapter]{chapter}
+\newcommand\runheadstyle[1]{{\fontsize{8}{10}\selectfont\color{slate}\labelfont{#1}}}
+\newcommand\foliostyle[1]{{\sffamily\fontsize{9}{11}\selectfont\color{slate}#1}}
+\lehead{\foliostyle{\pagemark}}
+\rehead{\runheadstyle{AI Agents at the Border}}
+\lohead{\runheadstyle{\headmark}}
+\rohead{\foliostyle{\pagemark}}
+\KOMAoptions{headsepline=0.5pt}
+\setkomafont{headsepline}{\color{hairlinegray}}
+% openers: no head, folio bottom-centre (plain style)
+\cfoot[\foliostyle{\pagemark}]{}
+
+% ---------------------------------------------------------------- captions
+\DeclareCaptionFont{interiorcaption}{\sffamily\fontsize{8.5}{11}\selectfont\color{slate}}
+\captionsetup{font=interiorcaption,skip=7pt}
+
+% ---------------------------------------------------------------- callouts
+\usepackage[most]{tcolorbox}
+\newcommand\panellabel[2]{% #1 tick colour, #2 text
+  \noindent{\color{#1}\rule[-1.5pt]{2.25pt}{10pt}}\kern 6pt
+  {\fontsize{9.5}{12}\selectfont\color{customsblue}\labelfontbold{#2}}\par\vskip 7pt}
+
+\newtcolorbox{DecisionToolkit}{enhanced, boxrule=0.75pt,
+  colframe=hairlinegray, colback=paneltint, arc=1pt,
+  left=12pt, right=12pt, top=12pt, bottom=12pt,
+  before skip=22pt, after skip=22pt,
+  before={\Needspace{12\baselineskip}},
+  before upper={\panellabel{amber}{Decision Toolkit}}}
+
+\newtcolorbox{KeyTakeaways}{enhanced, frame hidden, boxrule=0pt,
+  colback=white, arc=0pt,
+  borderline north={2pt}{0pt}{customsblue},
+  left=14pt, right=14pt, top=16pt, bottom=14pt,
+  before skip=20pt, after skip=22pt,
+  before={\Needspace{10\baselineskip}},
+  before upper={\panellabel{amber}{Key Takeaways}%
+    \renewcommand\labelitemi{\textcolor{slate}{\checkmark}}}}
+
+\newtcolorbox{ChapterBox}[2]{enhanced, breakable, frame hidden, boxrule=0pt,
+  colback=boxtint, arc=0pt,
+  borderline west={2.25pt}{0pt}{slate},
+  left=12pt, right=12pt, top=10pt, bottom=10pt,
+  before skip=16pt, after skip=16pt,
+  before={\Needspace{7\baselineskip}},
+  fontupper=\fontsize{9.5}{13}\selectfont,
+  before upper={\noindent{\fontsize{9}{12}\selectfont\color{slate}\labelfontbold{#1}}%
+    \kern 8pt{\intersemibold\fontsize{9.5}{12}\selectfont\color{inkbody}#2}\par\vskip 6pt}}
+
+% Field note — same sidebar family as ChapterBox, amber tick on the label
+\newtcolorbox{FieldNote}{enhanced, breakable, frame hidden, boxrule=0pt,
+  colback=boxtint, arc=0pt,
+  borderline west={2.25pt}{0pt}{slate},
+  left=12pt, right=12pt, top=10pt, bottom=10pt,
+  fontupper=\fontsize{9.5}{13}\selectfont,
+  before skip=16pt, after skip=16pt,
+  before={\Needspace{7\baselineskip}},
+  before upper={\noindent{\color{amber}\rule[-1pt]{2.25pt}{9pt}}\kern 5pt
+    {\fontsize{9}{12}\selectfont\color{slate}\labelfontbold{Field note}}\par\vskip 5pt}}
+
+\newtcolorbox{PullQuote}{blanker,
+  left=12pt, borderline west={2.25pt}{0pt}{amber},
+  before skip=18pt, after skip=18pt,
+  before={\Needspace{5\baselineskip}},
+  fontupper=\itshape\fontsize{15}{20}\selectfont\color{customsblue}}
+
+\newtcolorbox{OpeningScene}{blanker, breakable,
+  left=10pt, borderline west={1.5pt}{0pt}{amber},
+  before skip=12pt, after skip=14pt,
+  fontupper=\fontsize{11.5}{17}\selectfont}
+
+% Compact author profile: a visual pause before the bibliography without
+% giving the author more visual weight than the book's evidence apparatus.
+\newtcolorbox{AuthorNote}{enhanced, breakable, frame hidden, boxrule=0pt,
+  colback=boxtint, arc=0pt,
+  borderline west={2.25pt}{0pt}{amber},
+  left=14pt, right=14pt, top=12pt, bottom=12pt,
+  before skip=10pt, after skip=18pt,
+  fontupper=\fontsize{10}{14}\selectfont}
+
+% ---------------------------------------------------------------- front-of-book
+% The formal title page is followed by one intentional blank verso, then
+% the foreword and table of contents. A review-only half-title is no longer
+% bound into the reader's edition.
+\providecommand\IncludeBookCover{}
+\renewcommand\maketitle{%
+  \includepdf{assets/prebuilt/title-page.pdf}%
+  \clearpage
+  \thispagestyle{empty}\null
+  \clearpage
+}
+
+% ---------------------------------------------------------------- endnotes
+\renewcommand\enotesize{\fontsize{8.5}{12}\selectfont}
+
+% Full references are a lookup instrument, not body copy. This preserves
+% legibility while reducing the bibliography's page footprint.
+\AtBeginEnvironment{CSLReferences}{\fontsize{8.5}{10.5}\selectfont}
+
+% ---------------------------------------------------------------- tables
+% booktabs discipline comes from pandoc; per-spec sizing (serif 9/12.5).
+% Header band + zebra deferred to the Designer's table-spec pass.
+\AtBeginEnvironment{longtable}{\fontsize{9}{12.5}\selectfont}

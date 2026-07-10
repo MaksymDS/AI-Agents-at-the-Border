@@ -1,0 +1,6 @@
+_build/
+_build-review/
+_build-assets/
+.quarto/
+assets/prebuilt/
+.DS_Store

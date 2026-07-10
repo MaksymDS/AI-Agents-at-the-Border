@@ -1,0 +1,35 @@
+% Phase-1 typography: float discipline, widow/orphan control, blank-page
+% hygiene, longtable stopgap sizing. Phase 2 (part/chapter openers,
+% callout environments) follows the Designer's INTERIOR-SPEC.md.
+
+% --- Float discipline -------------------------------------------------
+% Figures place at top/bottom of the page ([tb] via fig-pos in
+% _quarto.yml, with ! so the near-full-page diagrams may share a page
+% with a few lines of text instead of stranding or leaving a gap).
+\renewcommand{\textfraction}{0.07}
+\renewcommand{\topfraction}{0.9}
+\renewcommand{\bottomfraction}{0.6}
+\renewcommand{\floatpagefraction}{0.85}
+\setcounter{topnumber}{2}
+\setcounter{totalnumber}{3}
+
+% --- Widow/orphan control ---------------------------------------------
+\clubpenalty=10000
+\widowpenalty=10000
+\displaywidowpenalty=10000
+
+% --- Blank-page hygiene -----------------------------------------------
+% Versos inserted by \cleardoublepage (recto-open chapters/parts) carry
+% no running head or folio.
+\KOMAoptions{cleardoublepage=empty}
+% This book deliberately opens chapters and appendices on the next
+% available page. Do not manufacture a blank verso merely to reach recto.
+\let\cleardoublepage\clearpage
+
+% --- Tables -------------------------------------------------------------
+% The Editor restructured all wide grids into stacked profiles
+% (2026-07-09); only 2–3-column tables remain, and pandoc already emits
+% booktabs rules, so no size reduction is applied. A slightly looser
+% row height for legibility until the Designer's table spec lands.
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtable}{\renewcommand{\arraystretch}{1.15}}

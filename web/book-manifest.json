@@ -1,0 +1,33 @@
+{
+  "edition": "v1.5.2",
+  "title": "AI Agents at the Border",
+  "subtitle": "An Executive Guide to Trustworthy AI in Trade and Customs",
+  "updated": "2026-07-10",
+  "items": [
+    {"slug":"foreword","title":"Foreword","part":"Front matter","path":"manuscript/00-front-matter/foreword.md"},
+    {"slug":"how-to-read","title":"How to Read This Book","part":"Front matter","path":"manuscript/00-front-matter/how-to-read.md"},
+    {"slug":"customs-mandate","title":"1. The Customs Mandate","part":"I. The Landscape","path":"manuscript/part1-landscape/ch01-customs-mandate.md"},
+    {"slug":"from-rules-to-agents","title":"2. From Rules to Agents","part":"I. The Landscape","path":"manuscript/part1-landscape/ch02-from-rules-to-agents.md"},
+    {"slug":"genai-first","title":"3. GenAI First","part":"I. The Landscape","path":"manuscript/part1-landscape/ch03-genai-first.md"},
+    {"slug":"opportunity-map","title":"4. The Opportunity Map","part":"I. The Landscape","path":"manuscript/part1-landscape/ch04-opportunity-map.md"},
+    {"slug":"value-economics","title":"5. Value Economics","part":"II. The Business Case","path":"manuscript/part2-business-case/ch05-value-economics.md"},
+    {"slug":"readiness-assessment","title":"6. Readiness Assessment","part":"II. The Business Case","path":"manuscript/part2-business-case/ch06-readiness-assessment.md"},
+    {"slug":"build-buy-partner","title":"7. Build, Buy or Partner","part":"II. The Business Case","path":"manuscript/part2-business-case/ch07-build-buy-partner.md"},
+    {"slug":"regulatory-landscape","title":"8. The Regulatory Landscape","part":"III. Governance and Trust","path":"manuscript/part3-governance/ch08-regulatory-landscape.md"},
+    {"slug":"responsible-ai","title":"9. Responsible AI","part":"III. Governance and Trust","path":"manuscript/part3-governance/ch09-responsible-ai.md"},
+    {"slug":"security-agentic","title":"10. Security for Agentic Systems","part":"III. Governance and Trust","path":"manuscript/part3-governance/ch10-security-agentic.md"},
+    {"slug":"data-foundations","title":"11. Data Foundations","part":"III. Governance and Trust","path":"manuscript/part3-governance/ch11-data-foundations.md"},
+    {"slug":"pilot-playbook","title":"12. The Pilot Playbook","part":"IV. Execution","path":"manuscript/part4-execution/ch12-pilot-playbook.md"},
+    {"slug":"pilot-to-production","title":"13. From Pilot to Production","part":"IV. Execution","path":"manuscript/part4-execution/ch13-pilot-to-production.md"},
+    {"slug":"people-organization","title":"14. People and Organization","part":"IV. Execution","path":"manuscript/part4-execution/ch14-people-organization.md"},
+    {"slug":"case-studies","title":"15. Case Studies: Business Value from the Field","part":"V. The Horizon","path":"manuscript/part5-horizon/ch15-case-studies.md"},
+    {"slug":"road-ahead","title":"16. The Road Ahead","part":"V. The Horizon","path":"manuscript/part5-horizon/ch16-road-ahead.md"},
+    {"slug":"readiness-tool","title":"Appendix A. Readiness Assessment","part":"Appendices","path":"manuscript/appendices/appendix-a-readiness.md"},
+    {"slug":"rfp-skeleton","title":"Appendix B. RFP Skeleton","part":"Appendices","path":"manuscript/appendices/appendix-b-rfp.md"},
+    {"slug":"vendor-scorecard","title":"Appendix C. Vendor Evaluation Scorecard","part":"Appendices","path":"manuscript/appendices/appendix-c-scorecard.md"},
+    {"slug":"regulatory-reference","title":"Appendix D. Regulatory Reference Tables","part":"Appendices","path":"manuscript/appendices/appendix-d-regulatory.md"},
+    {"slug":"metrics-catalog","title":"Appendix E. Metrics Catalog","part":"Appendices","path":"manuscript/appendices/appendix-e-metrics.md"},
+    {"slug":"glossary","title":"Appendix F. Glossary","part":"Appendices","path":"manuscript/appendices/appendix-f-glossary.md"},
+    {"slug":"sources","title":"Appendix G. Sources and Further Reading","part":"Appendices","path":"manuscript/appendices/appendix-g-sources.md"}
+  ]
+}

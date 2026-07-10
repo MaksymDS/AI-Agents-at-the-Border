@@ -1,0 +1,49 @@
+% Per-chapter numbered endnotes for the PDF build.
+% Pandoc footnotes (^[...]) become endnotes; each chapter's notes are
+% printed under a "Notes" heading at the end of that chapter, and
+% numbering restarts at 1 in the next chapter.
+% Unicode characters used in the manuscript that the default text font
+% lacks; map them to math-mode equivalents so they don't drop silently.
+\usepackage{newunicodechar}
+\newunicodechar{≠}{\ensuremath{\neq}}
+\newunicodechar{→}{\ensuremath{\rightarrow}}
+\newunicodechar{≥}{\ensuremath{\geq}}
+\newunicodechar{≤}{\ensuremath{\leq}}
+
+% Figure/table numbering is manual ("Figure X.Y — Title" written in the
+% caption text per STYLE-GUIDE), so suppress LaTeX's own "Figure N:" label.
+\usepackage{caption}
+\captionsetup{labelformat=empty}
+
+% Front matter: roman page numbers from the title page through the
+% front-matter chapters; arabic restarts at Part I (the first \part).
+% Quarto's book template issues \mainmatter right after the TOC, which
+% would start arabic numbering before the front-matter chapters — swallow
+% that call and re-issue the real \mainmatter at the first \part.
+\AtBeginDocument{\frontmatter}
+\newif\ifbookmainmatter
+\let\bookrealmainmatter\mainmatter
+\renewcommand\mainmatter{}
+\AddToHook{cmd/part/before}{\ifbookmainmatter\else\bookrealmainmatter\bookmainmattertrue\fi}
+
+\usepackage{endnotes}
+\let\footnote\endnote
+\renewcommand\enotesize{\small}
+% No injected heading: every chapter that carries endnotes ends with its
+% own "## Endnotes" section (manuscript convention), and the notes are
+% printed directly beneath it.
+\renewcommand\enoteheading{\medskip}
+
+\newcommand\flushchapternotes{%
+  \ifnum\value{endnote}>0
+    \begingroup
+    \theendnotes
+    \endgroup
+    \setcounter{endnote}{0}%
+  \fi
+}
+
+% Flush accumulated notes just before the next chapter starts, and once
+% more at the end of the document for the last chapter.
+\AddToHook{cmd/chapter/before}{\flushchapternotes}
+\AtEndDocument{\flushchapternotes}

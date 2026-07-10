@@ -1,0 +1,103 @@
+project:
+  type: book
+  output-dir: _build
+
+book:
+  title: "AI Agents at the Border"
+  subtitle: "An Executive Guide to Trustworthy AI in Trade and Customs"
+  author: "Maksym Nechepurenko"
+  date: "2026"
+  output-file: "ai-agents-at-the-border"
+  chapters:
+    - index.md
+    - manuscript/00-front-matter/foreword.md
+    - manuscript/00-front-matter/how-to-read.md
+    - part: "The Landscape"
+      chapters:
+        - manuscript/part1-landscape/ch01-customs-mandate.md
+        - manuscript/part1-landscape/ch02-from-rules-to-agents.md
+        - manuscript/part1-landscape/ch03-genai-first.md
+        - manuscript/part1-landscape/ch04-opportunity-map.md
+    - part: "The Business Case"
+      chapters:
+        - manuscript/part2-business-case/ch05-value-economics.md
+        - manuscript/part2-business-case/ch06-readiness-assessment.md
+        - manuscript/part2-business-case/ch07-build-buy-partner.md
+    - part: "Governance and Trust"
+      chapters:
+        - manuscript/part3-governance/ch08-regulatory-landscape.md
+        - manuscript/part3-governance/ch09-responsible-ai.md
+        - manuscript/part3-governance/ch10-security-agentic.md
+        - manuscript/part3-governance/ch11-data-foundations.md
+    - part: "Execution"
+      chapters:
+        - manuscript/part4-execution/ch12-pilot-playbook.md
+        - manuscript/part4-execution/ch13-pilot-to-production.md
+        - manuscript/part4-execution/ch14-people-organization.md
+    - part: "The Horizon"
+      chapters:
+        - manuscript/part5-horizon/ch15-case-studies.md
+        - manuscript/part5-horizon/ch16-road-ahead.md
+  appendices:
+    - manuscript/appendices/appendix-a-readiness.md
+    - manuscript/appendices/appendix-b-rfp.md
+    - manuscript/appendices/appendix-c-scorecard.md
+    - manuscript/appendices/appendix-d-regulatory.md
+    - manuscript/appendices/appendix-e-metrics.md
+    - manuscript/appendices/appendix-f-glossary.md
+    - manuscript/appendices/appendix-g-sources.md
+
+bibliography: research/sources.bib
+# render the full bibliography (all entries) in Appendix G at the #refs div
+nocite: '@*'
+
+lang: en
+
+format:
+  pdf:
+    documentclass: scrbook
+    classoption:
+      - twoside
+      - open=any
+    # page geometry per Design/INTERIOR-SPEC.md section 1
+    geometry:
+      - paperwidth=6in
+      - paperheight=9in
+      - top=0.85in
+      - bottom=0.8in
+      - inner=0.9in
+      - outer=0.68in
+      - headsep=14pt
+      - headheight=12pt
+      - footskip=26pt
+    fontsize: 10.7pt
+    linestretch: 1.40
+    toccolor: customsblue
+    filters:
+      - filters/interior.lua
+    toc: true
+    toc-depth: 2
+    # figures go to top/bottom of pages, or a float page immediately
+    # after the reference; the near-full-page diagrams need p (with
+    # floatpagefraction tuned) or they defer to the chapter end
+    fig-pos: "!tbp"
+    # chapters are auto-numbered; section numbers are written manually
+    # in headings per STYLE-GUIDE.md ("## 8.1 ..."), so autonumbering
+    # stops at chapter level (LaTeX secnumdepth 0 = chapter)
+    number-sections: true
+    number-depth: 0
+    colorlinks: true
+    include-in-header:
+      - latex/typography.tex
+      - latex/endnotes.tex
+      - latex/interior.tex
+    include-before-body:
+      - latex/foreword.tex
+    include-after-body:
+      - latex/back-cover.tex
+  epub:
+    cover-image: assets/prebuilt/cover-final.png
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    number-depth: 1

@@ -1,0 +1,7 @@
+% Review/digital edition front-of-book: opens directly on the designed
+% title page (author decision 2026-07-09 — cover and half-title dropped
+% from the review PDF; the cover still fronts the EPUB and print jacket).
+\renewcommand\maketitle{%
+  \includepdf{assets/prebuilt/title-page.pdf}%
+  \clearpage
+}

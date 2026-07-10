@@ -1,0 +1,37 @@
+---
+part: "Front Matter"
+status: review
+version: 1.4.0
+last-updated: 2026-07-10
+---
+
+# Foreword {.unnumbered}
+
+At the border, the question is rarely whether a technology can produce
+an answer. The question is whether an administration can use that answer
+to move a real case—faster, more consistently and with its public
+authority intact. Volumes rise, fraud adapts and experienced officers
+remain scarce. Those pressures make AI attractive. They also make an
+unbounded AI programme dangerous.
+
+This book is written for the leaders who must decide where to start,
+which authority to retain, how to buy safely, and what evidence is
+enough to scale. It does not ask an administration to trust a model or a
+vendor. It asks it to begin with a bounded operational loop, measure the
+result, keep the human decision where consequence requires it and expand
+authority only when the evidence earns it. The central principle is
+simple: decisions may transfer within a signed mandate; accountability
+does not.
+
+The evidence is deliberately uneven where the field is uneven. Mature
+customs examples prove the value of data, risk analytics, document
+intelligence and disciplined workforce development. They do not prove
+that consequential border decisions should be handed to an autonomous
+agent. That distinction is not caution for its own sake. It is the
+condition that lets an ambitious administration move with credibility.
+
+The pages that follow are therefore a book of decisions: which queue to
+redesign, which rung of autonomy to grant, what must be written into the
+RFP, how the system is observed in production, and when it must be
+demoted. If they help one leadership team replace a vague AI ambition
+with a governed, measured deployment, the book will have done its job.

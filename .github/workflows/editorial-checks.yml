@@ -1,0 +1,24 @@
+name: Editorial checks
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+jobs:
+  source-integrity:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Check publication markers
+        run: make audit-publication
+      - name: Check bibliography keys
+        run: make check-bib
+      - name: Check endnotes
+        run: make check-notes

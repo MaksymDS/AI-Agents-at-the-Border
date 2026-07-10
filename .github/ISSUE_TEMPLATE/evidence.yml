@@ -1,0 +1,42 @@
+name: Evidence or case proposal
+description: Propose a case, metric or source for editorial review.
+title: "Evidence: "
+labels: ["evidence", "triage"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Relevant chapter or appendix
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Claim and operational context
+      description: Name the task, control design, outcome and limitation.
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source URL
+    validations:
+      required: true
+  - type: dropdown
+    id: class
+    attributes:
+      label: Evidence class
+      options:
+        - Primary administration or regulator source
+        - Peer-reviewed
+        - Practice-reported
+        - Commentary
+    validations:
+      required: true
+  - type: textarea
+    id: attribution
+    attributes:
+      label: Attribution and conflicts
+      description: Explain what the source proves and any relationship to it.
+    validations:
+      required: true

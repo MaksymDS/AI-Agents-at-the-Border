@@ -1,0 +1,5 @@
+% Reader-edition back cover. scripts/pad_print_pdf.py pads physical PDF
+% pages immediately before this page after LaTeX has finished its own
+% Roman/Arabic page numbering.
+\clearpage
+\includepdf[pages=1,pagecommand={\thispagestyle{empty}}]{assets/prebuilt/back-cover.pdf}

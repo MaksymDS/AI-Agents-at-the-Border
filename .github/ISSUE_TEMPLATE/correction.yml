@@ -1,0 +1,37 @@
+name: Factual correction
+description: Report a precise, source-backed correction.
+title: "Correction: "
+labels: ["correction", "triage"]
+body:
+  - type: input
+    id: location
+    attributes:
+      label: Location
+      description: Chapter, appendix, figure, paragraph or URL.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Primary or authoritative source URL
+    validations:
+      required: true
+  - type: input
+    id: date
+    attributes:
+      label: Source publication date
+    validations:
+      required: true
+  - type: textarea
+    id: interest
+    attributes:
+      label: Conflicts or commercial relationships
+      description: Write “none” if none.
+    validations:
+      required: true

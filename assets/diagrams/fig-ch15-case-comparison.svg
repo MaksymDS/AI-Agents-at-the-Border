@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 816" width="576" height="816">
+  <defs/>
+  <rect width="576" height="864" fill="#fff"/>
+  <text x="40" y="52" font-size="23" font-weight="700" fill="#1B3A5C" letter-spacing="0.3">Case Studies at a Glance</text>
+  <rect x="40" y="62" width="46" height="4" rx="2" fill="#E8A33D"/>
+  <text x="536" y="34" text-anchor="end" font-size="9.5" font-weight="600" fill="#5C6B7A" letter-spacing="1.5">FIGURE 15.1</text>
+  <text x="40" y="84" font-size="11" fill="#5C6B7A">Seven administrations, one reading protocol</text>
+  <text x="40" y="106" font-size="10" fill="#1A1A1A" font-weight="400">
+    <tspan x="40" dy="0">Each case on five fixed dimensions &#x2014; with the technology named precisely, never just &#x201C;AI,&#x201D; and</tspan>
+    <tspan x="40" dy="12.5">its evidence grade.</tspan>
+  </text>
+  <rect x="40" y="128" width="244" height="142" rx="6" fill="#FBFCFD" stroke="#DCE2E8"/>
+  <rect x="40" y="128" width="4" height="142" fill="#517391"/>
+  <text x="54" y="149" font-size="12.5" fill="#1B3A5C" font-weight="700">Korea &#xB7; KCS</text>
+  <rect x="222" y="137" width="52" height="14" rx="7" fill="#1B3A5C"/>
+  <text x="248" y="147" text-anchor="middle" font-size="7.5" font-weight="700" fill="#fff" letter-spacing="0.4">VERIFIED</text>
+  <text x="54" y="168" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">TECHNOLOGY</text>
+  <text x="54" y="180" font-size="9.3" fill="#1A1A1A" font-weight="400">
+    <tspan x="54" dy="0">11-model portfolio + natural-language GenAI</tspan>
+    <tspan x="54" dy="11">layer</tspan>
+  </text>
+  <text x="54" y="209" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">DEPLOYMENT</text>
+  <text x="54" y="221" font-size="9.3" fill="#5C6B7A" font-weight="400">
+    <tspan x="54" dy="0">National &#xB7; in-house hub-and-spoke</tspan>
+  </text>
+  <text x="54" y="239" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">MEASURED VALUE</text>
+  <text x="54" y="251" font-size="9.3" fill="#1B3A5C" font-weight="700">
+    <tspan x="54" dy="0">1 hr &#x2192; &lt;1 min (~98%); ~$92M / yr saved</tspan>
+  </text>
+  <rect x="292" y="128" width="244" height="142" rx="6" fill="#FBFCFD" stroke="#DCE2E8"/>
+  <rect x="292" y="128" width="4" height="142" fill="#517391"/>
+  <text x="306" y="149" font-size="12.5" fill="#1B3A5C" font-weight="700">China &#xB7; GACC</text>
+  <rect x="474" y="137" width="52" height="14" rx="7" fill="#1B3A5C"/>
+  <text x="500" y="147" text-anchor="middle" font-size="7.5" font-weight="700" fill="#fff" letter-spacing="0.4">VERIFIED</text>
+  <text x="306" y="168" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">TECHNOLOGY</text>
+  <text x="306" y="180" font-size="9.3" fill="#1A1A1A" font-weight="400">
+    <tspan x="306" dy="0">Deep-neural image analysis across the NII</tspan>
+    <tspan x="306" dy="11">estate</tspan>
+  </text>
+  <text x="306" y="209" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">DEPLOYMENT</text>
+  <text x="306" y="221" font-size="9.3" fill="#5C6B7A" font-weight="400">
+    <tspan x="306" dy="0">National &#xB7; on the existing NII estate</tspan>
+  </text>
+  <text x="306" y="239" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">MEASURED VALUE</text>
+  <text x="306" y="251" font-size="9.3" fill="#1B3A5C" font-weight="700">
+    <tspan x="306" dy="0">20,000+ detections &#xB7; &gt;95% &#xB7; ~5s / image</tspan>
+  </text>
+  <rect x="40" y="278" width="244" height="142" rx="6" fill="#FBFCFD" stroke="#DCE2E8"/>
+  <rect x="40" y="278" width="4" height="142" fill="#517391"/>
+  <text x="54" y="299" font-size="12.5" fill="#1B3A5C" font-weight="700">Brazil &#xB7; SISAM</text>
+  <rect x="197" y="287" width="77" height="14" rx="7" fill="#1B3A5C"/>
+  <text x="235.5" y="297" text-anchor="middle" font-size="7.5" font-weight="700" fill="#fff" letter-spacing="0.4">PEER-REVIEWED</text>
+  <text x="54" y="318" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">TECHNOLOGY</text>
+  <text x="54" y="330" font-size="9.3" fill="#1A1A1A" font-weight="400">
+    <tspan x="54" dy="0">Explainable Bayesian networks (in prod. 2014)</tspan>
+  </text>
+  <text x="54" y="348" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">DEPLOYMENT</text>
+  <text x="54" y="360" font-size="9.3" fill="#5C6B7A" font-weight="400">
+    <tspan x="54" dy="0">National</tspan>
+  </text>
+  <text x="54" y="378" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">MEASURED VALUE</text>
+  <text x="54" y="390" font-size="9.3" fill="#1B3A5C" font-weight="700">
+    <tspan x="54" dy="0">20&#xD7; vs random &#xB7; &gt;30% of selections follow it</tspan>
+  </text>
+  <rect x="292" y="278" width="244" height="142" rx="6" fill="#FBFCFD" stroke="#DCE2E8"/>
+  <rect x="292" y="278" width="4" height="142" fill="#517391"/>
+  <text x="306" y="299" font-size="12.5" fill="#1B3A5C" font-weight="700">India &#xB7; NCTC</text>
+  <rect x="459" y="287" width="67" height="14" rx="7" fill="none" stroke="#5C6B7A" stroke-width="1"/>
+  <text x="492.5" y="297" text-anchor="middle" font-size="7.5" font-weight="700" fill="#5C6B7A" letter-spacing="0.4">QUALITATIVE</text>
+  <text x="306" y="318" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">TECHNOLOGY</text>
+  <text x="306" y="330" font-size="9.3" fill="#1A1A1A" font-weight="400">
+    <tspan x="306" dy="0">X-ray ML + free-text supplier entity</tspan>
+    <tspan x="306" dy="11">resolution</tspan>
+  </text>
+  <text x="306" y="359" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">DEPLOYMENT</text>
+  <text x="306" y="371" font-size="9.3" fill="#5C6B7A" font-weight="400">
+    <tspan x="306" dy="0">National (Integrated Risk Mgmt System)</tspan>
+  </text>
+  <text x="306" y="389" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">MEASURED VALUE</text>
+  <text x="306" y="401" font-size="9.3" fill="#1B3A5C" font-weight="700">
+    <tspan x="306" dy="0">Higher hit rate, lower dwell (no headline %)</tspan>
+  </text>
+  <rect x="40" y="428" width="244" height="142" rx="6" fill="#FBFCFD" stroke="#DCE2E8"/>
+  <rect x="40" y="428" width="4" height="142" fill="#517391"/>
+  <text x="54" y="449" font-size="12.5" fill="#1B3A5C" font-weight="700">Netherlands</text>
+  <rect x="207" y="437" width="67" height="14" rx="7" fill="none" stroke="#5C6B7A" stroke-width="1"/>
+  <text x="240.5" y="447" text-anchor="middle" font-size="7.5" font-weight="700" fill="#5C6B7A" letter-spacing="0.4">QUALITATIVE</text>
+  <text x="54" y="468" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">TECHNOLOGY</text>
+  <text x="54" y="480" font-size="9.3" fill="#1A1A1A" font-weight="400">
+    <tspan x="54" dy="0">Two-model computer vision (detect + classify)</tspan>
+  </text>
+  <text x="54" y="498" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">DEPLOYMENT</text>
+  <text x="54" y="510" font-size="9.3" fill="#5C6B7A" font-weight="400">
+    <tspan x="54" dy="0">National &#xB7; EU-funded, cross-admin annotation</tspan>
+  </text>
+  <text x="54" y="528" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">MEASURED VALUE</text>
+  <text x="54" y="540" font-size="9.3" fill="#1B3A5C" font-weight="700">
+    <tspan x="54" dy="0">Maturity feeding a human-reviewed risk engine</tspan>
+  </text>
+  <rect x="292" y="428" width="244" height="142" rx="6" fill="#FBFCFD" stroke="#DCE2E8"/>
+  <rect x="292" y="428" width="4" height="142" fill="#517391"/>
+  <text x="306" y="449" font-size="12.5" fill="#1B3A5C" font-weight="700">Uruguay &#xB7; LUCIA</text>
+  <rect x="459" y="437" width="67" height="14" rx="7" fill="none" stroke="#5C6B7A" stroke-width="1"/>
+  <text x="492.5" y="447" text-anchor="middle" font-size="7.5" font-weight="700" fill="#5C6B7A" letter-spacing="0.4">QUALITATIVE</text>
+  <text x="306" y="468" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">TECHNOLOGY</text>
+  <text x="306" y="480" font-size="9.3" fill="#1A1A1A" font-weight="400">
+    <tspan x="306" dy="0">NII risk model + closed selection&#x2013;inspection</tspan>
+    <tspan x="306" dy="11">loop</tspan>
+  </text>
+  <text x="306" y="509" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">DEPLOYMENT</text>
+  <text x="306" y="521" font-size="9.3" fill="#5C6B7A" font-weight="400">
+    <tspan x="306" dy="0">Vendor-built &#xB7; donated to Colombia (DIAN)</tspan>
+  </text>
+  <text x="306" y="539" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">MEASURED VALUE</text>
+  <text x="306" y="551" font-size="9.3" fill="#1B3A5C" font-weight="700">
+    <tspan x="306" dy="0">Re-engineered NII selection; the loop closed</tspan>
+  </text>
+  <rect x="40" y="578" width="244" height="142" rx="6" fill="#FBFCFD" stroke="#DCE2E8"/>
+  <rect x="40" y="578" width="4" height="142" fill="#517391"/>
+  <text x="54" y="599" font-size="12.5" fill="#1B3A5C" font-weight="700">USA &#xB7; CBP</text>
+  <rect x="222" y="587" width="52" height="14" rx="7" fill="none" stroke="#E8A33D" stroke-width="1"/>
+  <text x="248" y="597" text-anchor="middle" font-size="7.5" font-weight="700" fill="#B77A16" letter-spacing="0.4">ANECDOTE</text>
+  <text x="54" y="618" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">TECHNOLOGY</text>
+  <text x="54" y="630" font-size="9.3" fill="#1A1A1A" font-weight="400">
+    <tspan x="54" dy="0">ML risk (ATS) + machine vision; shared</tspan>
+    <tspan x="54" dy="11">globally</tspan>
+  </text>
+  <text x="54" y="659" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">DEPLOYMENT</text>
+  <text x="54" y="671" font-size="9.3" fill="#5C6B7A" font-weight="400">
+    <tspan x="54" dy="0">National &#xB7; cross-border risk sharing</tspan>
+  </text>
+  <text x="54" y="689" font-size="7" fill="#5C6B7A" font-weight="700" letter-spacing="0.6">MEASURED VALUE</text>
+  <text x="54" y="701" font-size="9.3" fill="#1B3A5C" font-weight="700">
+    <tspan x="54" dy="0">Shown for governance transparency, not</tspan>
+    <tspan x="54" dy="11">metrics</tspan>
+  </text>
+  <rect x="292" y="578" width="244" height="142" rx="6" fill="#F4F7F9" stroke="#DCE2E8"/>
+  <text x="306" y="598" font-size="9" fill="#5C6B7A" font-weight="700" letter-spacing="1">EVIDENCE GRADE</text>
+  <rect x="306" y="608" width="52" height="14" rx="7" fill="#1B3A5C"/>
+  <text x="332" y="618" text-anchor="middle" font-size="7.5" font-weight="700" fill="#fff" letter-spacing="0.4">VERIFIED</text>
+  <text x="376" y="618" font-size="8.3" fill="#1A1A1A" font-weight="400">quantified &#xB7; primary / peer</text>
+  <rect x="306" y="629" width="67" height="14" rx="7" fill="none" stroke="#5C6B7A" stroke-width="1"/>
+  <text x="339.5" y="639" text-anchor="middle" font-size="7.5" font-weight="700" fill="#5C6B7A" letter-spacing="0.4">QUALITATIVE</text>
+  <text x="376" y="639" font-size="8.3" fill="#1A1A1A" font-weight="400">primary, no headline metric</text>
+  <rect x="306" y="650" width="52" height="14" rx="7" fill="none" stroke="#E8A33D" stroke-width="1"/>
+  <text x="332" y="660" text-anchor="middle" font-size="7.5" font-weight="700" fill="#B77A16" letter-spacing="0.4">ANECDOTE</text>
+  <text x="376" y="660" font-size="8.3" fill="#1A1A1A" font-weight="400">not a program metric</text>
+  <text x="306" y="684" font-size="8.3" fill="#5C6B7A" font-weight="400" font-style="italic">
+    <tspan x="306" dy="0">Technology named precisely &#x2014; rules &#xB7; ML &#xB7; computer</tspan>
+    <tspan x="306" dy="10.5">vision &#xB7; GenAI &#x2014; never just &#x201C;AI.&#x201D;</tspan>
+  </text>
+  <rect x="40" y="738" width="496" height="34" rx="4" fill="#5C6B7A"/>
+  <rect x="40" y="738" width="5" height="34" rx="2.5" fill="#E8A33D"/>
+  <text x="292" y="759.5" text-anchor="middle" font-size="10.6" font-weight="600" fill="#fff" letter-spacing="0.2">Read cases consistently: precise technology, honestly graded value.</text>
+
+</svg>

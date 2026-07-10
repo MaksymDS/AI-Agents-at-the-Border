@@ -1,0 +1,8 @@
+# Digital-layout profile: chapters/parts open on any page (no inserted
+# blank versos). Print keeps the default recto-open layout.
+# Usage: make pdf OPENANY=1  (the review edition uses this by default).
+format:
+  pdf:
+    classoption:
+      - twoside
+      - openany
