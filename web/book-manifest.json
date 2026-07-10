@@ -28,6 +28,7 @@
     {"slug":"regulatory-reference","title":"Appendix D. Regulatory Reference Tables","part":"Appendices","path":"manuscript/appendices/appendix-d-regulatory.md"},
     {"slug":"metrics-catalog","title":"Appendix E. Metrics Catalog","part":"Appendices","path":"manuscript/appendices/appendix-e-metrics.md"},
     {"slug":"glossary","title":"Appendix F. Glossary","part":"Appendices","path":"manuscript/appendices/appendix-f-glossary.md"},
-    {"slug":"sources","title":"Appendix G. Sources and Further Reading","part":"Appendices","path":"manuscript/appendices/appendix-g-sources.md"}
+    {"slug":"sources","title":"Appendix G. Sources and Further Reading","part":"Appendices","path":"manuscript/appendices/appendix-g-sources.md"},
+    {"slug":"bibliography","title":"Bibliography","part":"Back matter","path":"web/bibliography.md"}
   ]
 }

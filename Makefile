@@ -12,7 +12,7 @@ export PANGOCAIRO_BACKEND := fc
 # blank versos); default is the print layout (recto-open).
 OPENANY_PROFILE := $(if $(OPENANY),--profile openany,)
 
-.PHONY: build pdf epub deliverable deliverable-epub reader-spread review-pdf prebuild embed-figures clean check-bib check-notes audit-publication status
+.PHONY: build pdf epub deliverable deliverable-epub reader-spread review-pdf prebuild embed-figures online-bibliography clean check-bib check-notes audit-publication status
 
 # Convert front-of-book and part-opener SVGs to PDF/PNG pages
 prebuild:
@@ -21,6 +21,10 @@ prebuild:
 # Re-apply the figure manifest after content re-imports (idempotent)
 embed-figures:
 	python3 scripts/embed_figures.py
+
+# Regenerate the Markdown bibliography displayed by the online reader.
+online-bibliography:
+	bash scripts/generate_online_bibliography.sh
 
 # Render all formats in one pass; rendering a single format cleans
 # _build/, so pdf/epub targets are for iteration only.
