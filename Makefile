@@ -1,5 +1,5 @@
 QUARTO ?= quarto
-BOOK_VERSION ?= v1.7.0
+BOOK_VERSION ?= v1.7.1
 
 # Deterministic fonts for SVG figure conversion: pin the renderer's font
 # lookup to the vendored Inter (see fonts/fonts.conf). The Pango backend

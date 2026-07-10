@@ -17,6 +17,23 @@ and build settings. Each published PDF and EPUB companion is kept under
 - Restore a source state with `git checkout book-vX.Y.Z` (or create a
   working branch from that tag); do not edit a historical release tag.
 
+## v1.7.1 — Agency-profile clarification
+
+- **Status:** released.
+- **Source tag:** `book-v1.7.1`.
+- **Full PDF:** `deliverables/ai-agents-at-the-border-v1.7.1.pdf`.
+- **Executive Decision Brief:**
+  `deliverables/ai-agents-at-the-border-executive-summary-v1.7.1.pdf`.
+- **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.7.1.epub`.
+- **Internal spread proof:**
+  `deliverables/ai-agents-at-the-border-v1.7.1-spread.pdf` (not a public
+  release artifact).
+- **Scope:** expands the brief's second dial with a six-line agency-profile
+  record and two customs-specific counterexamples. An L2 HS copilot with
+  estate-wide credentials is shown as dangerous despite human confirmation;
+  an L3 case-file agent with one-case, allowlisted, read-only reach is shown
+  as manageable. The brief remains 60 physical pages with no inserted blanks.
+
 ## v1.7.0 — Self-contained Executive Decision Brief
 
 - **Status:** released.

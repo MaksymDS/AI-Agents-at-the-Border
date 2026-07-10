@@ -68,26 +68,35 @@ grant only the specific capability needed for the task, use a distinct
 machine identity, deny everything else, and remove unused reach after
 observation.
 
+A usable profile records six lines: **data scope**
+(document/case/queue/estate) · **named tools** · **write scope**
+(draft/staged/committed) · **communications** · **case, value, time, rate,
+and geography limits** · **distinct identity, owner, expiry, and revocation**.
+
+```{=latex}
+\clearpage
+```
+
+> ### Box 2.A — Two customs profiles that reverse the intuition
+>
+> **L2 + broad agency - dangerous.** An HS copilot proposes and an officer
+> confirms, yet its identity can read declarations, trader, inspection, and
+> intelligence records; write notes; and send messages. Confirmation controls
+> the classification, not exposure, unintended writes, or credential misuse.
+>
+> **L3 + narrow agency - manageable.** A supervised agent chooses extraction
+> and reconciliation steps inside one declaration, reads approved documents,
+> and writes a draft checklist. It cannot search other cases, message the
+> trader, change a risk score, or commit core data; the officer handles
+> exceptions and the consequential decision.
+>
+> **Conclusion:** L2 with broad credentials can expose more than L3 with a
+> one-case, allowlisted, read-only profile. Record both dials.
+
 ## The mandate card
 
-Every deployed task needs a short, versioned mandate card:
-
-- task trigger, start, end, and verifiable outcome;
-- current autonomy rung and agency profile;
-- permitted and prohibited tools, data, writes, and external messages;
-- evidence shown to the officer and trajectory retained for audit;
-- named accountable owner and human review route;
-- quality, cost, safety, security, and queue thresholds;
-- material-change and re-authorisation rules;
-- demotion, suspension, fallback, and expiry.
-
-No completed card means no authority to operate. Updating a prompt is an
-ordinary change only when it does not alter behaviour, evidence, data,
-tools, or authority. Otherwise it re-enters the gate.
-
-## Six questions for any “agent”
-
-Task · rung and why not lower · agency and why each permission is needed ·
-mandate and signer · reconstructable evidence · oversight and demotion.
-An answer that exists only in a vendor deck is not an operating control.
-
+Use Core Tool A; no completed card means no authority to operate. Before
+approval record: task · rung and why not lower · agency and why every
+permission is needed · mandate and signer · reconstructable evidence ·
+oversight and demotion. A change to behaviour, evidence, data, tools, or
+authority re-enters the gate; a vendor-deck answer is not a control.

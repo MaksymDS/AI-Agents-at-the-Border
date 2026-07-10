@@ -16,16 +16,18 @@ legal developments and improve the reader experience. The working build
 repository remains separate; this repository contains only publication-safe
 material.
 
-The current public edition is **v1.7.0**, legally cut off on **10 July
+The current public edition is **v1.7.1**, legally cut off on **10 July
 2026**. It is a management guide, not legal advice.
 
-Version 1.7.0 makes the Executive Decision Brief operationally
+Version 1.7.1 makes the Executive Decision Brief operationally
 self-contained. Its Eight Decisions are now a dependency chain: operating
 constraint, task/baseline, autonomy/agency, and sovereignty must be complete
 before value, sourcing, right-to-operate, or renewal decisions. Five
 one-page Core Tools cover the mandate, metrics, regulatory applicability,
-RFP decision rights, and pilot gate. The full book remains the depth
-reference; the brief is sufficient to begin the work. See
+RFP decision rights, and pilot gate. The agency section now contrasts an L2
+copilot with broad estate credentials against an L3 one-case, allowlisted,
+read-only agent. The full book remains the depth reference; the brief is
+sufficient to begin the work. See
 [`VERSION-LOG.md`](VERSION-LOG.md) and the review
 [`disposition record`](reviews/2026-07-10-critical-review-disposition.md).
 
@@ -47,9 +49,9 @@ The canonical print build is the 6 × 9 inch PDF. With Quarto, LuaLaTeX and
 the SVG renderer installed:
 
 ```bash
-make deliverable BOOK_VERSION=v1.7.0
-make deliverable-executive BOOK_VERSION=v1.7.0
-make deliverable-epub BOOK_VERSION=v1.7.0
+make deliverable BOOK_VERSION=v1.7.1
+make deliverable-executive BOOK_VERSION=v1.7.1
+make deliverable-epub BOOK_VERSION=v1.7.1
 ```
 
 Before a pull request, run:
