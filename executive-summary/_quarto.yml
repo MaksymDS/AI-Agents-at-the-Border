@@ -4,7 +4,7 @@ project:
 
 book:
   title: "AI Agents at the Border"
-  subtitle: "Executive Summary — The 50-Page Decision Brief"
+  subtitle: "Executive Summary — The Executive Decision Brief"
   author: "Maksym Nechepurenko"
   date: "2026"
   output-file: "ai-agents-at-the-border-executive-summary"

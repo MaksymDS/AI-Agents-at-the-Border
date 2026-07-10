@@ -17,6 +17,26 @@ and build settings. Each published PDF and EPUB companion is kept under
 - Restore a source state with `git checkout book-vX.Y.Z` (or create a
   working branch from that tag); do not edit a historical release tag.
 
+## v1.7.0 — Self-contained Executive Decision Brief
+
+- **Status:** released.
+- **Source tag:** `book-v1.7.0`.
+- **Full PDF:** `deliverables/ai-agents-at-the-border-v1.7.0.pdf`.
+- **Executive Decision Brief:**
+  `deliverables/ai-agents-at-the-border-executive-summary-v1.7.0.pdf`.
+- **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.7.0.epub`.
+- **Internal spread proof:**
+  `deliverables/ai-agents-at-the-border-v1.7.0-spread.pdf` (not a public
+  release artifact).
+- **Scope:** makes the brief operationally self-contained. The Eight
+  Decisions become a gated dependency chain with Gates 1-4 required before
+  value, sourcing, right-to-operate, or renewal decisions. The brief adds a
+  five-tool executive starter kit: mandate card, minimum metric spine,
+  regulatory applicability checklist, RFP decision-rights clause, and pilot
+  gate. Each Core Tool is a complete one-page worksheet, supported by a
+  90-minute working-session sequence. The revised brief is 60 physical pages
+  including covers, with no inserted blank pages.
+
 ## v1.6.2 — Executive Summary technical corrections
 
 - **Status:** released.
@@ -26,8 +46,7 @@ and build settings. Each published PDF and EPUB companion is kept under
   `deliverables/ai-agents-at-the-border-executive-summary-v1.6.2.pdf`.
 - **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.6.2.epub`.
 - **Internal spread proof:**
-  `deliverables/ai-agents-at-the-border-v1.6.2-spread.pdf` (not a public
-  release artifact).
+  `deliverables/ai-agents-at-the-border-v1.6.2-spread.pdf`.
 - **Scope:** removes a compound phrase that could collapse during PDF text
   extraction; renders the portable-baseline warning as a complete compact
   box; and makes the brief's 12–24 month watch record explicitly

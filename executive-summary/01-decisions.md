@@ -21,27 +21,67 @@ exercise?*
 
 ![Figure 1.1 — The Arithmetic](/assets/diagrams/fig-ch01-arithmetic.svg){width=100% height=70%}
 
-The executive programme can be reduced to eight decisions.
+```{=latex}
+\clearpage
+```
 
-1. **Name the operating constraint.** Choose a queue, service clock,
-   control gap, or capacity ceiling. “Use AI” is not a problem statement.
-2. **Choose the task and baseline.** Record current volume, time, quality,
-   exceptions, cost, and responsible owner before changing the workflow.
-3. **Classify autonomy and agency.** State who decides, which tools and data
-   the software can reach, and which actions remain impossible.
-4. **Set the sovereignty posture.** Decide lawful deployment, data paths,
-   subprocessors, retention, and evidence control before the demo becomes
-   architecture by accident.
-5. **Build the value bridge.** Connect output to an operating action that
-   changes capacity, facilitation, revenue protection, or control. Price
-   the permanent human and assurance work.
-6. **Choose what to own.** Buy commodity tools, partner for acceleration,
-   and retain the institutional judgment, data meaning, evaluation,
-   governance, and exit capability.
-7. **Define the right to operate.** Pre-commit gates, a mandate, a safety
-   case, a human route, security tests, demotion triggers, and fallback.
-8. **Create a renewal rhythm.** Every task is periodically continued,
-   changed, competed, demoted, or retired on evidence rather than momentum.
+## The foundation rule
+
+The executive programme can be reduced to eight decisions, but they are not
+eight menu items. They form a dependency chain. **Do them in order. Each
+gate must produce its minimum evidence before the next gate opens.**
+The first four gates establish whether there is a governable task. The last
+four decide whether and how to commit resources. Starting with a vendor,
+model, or promised saving skips the object that procurement and assurance
+need to govern.
+
+The first four are prerequisites, not parallel workstreams:
+
+1. **Constraint:** an observable operating problem and accountable owner.
+2. **Task and baseline:** a bounded workflow measured before intervention.
+3. **Autonomy and agency:** a signed decision and permission ceiling,
+   including actions that remain technically impossible.
+4. **Sovereignty:** a lawful data/deployment path with evidence custody,
+   fallback, and exit.
+
+> ### Box 1.A — Foundation stop rule
+>
+> Do not approve a value case, sourcing route, RFP, pilot, or autonomy
+> increase while any foundation gate is open. A gap may have a named owner
+> and resolution date; it does not become implied permission for a later
+> gate.
+
+```{=latex}
+\clearpage
+```
+
+![Figure 1.2 - The Eight-Decision Dependency Chain](/assets/diagrams/fig-executive-decision-chain.svg){width=100% height=76%}
+
+```{=latex}
+\clearpage
+\begin{ExecutiveToolPage}
+```
+
+## Gate completion record
+
+| Gate | Completion condition before the next gate |
+|---|---|
+| **1. Operating constraint** | Named queue, service clock, control gap, or capacity ceiling; current owner. |
+| **2. Task and baseline** | Workflow boundary plus volume, time, quality, exceptions, unit cost, and owner. |
+| **3. Autonomy and agency** | Decision rung plus tools, data, identities, permissions, writes, limits, and impossible actions. |
+| **4. Sovereignty posture** | Lawful deployment, data flows, subprocessors, retention, evidence custody, and exit boundary. |
+| **5. Value bridge** | Output-to-action conversion, value range, permanent human/assurance cost, and benefit owner. |
+| **6. Ownership route** | Build-buy-partner boundary, retained capability, commercial comparison, and exit route. |
+| **7. Right to operate** | Signed mandate, thresholds, human route, security tests, safety case, fallback, and demotion trigger. |
+| **8. Renewal rhythm** | Review cadence, evidence owner, next decision date, and continue-change-compete-demote-retire options. |
+
+**Dependency rule.** Gates 5-8 are invalid while any of Gates 1-4 remains
+open. If the constraint, baseline, authority, or sovereign path changes,
+reopen the chain at the earliest affected gate.
+
+```{=latex}
+\end{ExecutiveToolPage}
+```
 
 ## The first portfolio is deliberately uneven
 
@@ -76,11 +116,29 @@ If the sentence cannot be completed, the project is not ready for a model
 discussion. If it can, technology, legal, procurement, security, and
 operations finally have the same object to design.
 
-## Decision card
+```{=latex}
+\clearpage
+\begin{ExecutiveToolPage}
+```
 
-Before funding, record: named workflow · executive owner · current
-baseline · target service/control outcome · first authorised rung · agency
-profile · lawful deployment path · value-capture action · gate date ·
-fallback · demotion trigger. One page is enough to expose whether the
-programme is buying an outcome or a story.
+## Core Tool A: Mandate card
 
+Complete one card per task and proposed rung. If a field is unknown, the
+card records an owner and date for resolving it; it does not convert the gap
+into implied permission.
+
+| Mandate field | Decision record |
+|---|---|
+| **Task, owner, constraint** | Workflow: ____ · accountable/operating owner: ____ · queue/service/control constraint: ____ |
+| **Baseline, outcome, value** | Volume/time/quality/exceptions/unit cost: ____ · target: ____ · conversion action and benefit owner: ____ |
+| **Authority ceiling** | Current/maximum rung: ____ · agency permissions/limits: ____ · decisions retained by people: ____ · exclusions: ____ |
+| **Sovereign path** | Deployment/region: ____ · data/tools/identities: ____ · subprocessors/retention: ____ · evidence custodian: ____ |
+| **Evidence to operate** | Evaluation/thresholds: ____ · human capacity: ____ · security tests/safety case: ____ |
+| **Containment and validity** | Fallback: ____ · stop/demotion triggers: ____ · incident owner: ____ · volume/duration: ____ · next gate/renewal: ____ |
+
+**Approval:** operations ____ · legal/privacy ____ · security ____ · data/IT
+____ · accountable executive ____ · date ____.
+
+```{=latex}
+\end{ExecutiveToolPage}
+```

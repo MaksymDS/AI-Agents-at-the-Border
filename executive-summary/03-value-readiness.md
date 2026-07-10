@@ -75,31 +75,54 @@ Build the economic record in this order:
 7. sensitivity across volume, unit price, adoption, and exception rate.
 
 Avoided headcount growth is often more credible than layoffs. Faster work
-has no cash value if staffing, service levels, or risk coverage never
-change. Name the benefit owner and the decision that captures it.
+has no cash value without a named benefit owner and a decision that changes
+staffing, service, or risk coverage.
 
 ## Readiness routes; it does not rank
 
 Assess readiness per task and rung across leadership, legal/sovereignty,
-data, technology/operations, people, and governance. Demand artifacts, not
-confidence scores: named owner, approved corpus, data-flow map, deployment
-decision, identities, logs, evaluation set, supervisor, mandate, and gate.
+data/operations, people, and governance. Require an owner, approved
+corpus/data flow, deployment, identity/logs, evaluation set, supervisor,
+mandate, and gate.
 
-An internal read-only search service can proceed at Rung 1/L1 with an
-approved corpus, citations, controlled retention, and human use even while
-the same administration remains unready for a trader-facing write agent.
-The weakest binding dimension sets the ceiling for that task; it does not
-freeze the entire portfolio.
+An approved read-only Rung 1/L1 service may proceed while a trader-facing
+write agent does not. The weakest binding dimension sets the task ceiling,
+not the whole portfolio.
 
 ## The sovereignty decision
 
-Choose on-premises, legally recognised government/sovereign cloud, or a
-hybrid by data class and workload. A nearby commercial region is not
-accreditation. Counsel and the competent security authority verify the
-provider, service, subprocessors, data path, terms, and purpose.
+Choose on-premises, recognised government/sovereign cloud, or a hybrid by
+data class and workload; a commercial region is not accreditation. Counsel
+and the security authority verify provider, service, subprocessors, data
+path, terms, and purpose.
 
-Inventory any existing consumer tools and personal API keys. Stop new
-sensitive uploads, provide a sanctioned synthetic/public-data sandbox, and
-migrate, contain, or retire each workflow against a date. A prohibition
-without a transition route is an invitation to shadow IT.
+Inventory consumer tools and personal API keys; stop sensitive uploads,
+provide a sanctioned sandbox, and migrate, contain, or retire each workflow
+by a date. A prohibition without a transition route invites shadow IT.
 
+```{=latex}
+\clearpage
+\begin{ExecutiveToolPage}
+```
+
+## Core Tool B: Minimum metric spine
+
+Every metric needs a baseline, target range, stop threshold, owner, evidence
+source, and review cadence. Report ranges and relevant strata, not one
+headline average.
+
+| View | Minimum decision metrics |
+|---|---|
+| **Operating value** | Completed cases · cycle/backlog/handoffs · unit cost · conversion action and realised range |
+| **Quality** | Complete-case success · evidence/citation validity · abstention/override · repeat stability · burden by relevant strata |
+| **Authority and people** | Rung/agency · denied tools/scope violations · queue length/age · review minutes · calibration/stop use |
+| **Security and sovereignty** | Hostile-content/tool test · incidents · data egress · approved region/subprocessor drift |
+| **Reliability and change** | Retry/loop/tool/state error · release/material change · rollback/demotion result |
+| **Evidence, exit, gate** | Trajectory/evaluation/export coverage · fallback/exit rehearsal · residual-risk owner · promote/hold/demote/stop · next review |
+
+**Board rule:** no metric is decision-grade unless the leadership team knows
+what action changes when it crosses the target or stop threshold.
+
+```{=latex}
+\end{ExecutiveToolPage}
+```

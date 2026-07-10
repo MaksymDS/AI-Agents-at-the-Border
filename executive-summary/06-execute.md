@@ -104,3 +104,34 @@ security exercises passed · lawful deployment unchanged · unit economics
 inside range · evidence export works · fallback rehearsed · owner signs
 residual risk. A successful demo is not on this list.
 
+```{=latex}
+\clearpage
+\begin{ExecutiveToolPage}
+```
+
+## Core Tool E: Pilot gate template
+
+Complete before every stage change. Use one task and one proposed rung per
+gate.
+
+| Gate field | Decision record |
+|---|---|
+| **Task, authority, baseline** | Task/owner: ____ · current to proposed rung/agency: ____ · baseline period: ____ · holdout/strata: ____ |
+| **Value and quality** | Completed cases/conversion action/unit cost: ____ · complete-case success: ____ · abstention/override/burden: ____ |
+| **Human route** | Reviewer: ____ · maximum queue/age: ____ · calibration: ____ · stop authority: ____ |
+| **Security and sovereignty** | Hostile-content/tool tests: ____ · approved data path unchanged: yes/no · open finding: ____ |
+| **Reliability and change** | Repeats/state transitions: ____ · release/change: ____ · rollback/demotion test: ____ |
+| **Evidence and exit** | Trajectory/export: ____ · incident exercise: ____ · fallback: ____ · exit package: ____ |
+
+**Threshold:** pass / conditional / fail · conditions/dates: ____ · residual
+risk owner: ____ · evidence-room link: ____.
+
+**Decision:** promote / hold and tune / demote or simplify / stop · authorised
+volume/duration: ____ · automatic stop triggers: ____.
+
+**Sign-off:** operations ____ · legal/privacy ____ · security ____ · data/IT
+____ · accountable executive ____ · date ____ · next gate date ____.
+
+```{=latex}
+\end{ExecutiveToolPage}
+```

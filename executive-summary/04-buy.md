@@ -94,9 +94,47 @@ lock-in from a general fear into testable missing artifacts.
 
 > ### Box 4.A — Local-law adaptation required
 >
-> The full book's RFP skeleton is a control template, not procurement or
+> The decision-rights clause below is a control template, not procurement or
 > contract advice. Local counsel adapts IP, audit, liability, records,
 > security, and remedy clauses. When direct ownership or source-code access
 > is unavailable or disproportionate, use a lawful functional substitute—
 > tested escrow, readable exports, interfaces, independent assurance,
 > transition assistance, and fallback.
+
+```{=latex}
+\clearpage
+\begin{ExecutiveToolPage}
+```
+
+## Core Tool D: Decision-rights clause
+
+> ### Box 4.B — Model clause
+>
+> For **[named task]**, the Contracting Authority retains sole decision
+> rights over the mandate; autonomy and agency; approved data, tools,
+> identities, regions, and subprocessors; evaluation and thresholds;
+> production; material changes; incidents; demotion or stop; acceptance;
+> renewal; and exit.
+>
+> The Supplier may operate only inside the signed mandate. No default,
+> update, optimisation, or claimed improvement may expand task, authority,
+> permissions, data use, region, dependency, or affected-person scope.
+>
+> Before acceptance and each material release, the Supplier provides the
+> component/subprocessor register, data/tool flows, evaluation results,
+> trajectory export, change record, incident evidence, rollback, readable
+> exports, and transition material needed to reproduce and investigate.
+>
+> Use, payment, elapsed time, or silence does not authorise a material
+> change. Only **[named role]** may approve it after the agreed evidence,
+> tests, and review are recorded.
+
+**Schedule fields:** owner · baseline · rung/agency ceiling · exclusions ·
+deployment/data path · change triggers · gate date · fallback · exit package.
+
+**Acceptance test:** deny a tool · stop the workflow · export evidence ·
+restore fallback · change supplier without losing the public record.
+
+```{=latex}
+\end{ExecutiveToolPage}
+```

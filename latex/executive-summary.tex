@@ -14,3 +14,13 @@
   \bookmainmattertrue}
 \makeatother
 \rehead{\runheadstyle{AI Agents at the Border · Executive Summary}}
+
+% One-page executive worksheets: preserve the base type size while tightening
+% leading and table rhythm enough for a complete, writable sheet.
+\newenvironment{ExecutiveToolPage}{%
+  \begingroup
+  \setstretch{1.16}%
+  \renewcommand{\arraystretch}{0.82}%
+  \setlength{\LTpre}{4pt}%
+  \setlength{\LTpost}{5pt}%
+}{\par\endgroup}

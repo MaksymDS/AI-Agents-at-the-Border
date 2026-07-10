@@ -1,21 +1,22 @@
 ---
 part: "Executive Summary"
 status: review
-version: 1.6.2
+version: 1.7.0
 last-updated: 2026-07-10
 ---
 
 # How to Use This Brief {.unnumbered}
 
 This brief is for a leadership team that has to turn *we should do
-something with AI* into a governed portfolio. It does not attempt to
-compress every clause, metric, case, and source from the full book. It
-preserves the decisions that determine whether the programme creates
-operating value or merely creates a new category of risk.
+something with AI* into a governed portfolio. It does not reproduce every
+clause, metric, case, and source from the reference edition. It does contain
+the minimum tools required to define a task, establish decision rights,
+screen legal applicability, commission a pilot, and make a gate decision.
 
-Read it once as a team. On the second pass, assign an owner to every
-decision in Chapter 8. Use the full book when the work reaches design,
-procurement, legal applicability, testing, or production approval.
+Read it once as a team. On the second pass, complete the gates in Chapter 1
+in sequence, assign an owner to every action in Chapter 8, and use the
+Core Tools A-E. The full book adds implementation depth and
+jurisdiction-specific research; it is no longer required to begin the work.
 
 ## The stance in one page
 
@@ -65,3 +66,48 @@ ministerial slide, the claim should disappear too.
 > endorsement by the author's employer, its clients, the WCO, or any cited
 > administration. All cases and reported outcomes come from attributable
 > public sources; none describes an Agility or client engagement.
+
+```{=latex}
+\clearpage
+\begin{ExecutiveToolPage}
+```
+
+## The executive starter kit
+
+Use the five Core Tools as one operating sequence. Each produces the input
+required by the next; none is a standalone compliance certificate.
+
+| Tool | Decision produced |
+|---|---|
+| **A. Mandate card** | Task, constraint, authority ceiling, sovereign path, owner, fallback, and validity. |
+| **B. Minimum metric spine** | Baseline, target, stop threshold, evidence, owner, and action across the operating record. |
+| **C. Applicability checklist** | Legal role, affected people, risk class, binding duties, controls, evidence, and open counsel questions. |
+| **D. RFP decision-rights clause** | Retained authority, supplier limits, evidence, material change, acceptance, and exit. |
+| **E. Pilot gate** | Promote, hold, demote, or stop against pre-committed evidence and a residual-risk owner. |
+
+```{=latex}
+\clearpage
+```
+
+## The 90-minute working session
+
+| Time | Work | Product |
+|---:|---|---|
+| **0-10** | Name the operating constraint and owner. | Gate 1 statement |
+| **10-25** | Complete Core Tool A; resolve or assign Gates 2-4 gaps. | Draft mandate card |
+| **25-40** | Complete Core Tool B against the current baseline. | Metric owners, targets, stop thresholds |
+| **40-55** | Complete Core Tool C using official sources. | Applicability record and counsel questions |
+| **55-70** | Adapt Core Tool D to the task and procurement route. | Decision-rights schedule |
+| **70-90** | Set the first evidence gate with Core Tool E. | Pilot stage, gate date, signers |
+
+**Minimum working-session output:** one selected task · completed Gates 1-4
+or named owners for every gap · draft mandate card · metric owners · legal
+screen · procurement decision-rights schedule · pilot gate date.
+
+If the session starts with a vendor or model, return to Gate 1. If a later
+tool changes the task, authority, data path, or jurisdiction, reopen the
+earliest affected gate rather than patching the paperwork downstream.
+
+```{=latex}
+\end{ExecutiveToolPage}
+```

@@ -119,3 +119,30 @@ interfaces, and correction feedback. Every corpus and feed needs a
 custodian, purpose, scope, provenance, freshness target, quality threshold,
 and failure response. Without that owner, retrieval is a demo with an
 expiry date.
+
+```{=latex}
+\clearpage
+\begin{ExecutiveToolPage}
+```
+
+## Core Tool C: Regulatory applicability checklist
+
+Complete one per task before procurement, production, or an autonomy
+increase. Record official source, reviewer, and unresolved owner.
+
+| Check | Question that must be answered |
+|---|---|
+| **Task, place, role** | Workflow, jurisdiction, mandate, decision, and locally defined institutional role? |
+| **People, effect, risk class** | Who is affected and how? Which review, fairness, biometric, migration, law-enforcement, profiling, or high-risk trigger applies? |
+| **Data, records, rights** | Secrecy, privacy, purpose, retention, disclosure, transfer, public-record, explanation, and contestability duties? |
+| **Sovereignty, security, administration** | Hosting/localisation, cyber/identity/incident, supplier, procurement, delegation, employment, records, and audit duties? |
+| **AI-specific duties** | Transparency, registration, impact assessment, testing, conformity, literacy, monitoring/reporting, and dates? |
+| **Evidence and change** | Who confirms and proves each control? Which release, task change, incident, or date forces review? |
+
+**Output:** applicability record · prohibited/high-risk finding · control and
+evidence owner · unresolved question/counsel owner · next review · approve,
+condition, or stop.
+
+```{=latex}
+\end{ExecutiveToolPage}
+```
