@@ -3,6 +3,7 @@ message: "If you use this book or its decision tools, please cite the version yo
 title: "AI Agents at the Border"
 subtitle: "An Executive Guide to Trustworthy AI in Trade and Customs"
 type: book
+license: CC-BY-4.0
 authors:
   - family-names: Nechepurenko
     given-names: Maksym

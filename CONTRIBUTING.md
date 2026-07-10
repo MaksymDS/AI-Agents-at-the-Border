@@ -37,3 +37,10 @@ defer or decline an otherwise valid contribution to retain a coherent book.
 Public discussion is deliberately limited to issues and PRs. Editorial feedback
 that does not need a public record can be sent through the private form at
 [era-society.ae](https://era-society.ae).
+
+## Contribution licence
+
+By submitting a pull request, you agree to license your contribution under
+[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/). Do not submit
+material you cannot license on those terms; cite and clearly identify
+third-party material instead.

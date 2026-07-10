@@ -50,10 +50,9 @@ make check-notes
 
 ## Rights and contribution terms
 
-The publication licence is intentionally not finalised while the publication
-route is decided. The text, design and assets remain © Maksym Nechepurenko.
-Public availability of this repository is an invitation to review and propose
-improvements; it is not a grant to republish the book commercially or create
-unapproved editions. By submitting a contribution, you grant the author the
-right to edit, incorporate and publish that contribution with attribution
-where appropriate. See [RIGHTS.md](RIGHTS.md).
+*AI Agents at the Border* is licensed under [Creative Commons Attribution 4.0
+International](https://creativecommons.org/licenses/by/4.0/) (CC BY 4.0).
+You may share and adapt the book, including commercially, provided that you
+give appropriate credit, link to the licence and indicate changes. See
+[LICENSE](LICENSE) and [RIGHTS.md](RIGHTS.md) for the preferred attribution
+and treatment of third-party material.
