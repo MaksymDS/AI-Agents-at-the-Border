@@ -17,6 +17,20 @@ and build settings. Each published PDF and EPUB companion is kept under
 - Restore a source state with `git checkout book-vX.Y.Z` (or create a
   working branch from that tag); do not edit a historical release tag.
 
+## v1.9.1 — Stance and executive close production patch
+
+- **Status:** released.
+- **Source tag:** `book-v1.9.1`.
+- **Full PDF:** `deliverables/ai-agents-at-the-border-v1.9.1.pdf`.
+- **Executive Decision Brief:**
+  `deliverables/ai-agents-at-the-border-executive-summary-v1.9.1.pdf`.
+- **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.9.1.epub`.
+- **Scope:** corrects the intrinsic fit of “Uncompromising” inside the third
+  card of The Stance in the full book and Executive Decision Brief, including
+  the greyscale twin. Adds a deliberate 12 pt pause between the fifth
+  operating rule and the final board question. No prose, evidence, site
+  content, pagination policy, or legal baseline changes.
+
 ## v1.9.0 — Executive brief visual system and living legal baseline
 
 - **Status:** released.

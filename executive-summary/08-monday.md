@@ -68,6 +68,10 @@ that remain useful if it is wrong.
 \ExecutiveRuleStrip{05}{Treat change and renewal as decisions}{Material changes re-enter the gate; renewal may continue, compete, migrate, demote, or retire.}
 ```
 
+```{=latex}
+\vspace{12pt}
+```
+
 > **THE FINAL BOARD QUESTION.** The mandate of customs remains collect
 > revenue, protect the border, and facilitate trade. Agentic AI changes the
 > operating model, not institutional responsibility. Per task, ask: **what
