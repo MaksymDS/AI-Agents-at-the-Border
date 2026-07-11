@@ -27,9 +27,11 @@ and build settings. Each published PDF and EPUB companion is kept under
 - **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.9.3.epub`.
 - **Kindle-safe EPUB:**
   `deliverables/ai-agents-at-the-border-kindle-v1.9.3.epub`.
+- **Kindle DOCX fallback:**
+  `deliverables/ai-agents-at-the-border-kindle-v1.9.3.docx`.
 - **Scope:** adds paperback ISBN **9798186760252**, imprint
-  **Independently published**, the formal copyright-verso, and a dedicated
-  raster-figure Kindle EPUB. No manuscript or evidence change.
+  **Independently published**, the formal copyright-verso, and dedicated
+  raster-figure Kindle EPUB/DOCX imports. No manuscript or evidence change.
 
 ## v1.9.2 — Cross-format Stance safe-padding release
 

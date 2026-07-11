@@ -12,7 +12,7 @@ export PANGOCAIRO_BACKEND := fc
 # blank versos); default is the print layout (recto-open).
 OPENANY_PROFILE := $(if $(OPENANY),--profile openany,)
 
-.PHONY: build pdf epub executive-summary deliverable deliverable-epub deliverable-executive kindle-assets kindle-epub deliverable-kindle reader-spread review-pdf prebuild embed-figures clean check-bib check-notes audit-publication status
+.PHONY: build pdf epub executive-summary deliverable deliverable-epub deliverable-executive kindle-assets kindle-epub kindle-docx deliverable-kindle deliverable-kindle-docx reader-spread review-pdf prebuild embed-figures clean check-bib check-notes audit-publication status
 
 # Convert front-of-book and part-opener SVGs to PDF/PNG pages
 prebuild:
@@ -69,6 +69,16 @@ deliverable-kindle: kindle-epub
 	mkdir -p deliverables
 	cp _build-kindle/ai-agents-at-the-border-kindle.epub \
 		deliverables/ai-agents-at-the-border-kindle-$(BOOK_VERSION).epub
+
+# Direct KDP fallback when the EPUB converter reports an HTML package error.
+# Kindle reflows this DOCX; it is not a replacement for the paperback PDF.
+kindle-docx: kindle-assets prebuild
+	$(QUARTO) render --profile kindle-docx --to docx
+
+deliverable-kindle-docx: kindle-docx
+	mkdir -p deliverables
+	cp _build-kindle-docx/ai-agents-at-the-border-kindle.docx \
+		deliverables/ai-agents-at-the-border-kindle-$(BOOK_VERSION).docx
 
 # Standalone executive decision brief. It shares the book's typography and
 # visual grammar but has its own title, contents and output directory.

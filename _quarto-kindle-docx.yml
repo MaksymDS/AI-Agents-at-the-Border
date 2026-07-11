@@ -1,0 +1,16 @@
+project:
+  output-dir: _build-kindle-docx
+
+book:
+  output-file: "ai-agents-at-the-border-kindle"
+
+# Reflowable KDP fallback: preserve the semantic manuscript, rather than
+# attempting to reproduce fixed paperback pages on Kindle devices.
+format:
+  docx:
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    number-depth: 1
+    filters:
+      - filters/kindle.lua

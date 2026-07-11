@@ -5,8 +5,8 @@ decision-oriented book for leaders of customs, border and trade
 administrations deploying generative and agentic AI.
 
 Read the current edition at [era-society.ae](https://www.era-society.ae),
-or download the full PDF, the 60-page Executive Decision Brief, and the full EPUB
-from [`deliverables/`](deliverables/).
+or download the full PDF, the 60-page Executive Decision Brief, full EPUB,
+and Kindle-safe uploads from [`deliverables/`](deliverables/).
 
 ## What this repository is for
 
@@ -58,7 +58,13 @@ the SVG renderer installed:
 make deliverable BOOK_VERSION=v1.9.3
 make deliverable-executive BOOK_VERSION=v1.9.3
 make deliverable-epub BOOK_VERSION=v1.9.3
+make deliverable-kindle BOOK_VERSION=v1.9.3
+make deliverable-kindle-docx BOOK_VERSION=v1.9.3
 ```
+
+For KDP, use the Kindle-safe EPUB first. If KDP's converter reports that it
+cannot convert the HTML package, upload the raster-figure DOCX fallback.
+Both are reflowable Kindle editions, not the fixed-layout paperback PDF.
 
 Before a pull request, run:
 
