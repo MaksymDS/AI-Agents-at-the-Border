@@ -17,6 +17,20 @@ and build settings. Each published PDF and EPUB companion is kept under
 - Restore a source state with `git checkout book-vX.Y.Z` (or create a
   working branch from that tag); do not edit a historical release tag.
 
+## v1.9.3 — ISBN and imprint bibliographic release
+
+- **Status:** released.
+- **Source tag:** `book-v1.9.3`.
+- **Full PDF:** `deliverables/ai-agents-at-the-border-v1.9.3.pdf`.
+- **Executive Decision Brief:**
+  `deliverables/ai-agents-at-the-border-executive-summary-v1.9.3.pdf`.
+- **Full EPUB:** `deliverables/ai-agents-at-the-border-v1.9.3.epub`.
+- **Kindle-safe EPUB:**
+  `deliverables/ai-agents-at-the-border-kindle-v1.9.3.epub`.
+- **Scope:** adds paperback ISBN **9798186760252**, imprint
+  **Independently published**, the formal copyright-verso, and a dedicated
+  raster-figure Kindle EPUB. No manuscript or evidence change.
+
 ## v1.9.2 — Cross-format Stance safe-padding release
 
 - **Status:** released.

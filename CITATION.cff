@@ -8,6 +8,10 @@ authors:
   - family-names: Nechepurenko
     given-names: Maksym
 date-released: 2026-07-10
-version: 1.9.1
+version: 1.9.3
 url: "https://www.era-society.ae"
 repository-code: "https://github.com/MaksymDS/AI-Agents-at-the-Border"
+identifiers:
+  - type: other
+    description: "Paperback ISBN"
+    value: "9798186760252"

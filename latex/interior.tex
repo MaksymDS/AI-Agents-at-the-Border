@@ -177,11 +177,26 @@
 % the foreword and table of contents. A review-only half-title is no longer
 % bound into the reader's edition.
 \providecommand\IncludeBookCover{}
+\newcommand\BookCopyrightPage{%
+  \thispagestyle{empty}%
+  \begingroup\raggedright\vspace*{\fill}%
+  {\fontsize{8.5}{11}\selectfont\color{slate}
+  \textcopyright\ 2026 Maksym Nechepurenko\par
+  First published 10 July 2026.\par\vspace{7pt}
+  \textbf{Paperback ISBN:} 9798186760252\par
+  \textbf{Imprint:} Independently published\par\vspace{7pt}
+  This work is licensed under Creative Commons Attribution 4.0 International
+  (CC BY 4.0). You may share and adapt it with appropriate attribution,
+  a link to the licence, and an indication of changes.\par\vspace{7pt}
+  The author writes in a personal capacity. The views and frameworks in this
+  book are his own and do not represent the positions of his employer or its
+  clients. Case studies and reported outcomes are attributed to public
+  sources; none describes an Agility or client engagement.}
+  \vspace*{\fill}\endgroup\clearpage}
 \renewcommand\maketitle{%
   \includepdf{assets/prebuilt/title-page.pdf}%
   \clearpage
-  \thispagestyle{empty}\null
-  \clearpage
+  \BookCopyrightPage
 }
 
 % ---------------------------------------------------------------- endnotes

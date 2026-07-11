@@ -1,5 +1,5 @@
 QUARTO ?= quarto
-BOOK_VERSION ?= v1.9.2
+BOOK_VERSION ?= v1.9.3
 
 # Deterministic fonts for SVG figure conversion: pin the renderer's font
 # lookup to the vendored Inter (see fonts/fonts.conf). The Pango backend
@@ -12,7 +12,7 @@ export PANGOCAIRO_BACKEND := fc
 # blank versos); default is the print layout (recto-open).
 OPENANY_PROFILE := $(if $(OPENANY),--profile openany,)
 
-.PHONY: build pdf epub executive-summary deliverable deliverable-epub deliverable-executive reader-spread review-pdf prebuild embed-figures clean check-bib check-notes audit-publication status
+.PHONY: build pdf epub executive-summary deliverable deliverable-epub deliverable-executive kindle-assets kindle-epub deliverable-kindle reader-spread review-pdf prebuild embed-figures clean check-bib check-notes audit-publication status
 
 # Convert front-of-book and part-opener SVGs to PDF/PNG pages
 prebuild:
@@ -58,6 +58,17 @@ epub: prebuild
 deliverable-epub: epub
 	mkdir -p deliverables
 	cp _build/ai-agents-at-the-border.epub deliverables/ai-agents-at-the-border-$(BOOK_VERSION).epub
+
+kindle-assets:
+	python3 scripts/prepare_kindle_assets.py
+
+kindle-epub: kindle-assets prebuild
+	$(QUARTO) render --profile kindle --to epub
+
+deliverable-kindle: kindle-epub
+	mkdir -p deliverables
+	cp _build-kindle/ai-agents-at-the-border-kindle.epub \
+		deliverables/ai-agents-at-the-border-kindle-$(BOOK_VERSION).epub
 
 # Standalone executive decision brief. It shares the book's typography and
 # visual grammar but has its own title, contents and output directory.

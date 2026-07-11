@@ -7,6 +7,7 @@ book:
   subtitle: "An Executive Guide to Trustworthy AI in Trade and Customs"
   author: "Maksym Nechepurenko"
   date: "2026"
+  isbn: "9798186760252"
   output-file: "ai-agents-at-the-border"
   chapters:
     - index.md

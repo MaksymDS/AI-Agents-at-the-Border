@@ -1,0 +1,15 @@
+project:
+  output-dir: _build-kindle
+
+book:
+  output-file: "ai-agents-at-the-border-kindle"
+
+format:
+  epub:
+    cover-image: assets/prebuilt/cover-final.png
+    toc: true
+    toc-depth: 2
+    number-sections: true
+    number-depth: 1
+    filters:
+      - filters/kindle.lua

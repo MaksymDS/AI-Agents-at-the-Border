@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 960" width="600" height="960">
+  <rect width="600" height="960" fill="#1B3A5C"/>
+  <rect x="0" y="0" width="600" height="9" fill="#E8A33D"/>
+  <g stroke="#456986" stroke-width="1.1" fill="none" opacity="0.92">
+    <line x1="104" y1="205" x2="302" y2="372"/><line x1="238" y1="154" x2="302" y2="372"/>
+    <line x1="438" y1="182" x2="302" y2="372"/><line x1="510" y1="288" x2="302" y2="372"/>
+    <line x1="148" y1="374" x2="302" y2="372"/><line x1="274" y1="508" x2="302" y2="372"/>
+    <line x1="478" y1="458" x2="302" y2="372"/><line x1="190" y1="538" x2="302" y2="372"/>
+    <line x1="104" y1="205" x2="238" y2="154"/><line x1="438" y1="182" x2="510" y2="288"/>
+    <line x1="148" y1="374" x2="190" y2="538"/>
+  </g>
+  <g fill="#102D4A" stroke="#B7C8D7" stroke-width="1.8">
+    <circle cx="104" cy="205" r="8"/><circle cx="238" cy="154" r="8"/><circle cx="438" cy="182" r="8"/>
+    <circle cx="510" cy="288" r="8"/><circle cx="148" cy="374" r="8"/><circle cx="274" cy="508" r="8"/>
+    <circle cx="478" cy="458" r="8"/><circle cx="190" cy="538" r="8"/>
+  </g>
+  <circle cx="302" cy="372" r="19" fill="#E8A33D"/>
+  <circle cx="302" cy="372" r="27" fill="none" stroke="#E8A33D" stroke-width="1.7"/>
+  <circle cx="302" cy="372" r="36" fill="none" stroke="#6B8AA6" stroke-width="0.8" opacity="0.65"/>
+  <line x1="72" y1="832" x2="528" y2="832" stroke="#3E5E7B" stroke-width="1"/>
+  <circle cx="72" cy="832" r="4" fill="#E8A33D"/>
+  <circle cx="528" cy="832" r="4" fill="#E8A33D"/>
+</svg>

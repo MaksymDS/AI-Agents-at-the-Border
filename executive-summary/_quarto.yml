@@ -7,6 +7,7 @@ book:
   subtitle: "Executive Summary — The Executive Decision Brief"
   author: "Maksym Nechepurenko"
   date: "2026"
+  isbn: "9798186760252"
   output-file: "ai-agents-at-the-border-executive-summary"
   chapters:
     - index.md
