@@ -8,6 +8,10 @@ Read the current edition at [era-society.ae](https://www.era-society.ae),
 or download the full PDF, the 60-page Executive Decision Brief, full EPUB,
 and Kindle-safe uploads from [`deliverables/`](deliverables/).
 
+Published editions are available from Amazon as a
+[Kindle eBook](https://www.amazon.com/dp/B0H8NLXZ39) and a
+[full-colour paperback](https://www.amazon.com/dp/B0H8NM9G4S).
+
 ## What this repository is for
 
 This is the public source and evidence repository for the book. It is the
